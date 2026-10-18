@@ -1,0 +1,7 @@
+HDR catalog derived from PCGamingWiki and contributed by its editors.
+Source: https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)
+License: Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+Changes: selected HDR support fields and Steam AppIDs; normalized to JSON.
+See each game article for contributors and support details.

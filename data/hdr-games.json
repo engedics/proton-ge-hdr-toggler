@@ -1,0 +1,6417 @@
+{
+  "version": 1,
+  "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
+  "license": "CC-BY-NC-SA-3.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "source_rows": 640,
+  "games": {
+    "1520": {
+      "title": "DEFCON",
+      "hdr": "true"
+    },
+    "2280": {
+      "title": "Doom (1993)",
+      "hdr": "hackable"
+    },
+    "2310": {
+      "title": "Quake",
+      "hdr": "hackable"
+    },
+    "2360": {
+      "title": "Hexen: Beyond Heretic",
+      "hdr": "hackable"
+    },
+    "2370": {
+      "title": "Hexen: Beyond Heretic",
+      "hdr": "hackable"
+    },
+    "2390": {
+      "title": "Heretic",
+      "hdr": "hackable"
+    },
+    "9030": {
+      "title": "Quake",
+      "hdr": "hackable"
+    },
+    "9040": {
+      "title": "Quake",
+      "hdr": "hackable"
+    },
+    "17460": {
+      "title": "Mass Effect",
+      "hdr": "hackable"
+    },
+    "20920": {
+      "title": "The Witcher 2: Assassins of Kings",
+      "hdr": "hackable"
+    },
+    "22803": {
+      "title": "Assassin's Creed II",
+      "hdr": "hackable"
+    },
+    "24840": {
+      "title": "Medal of Honor: Airborne",
+      "hdr": "hackable"
+    },
+    "28050": {
+      "title": "Deus Ex: Human Revolution",
+      "hdr": "hackable"
+    },
+    "28060": {
+      "title": "Deus Ex: Human Revolution",
+      "hdr": "hackable"
+    },
+    "28061": {
+      "title": "Deus Ex: Human Revolution",
+      "hdr": "hackable"
+    },
+    "33230": {
+      "title": "Assassin's Creed II",
+      "hdr": "hackable"
+    },
+    "33360": {
+      "title": "Assassin's Creed II",
+      "hdr": "hackable"
+    },
+    "33361": {
+      "title": "Assassin's Creed II",
+      "hdr": "hackable"
+    },
+    "33362": {
+      "title": "Assassin's Creed II",
+      "hdr": "hackable"
+    },
+    "48173": {
+      "title": "Assassin's Creed II",
+      "hdr": "hackable"
+    },
+    "48190": {
+      "title": "Assassin's Creed: Brotherhood",
+      "hdr": "hackable"
+    },
+    "58597": {
+      "title": "Final Fantasy Tactics - The Ivalice Chronicles",
+      "hdr": "limited"
+    },
+    "71340": {
+      "title": "Sonic Generations",
+      "hdr": "hackable"
+    },
+    "110800": {
+      "title": "L.A. Noire",
+      "hdr": "hackable"
+    },
+    "200590": {
+      "title": "Sonic Generations",
+      "hdr": "hackable"
+    },
+    "201280": {
+      "title": "Deus Ex: Human Revolution",
+      "hdr": "hackable"
+    },
+    "201870": {
+      "title": "Assassin's Creed: Revelations",
+      "hdr": "hackable"
+    },
+    "202290": {
+      "title": "Sonic Generations",
+      "hdr": "hackable"
+    },
+    "206783": {
+      "title": "The Witcher 2: Assassins of Kings",
+      "hdr": "hackable"
+    },
+    "208480": {
+      "title": "Assassin's Creed III",
+      "hdr": "hackable"
+    },
+    "225540": {
+      "title": "Just Cause 3",
+      "hdr": "hackable"
+    },
+    "228460": {
+      "title": "The Witcher 2: Assassins of Kings",
+      "hdr": "hackable"
+    },
+    "236390": {
+      "title": "War Thunder",
+      "hdr": "true"
+    },
+    "236870": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "238010": {
+      "title": "Deus Ex: Human Revolution - Director's Cut",
+      "hdr": "hackable"
+    },
+    "238960": {
+      "title": "Path of Exile",
+      "hdr": "true"
+    },
+    "239160": {
+      "title": "Thief",
+      "hdr": "hackable"
+    },
+    "252330": {
+      "title": "Slender: The Arrival (2023)",
+      "hdr": "true"
+    },
+    "257510": {
+      "title": "The Talos Principle",
+      "hdr": "hackable"
+    },
+    "259900": {
+      "title": "Thief",
+      "hdr": "hackable"
+    },
+    "260210": {
+      "title": "Assassin's Creed: Liberation HD",
+      "hdr": "always on"
+    },
+    "261640": {
+      "title": "Borderlands: The Pre-Sequel",
+      "hdr": "hackable"
+    },
+    "265190": {
+      "title": "Thief",
+      "hdr": "hackable"
+    },
+    "265191": {
+      "title": "Thief",
+      "hdr": "hackable"
+    },
+    "265192": {
+      "title": "Thief",
+      "hdr": "hackable"
+    },
+    "265193": {
+      "title": "Thief",
+      "hdr": "hackable"
+    },
+    "266410": {
+      "title": "IRacing",
+      "hdr": "true"
+    },
+    "275690": {
+      "title": "Borderlands: The Pre-Sequel",
+      "hdr": "hackable"
+    },
+    "275850": {
+      "title": "No Man's Sky",
+      "hdr": "limited"
+    },
+    "277639": {
+      "title": "Prey (2017)",
+      "hdr": "hackable"
+    },
+    "284160": {
+      "title": "BeamNG.drive",
+      "hdr": "true"
+    },
+    "285920": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "289880": {
+      "title": "Borderlands: The Pre-Sequel",
+      "hdr": "hackable"
+    },
+    "289881": {
+      "title": "Borderlands: The Pre-Sequel",
+      "hdr": "hackable"
+    },
+    "292030": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "304390": {
+      "title": "For Honor",
+      "hdr": "true"
+    },
+    "304430": {
+      "title": "Inside",
+      "hdr": "hackable"
+    },
+    "304530": {
+      "title": "Agents of Mayhem",
+      "hdr": "true"
+    },
+    "304910": {
+      "title": "Sky Gamblers: Storm Raiders",
+      "hdr": "true"
+    },
+    "306130": {
+      "title": "The Elder Scrolls Online",
+      "hdr": "true"
+    },
+    "306190": {
+      "title": "Thief",
+      "hdr": "hackable"
+    },
+    "311210": {
+      "title": "Call of Duty: Black Ops III",
+      "hdr": "hackable"
+    },
+    "312670": {
+      "title": "Strange Brigade",
+      "hdr": "true"
+    },
+    "315210": {
+      "title": "Suicide Squad: Kill the Justice League",
+      "hdr": "true"
+    },
+    "316410": {
+      "title": "Borderlands: The Pre-Sequel",
+      "hdr": "hackable"
+    },
+    "317040": {
+      "title": "Strife",
+      "hdr": "hackable"
+    },
+    "319090": {
+      "title": "Borderlands: The Pre-Sequel",
+      "hdr": "hackable"
+    },
+    "321430": {
+      "title": "Borderlands: The Pre-Sequel",
+      "hdr": "hackable"
+    },
+    "322020": {
+      "title": "The Talos Principle",
+      "hdr": "hackable"
+    },
+    "322021": {
+      "title": "The Talos Principle",
+      "hdr": "hackable"
+    },
+    "322022": {
+      "title": "The Talos Principle",
+      "hdr": "hackable"
+    },
+    "324800": {
+      "title": "Shadow Warrior 2",
+      "hdr": "true"
+    },
+    "329440": {
+      "title": "Sonic Lost World",
+      "hdr": "hackable"
+    },
+    "330460": {
+      "title": "Celestial Command",
+      "hdr": "true"
+    },
+    "330710": {
+      "title": "The Talos Principle",
+      "hdr": "hackable"
+    },
+    "331930": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "355880": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "356190": {
+      "title": "Middle-earth: Shadow of War",
+      "hdr": "true"
+    },
+    "356400": {
+      "title": "Thumper",
+      "hdr": "hackable"
+    },
+    "358470": {
+      "title": "The Talos Principle",
+      "hdr": "hackable"
+    },
+    "360430": {
+      "title": "Mafia III",
+      "hdr": "hackable"
+    },
+    "360820": {
+      "title": "The Talos Principle",
+      "hdr": "hackable"
+    },
+    "366841": {
+      "title": "Call of Duty: Black Ops III",
+      "hdr": "hackable"
+    },
+    "366843": {
+      "title": "Call of Duty: Black Ops III",
+      "hdr": "hackable"
+    },
+    "368260": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "370000": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "370001": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "370002": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "370003": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "371970": {
+      "title": "Barony",
+      "hdr": "true"
+    },
+    "373950": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "373951": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "375960": {
+      "title": "Pro Evolution Soccer 2016",
+      "hdr": "true"
+    },
+    "376210": {
+      "title": "The Isle",
+      "hdr": "true"
+    },
+    "376390": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "376391": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "377210": {
+      "title": "Sonic Lost World",
+      "hdr": "hackable"
+    },
+    "378640": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378641": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378642": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378643": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378644": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378645": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378646": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378647": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378648": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "378649": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "384190": {
+      "title": "Abzû",
+      "hdr": "hackable"
+    },
+    "386070": {
+      "title": "Planetary Annihilation: Titans",
+      "hdr": "limited"
+    },
+    "396900": {
+      "title": "GRIP: Combat Racing",
+      "hdr": "hackable"
+    },
+    "397540": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "400750": {
+      "title": "Gates of Hell",
+      "hdr": "true"
+    },
+    "402710": {
+      "title": "Osiris: New Dawn",
+      "hdr": "true"
+    },
+    "404540": {
+      "title": "Nex Machina",
+      "hdr": "always on"
+    },
+    "407250": {
+      "title": "Pro Evolution Soccer 2016 myClub",
+      "hdr": "true"
+    },
+    "409710": {
+      "title": "BioShock Remastered",
+      "hdr": "hackable"
+    },
+    "409720": {
+      "title": "BioShock 2 Remastered",
+      "hdr": "hackable"
+    },
+    "412020": {
+      "title": "Metro Exodus",
+      "hdr": "true"
+    },
+    "414340": {
+      "title": "Hellblade: Senua's Sacrifice",
+      "hdr": "true"
+    },
+    "418370": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "428660": {
+      "title": "Deliver Us the Moon",
+      "hdr": "hackable"
+    },
+    "429530": {
+      "title": "Falcon 4.0",
+      "hdr": "hackable"
+    },
+    "434460": {
+      "title": "Rock of Ages II: Bigger & Boulder",
+      "hdr": "hackable"
+    },
+    "435150": {
+      "title": "Divinity: Original Sin II / Divinity: Original Sin II - Definitive Edition",
+      "hdr": "ambiguous"
+    },
+    "437350": {
+      "title": "Call of Duty: Black Ops III",
+      "hdr": "hackable"
+    },
+    "437351": {
+      "title": "Call of Duty: Black Ops III",
+      "hdr": "hackable"
+    },
+    "439870": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "439890": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "440900": {
+      "title": "Conan Exiles",
+      "hdr": "hackable"
+    },
+    "440930": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "440960": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "440961": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "440962": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "445220": {
+      "title": "Avorion",
+      "hdr": "hackable"
+    },
+    "447040": {
+      "title": "Watch Dogs 2",
+      "hdr": "hackable"
+    },
+    "456610": {
+      "title": "Pro Evolution Soccer 2017",
+      "hdr": "true"
+    },
+    "458430": {
+      "title": "Steel Seed",
+      "hdr": "true"
+    },
+    "460810": {
+      "title": "Vanquish",
+      "hdr": "hackable"
+    },
+    "470540": {
+      "title": "Barony",
+      "hdr": "true"
+    },
+    "474960": {
+      "title": "Quantum Break",
+      "hdr": "hackable"
+    },
+    "476600": {
+      "title": "Call of Duty: WWII",
+      "hdr": "true"
+    },
+    "480490": {
+      "title": "Prey (2017)",
+      "hdr": "hackable"
+    },
+    "485510": {
+      "title": "Nioh: Complete Edition",
+      "hdr": "hackable"
+    },
+    "499450": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "511890": {
+      "title": "Mafia III",
+      "hdr": "hackable"
+    },
+    "511891": {
+      "title": "Mafia III",
+      "hdr": "hackable"
+    },
+    "511892": {
+      "title": "Mafia III",
+      "hdr": "hackable"
+    },
+    "515220": {
+      "title": "F1 2017",
+      "hdr": "true"
+    },
+    "517710": {
+      "title": "Redout",
+      "hdr": "true"
+    },
+    "518060": {
+      "title": "Chess Ultra",
+      "hdr": "true"
+    },
+    "524220": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "525720": {
+      "title": "BioShock 2 Remastered",
+      "hdr": "hackable"
+    },
+    "526150": {
+      "title": "The Elder Scrolls Online",
+      "hdr": "true"
+    },
+    "529180": {
+      "title": "Dark and Light",
+      "hdr": "true"
+    },
+    "529930": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530590": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530591": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530592": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530593": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530594": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530595": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530596": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530597": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530598": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530599": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530610": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530611": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "530940": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "532790": {
+      "title": "Vampire: The Masquerade - Bloodlines 2",
+      "hdr": "hackable"
+    },
+    "533590": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "533591": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "533592": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "540340": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "541180": {
+      "title": "Pro Evolution Soccer 2017 Trial",
+      "hdr": "true"
+    },
+    "543550": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "543750": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "544330": {
+      "title": "Snake Pass",
+      "hdr": "hackable"
+    },
+    "546810": {
+      "title": "Chernobyl: Terrorist Attack",
+      "hdr": "true"
+    },
+    "548430": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "552520": {
+      "title": "Far Cry 5",
+      "hdr": "true"
+    },
+    "553850": {
+      "title": "Helldivers 2",
+      "hdr": "true"
+    },
+    "553980": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "558260": {
+      "title": "Gravel",
+      "hdr": "true"
+    },
+    "564190": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "564200": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "572600": {
+      "title": "For Honor",
+      "hdr": "true"
+    },
+    "577450": {
+      "title": "Abzû",
+      "hdr": "hackable"
+    },
+    "578330": {
+      "title": "Lego City Undercover",
+      "hdr": "hackable"
+    },
+    "579500": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "579501": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "579502": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "579503": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "579504": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "579505": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "579506": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "579507": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "579508": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "580140": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "580600": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "580610": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "582160": {
+      "title": "Assassin's Creed Origins",
+      "hdr": "true"
+    },
+    "582880": {
+      "title": "The Elder Scrolls Online",
+      "hdr": "true"
+    },
+    "583810": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "583990": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "583991": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "583992": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "583993": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "583994": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "584960": {
+      "title": "Resident Evil 7: Biohazard",
+      "hdr": "limited"
+    },
+    "588660": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "589360": {
+      "title": "Ni no Kuni II: Revenant Kingdom",
+      "hdr": "limited"
+    },
+    "592580": {
+      "title": "Pro Evolution Soccer 2018",
+      "hdr": "true"
+    },
+    "592600": {
+      "title": "Pro Evolution Soccer 2018 Lite",
+      "hdr": "true"
+    },
+    "594650": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "595280": {
+      "title": "Throne of Lies",
+      "hdr": "true"
+    },
+    "598020": {
+      "title": "Mafia III",
+      "hdr": "hackable"
+    },
+    "598021": {
+      "title": "Mafia III",
+      "hdr": "hackable"
+    },
+    "598022": {
+      "title": "Mafia III",
+      "hdr": "hackable"
+    },
+    "600160": {
+      "title": "Mafia III",
+      "hdr": "hackable"
+    },
+    "600620": {
+      "title": "F1 2017",
+      "hdr": "true"
+    },
+    "601150": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "606160": {
+      "title": "Routine",
+      "hdr": "hackable"
+    },
+    "609380": {
+      "title": "Prey (2017)",
+      "hdr": "hackable"
+    },
+    "611180": {
+      "title": "Super Street: The Game",
+      "hdr": "true"
+    },
+    "619910": {
+      "title": "Just Cause 3",
+      "hdr": "hackable"
+    },
+    "623280": {
+      "title": "Dungeons & Dragons: Dark Alliance",
+      "hdr": "hackable"
+    },
+    "626690": {
+      "title": "Sword Art Online: Fatal Bullet",
+      "hdr": "true"
+    },
+    "627270": {
+      "title": "Injustice 2",
+      "hdr": "true"
+    },
+    "630230": {
+      "title": "Dark and Light",
+      "hdr": "true"
+    },
+    "632470": {
+      "title": "Disco Elysium",
+      "hdr": "true"
+    },
+    "637650": {
+      "title": "Final Fantasy XV",
+      "hdr": "limited"
+    },
+    "649780": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "659840": {
+      "title": "WWR: World of Warfare Robots",
+      "hdr": "true"
+    },
+    "664270": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "665360": {
+      "title": "Comedy Night",
+      "hdr": "true"
+    },
+    "671210": {
+      "title": "Final Fantasy XV",
+      "hdr": "limited"
+    },
+    "674020": {
+      "title": "World War 3",
+      "hdr": "true"
+    },
+    "681810": {
+      "title": "Chinese Paladin: Sword and Fairy 6",
+      "hdr": "true"
+    },
+    "686090": {
+      "title": "Bloodlines of Prima",
+      "hdr": "true"
+    },
+    "689800": {
+      "title": "Ni no Kuni II: Revenant Kingdom",
+      "hdr": "limited"
+    },
+    "689860": {
+      "title": "Ni no Kuni II: Revenant Kingdom",
+      "hdr": "limited"
+    },
+    "694280": {
+      "title": "Zombie Army 4: Dead War",
+      "hdr": "true"
+    },
+    "696360": {
+      "title": "Chinese Paladin: Sword and Fairy 6",
+      "hdr": "true"
+    },
+    "696790": {
+      "title": "Call of Duty: WWII",
+      "hdr": "true"
+    },
+    "700600": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "703080": {
+      "title": "Planet Zoo",
+      "hdr": "true"
+    },
+    "703860": {
+      "title": "GRID (2019)",
+      "hdr": "true"
+    },
+    "705150": {
+      "title": "Rhythm World - Master Project",
+      "hdr": "true"
+    },
+    "707830": {
+      "title": "Injustice 2",
+      "hdr": "true"
+    },
+    "711750": {
+      "title": "Monster Energy Supercross",
+      "hdr": "true"
+    },
+    "715220": {
+      "title": "Ironsight",
+      "hdr": "true"
+    },
+    "725353": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "729040": {
+      "title": "Borderlands: Game of the Year Enhanced",
+      "hdr": "hackable"
+    },
+    "732620": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "737780": {
+      "title": "Hitman",
+      "hdr": "true"
+    },
+    "737800": {
+      "title": "F1 2018",
+      "hdr": "true"
+    },
+    "738540": {
+      "title": "Tales of Vesperia: Definitive Edition",
+      "hdr": "hackable"
+    },
+    "740130": {
+      "title": "Tales of Arise",
+      "hdr": "hackable"
+    },
+    "741820": {
+      "title": "Prey (2017)",
+      "hdr": "hackable"
+    },
+    "742420": {
+      "title": "Saints Row",
+      "hdr": "true"
+    },
+    "746920": {
+      "title": "Rapid Tap",
+      "hdr": "hackable"
+    },
+    "750130": {
+      "title": "The Sinking City Remastered",
+      "hdr": "true"
+    },
+    "750920": {
+      "title": "Shadow of the Tomb Raider",
+      "hdr": "true"
+    },
+    "754890": {
+      "title": "Firmament",
+      "hdr": "true"
+    },
+    "759740": {
+      "title": "Ride 3",
+      "hdr": "true"
+    },
+    "760060": {
+      "title": "Mutant Year Zero: Road to Eden",
+      "hdr": "hackable"
+    },
+    "768350": {
+      "title": "For Honor",
+      "hdr": "true"
+    },
+    "769740": {
+      "title": "Gravel",
+      "hdr": "true"
+    },
+    "770240": {
+      "title": "Pro Evolution Soccer 2019",
+      "hdr": "true"
+    },
+    "770720": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "771560": {
+      "title": "Final Fantasy XV",
+      "hdr": "limited"
+    },
+    "773370": {
+      "title": "Exo One",
+      "hdr": "hackable"
+    },
+    "775900": {
+      "title": "MotoGP 18",
+      "hdr": "true"
+    },
+    "777727": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "777728": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "777729": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "782330": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "783770": {
+      "title": "Ironsight",
+      "hdr": "true"
+    },
+    "798290": {
+      "title": "MXGP Pro",
+      "hdr": "true"
+    },
+    "799520": {
+      "title": "The Elder Scrolls Online",
+      "hdr": "true"
+    },
+    "801800": {
+      "title": "Atomfall",
+      "hdr": "true"
+    },
+    "801860": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "805550": {
+      "title": "Assetto Corsa Competizione",
+      "hdr": "true"
+    },
+    "812070": {
+      "title": "Project Nightmares Case 36: Henrietta Kedward",
+      "hdr": "true"
+    },
+    "812140": {
+      "title": "Assassin's Creed Odyssey",
+      "hdr": "true"
+    },
+    "814380": {
+      "title": "Sekiro: Shadows Die Twice",
+      "hdr": "true"
+    },
+    "816020": {
+      "title": "Jump Force",
+      "hdr": "always on"
+    },
+    "817628": {
+      "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+      "hdr": "true"
+    },
+    "824270": {
+      "title": "KovaaK's FPS Aim Trainer",
+      "hdr": "hackable"
+    },
+    "835960": {
+      "title": "The Talos Principle 2",
+      "hdr": "true"
+    },
+    "840720": {
+      "title": "Sword Art Online: Lost Song",
+      "hdr": "true"
+    },
+    "860210": {
+      "title": "Return to Nangrim",
+      "hdr": "true"
+    },
+    "863550": {
+      "title": "Hitman 2",
+      "hdr": "true"
+    },
+    "865670": {
+      "title": "Prey (2017)",
+      "hdr": "hackable"
+    },
+    "866260": {
+      "title": "EreaDrone Simulator",
+      "hdr": "true"
+    },
+    "867150": {
+      "title": "InFlux Redux",
+      "hdr": "true"
+    },
+    "870780": {
+      "title": "Control",
+      "hdr": "true"
+    },
+    "883710": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "886060": {
+      "title": "Redout: Space Assault",
+      "hdr": "true"
+    },
+    "887450": {
+      "title": "Tunche",
+      "hdr": "always on"
+    },
+    "889920": {
+      "title": "Metro Exodus",
+      "hdr": "true"
+    },
+    "889921": {
+      "title": "Metro Exodus",
+      "hdr": "true"
+    },
+    "895950": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "898570": {
+      "title": "Ni no Kuni II: Revenant Kingdom",
+      "hdr": "limited"
+    },
+    "906200": {
+      "title": "Tunche",
+      "hdr": "always on"
+    },
+    "911400": {
+      "title": "Assassin's Creed III Remastered",
+      "hdr": "true"
+    },
+    "917190": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "917850": {
+      "title": "Elemental War",
+      "hdr": "true"
+    },
+    "920210": {
+      "title": "Lego Star Wars: The Skywalker Saga",
+      "hdr": "true"
+    },
+    "920560": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920561": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920562": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920563": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920564": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920565": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920566": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920567": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920568": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920569": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920570": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920571": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920590": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920591": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920592": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920593": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920594": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920595": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920596": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920597": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920598": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920599": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920600": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "920601": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "921570": {
+      "title": "Octopath Traveler",
+      "hdr": "hackable"
+    },
+    "924220": {
+      "title": "Metro Exodus",
+      "hdr": "true"
+    },
+    "924750": {
+      "title": "Harold Halibut",
+      "hdr": "true"
+    },
+    "924970": {
+      "title": "Back 4 Blood",
+      "hdr": "true"
+    },
+    "925100": {
+      "title": "The Elder Scrolls Online",
+      "hdr": "true"
+    },
+    "928600": {
+      "title": "F1 2019",
+      "hdr": "true"
+    },
+    "928960": {
+      "title": "Godfall",
+      "hdr": "true"
+    },
+    "934700": {
+      "title": "Dead Island 2",
+      "hdr": "true"
+    },
+    "936790": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "937890": {
+      "title": "Assassin's Creed Odyssey",
+      "hdr": "true"
+    },
+    "937891": {
+      "title": "Assassin's Creed Odyssey",
+      "hdr": "true"
+    },
+    "937892": {
+      "title": "Assassin's Creed Odyssey",
+      "hdr": "true"
+    },
+    "939850": {
+      "title": "Man of Medan",
+      "hdr": "true"
+    },
+    "939960": {
+      "title": "Far Cry New Dawn",
+      "hdr": "true"
+    },
+    "941950": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941951": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941952": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941953": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941954": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941955": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941956": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941957": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941958": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941959": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941960": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "941961": {
+      "title": "Devil May Cry 5",
+      "hdr": "limited"
+    },
+    "943700": {
+      "title": "Monster Girl Island: Prologue",
+      "hdr": "limited"
+    },
+    "946940": {
+      "title": "Deliver Us the Moon",
+      "hdr": "hackable"
+    },
+    "952060": {
+      "title": "Resident Evil 3 (2020)",
+      "hdr": "limited"
+    },
+    "952070": {
+      "title": "Resident Evil Resistance",
+      "hdr": "true"
+    },
+    "960910": {
+      "title": "Heavy Rain",
+      "hdr": "hackable"
+    },
+    "961440": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "976310": {
+      "title": "Mortal Kombat 11",
+      "hdr": "true"
+    },
+    "976590": {
+      "title": "Bus Simulator 21",
+      "hdr": "true"
+    },
+    "978300": {
+      "title": "Saints Row: The Third Remastered",
+      "hdr": "true"
+    },
+    "984780": {
+      "title": "MotoGP 19",
+      "hdr": "true"
+    },
+    "985900": {
+      "title": "Young Souls",
+      "hdr": "hackable"
+    },
+    "990080": {
+      "title": "Hogwarts Legacy",
+      "hdr": "true"
+    },
+    "996970": {
+      "title": "Far Cry New Dawn",
+      "hdr": "true"
+    },
+    "997070": {
+      "title": "Marvel's Avengers",
+      "hdr": "true"
+    },
+    "1003243": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "1003590": {
+      "title": "Tetris Effect: Connected",
+      "hdr": "true"
+    },
+    "1004640": {
+      "title": "Final Fantasy Tactics - The Ivalice Chronicles",
+      "hdr": "limited"
+    },
+    "1007040": {
+      "title": "Earth Defense Force 5",
+      "hdr": "hackable"
+    },
+    "1010820": {
+      "title": "Barony",
+      "hdr": "true"
+    },
+    "1012110": {
+      "title": "Military Conflict: Vietnam",
+      "hdr": "true"
+    },
+    "1016240": {
+      "title": "Man of Medan",
+      "hdr": "true"
+    },
+    "1016800": {
+      "title": "Chernobylite",
+      "hdr": "limited"
+    },
+    "1017430": {
+      "title": "NieR: Automata",
+      "hdr": "always on"
+    },
+    "1018160": {
+      "title": "MXGP 2019",
+      "hdr": "true"
+    },
+    "1018610": {
+      "title": "Dawn Break -Origin-",
+      "hdr": "true"
+    },
+    "1019510": {
+      "title": "Far Cry New Dawn",
+      "hdr": "true"
+    },
+    "1019511": {
+      "title": "Far Cry New Dawn",
+      "hdr": "true"
+    },
+    "1019512": {
+      "title": "Far Cry New Dawn",
+      "hdr": "true"
+    },
+    "1019513": {
+      "title": "Far Cry New Dawn",
+      "hdr": "true"
+    },
+    "1020540": {
+      "title": "Contra: Rogue Corps",
+      "hdr": "true"
+    },
+    "1029690": {
+      "title": "Sniper Elite 5",
+      "hdr": "limited"
+    },
+    "1030300": {
+      "title": "Hollow Knight: Silksong",
+      "hdr": "hackable"
+    },
+    "1030830": {
+      "title": "Mafia II: Definitive Edition",
+      "hdr": "hackable"
+    },
+    "1033078": {
+      "title": "EA Sports FC 25",
+      "hdr": "true"
+    },
+    "1033082": {
+      "title": "EA Sports FC 25",
+      "hdr": "true"
+    },
+    "1038250": {
+      "title": "DIRT 5",
+      "hdr": "true"
+    },
+    "1056640": {
+      "title": "Phantasy Star Online 2 New Genesis",
+      "hdr": "true"
+    },
+    "1057090": {
+      "title": "Ori and the Will of the Wisps",
+      "hdr": "true"
+    },
+    "1062520": {
+      "title": "Dinkum",
+      "hdr": "true"
+    },
+    "1063730": {
+      "title": "New World",
+      "hdr": "true"
+    },
+    "1069730": {
+      "title": "Avorion",
+      "hdr": "hackable"
+    },
+    "1069910": {
+      "title": "Factory Coin Mining",
+      "hdr": "true"
+    },
+    "1072150": {
+      "title": "Hedon",
+      "hdr": "true"
+    },
+    "1076750": {
+      "title": "Dream Engines: Nomad Cities",
+      "hdr": "true"
+    },
+    "1080110": {
+      "title": "F1 2020",
+      "hdr": "true"
+    },
+    "1083770": {
+      "title": "Octopath Traveler",
+      "hdr": "hackable"
+    },
+    "1085660": {
+      "title": "Destiny 2",
+      "hdr": "true"
+    },
+    "1086940": {
+      "title": "Baldur's Gate 3",
+      "hdr": "true"
+    },
+    "1087760": {
+      "title": "The Gunk",
+      "hdr": "hackable"
+    },
+    "1088850": {
+      "title": "Marvel's Guardians of the Galaxy",
+      "hdr": "true"
+    },
+    "1089130": {
+      "title": "Quake II RTX",
+      "hdr": "true"
+    },
+    "1089830": {
+      "title": "Monster Energy Supercross 3",
+      "hdr": "true"
+    },
+    "1090730": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "1091500": {
+      "title": "Cyberpunk 2077",
+      "hdr": "limited"
+    },
+    "1092660": {
+      "title": "Blair Witch",
+      "hdr": "limited"
+    },
+    "1098290": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1098291": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1098292": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1098293": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1098300": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1098301": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1100600": {
+      "title": "Football Manager 2020",
+      "hdr": "true"
+    },
+    "1100620": {
+      "title": "Football Manager 2020 Touch",
+      "hdr": "true"
+    },
+    "1100830": {
+      "title": "Resident Evil 3 (2020)",
+      "hdr": "limited"
+    },
+    "1101790": {
+      "title": "War Mongrels",
+      "hdr": "true"
+    },
+    "1101840": {
+      "title": "WBTR - Welcome Back To Reality",
+      "hdr": "true"
+    },
+    "1108280": {
+      "title": "Resident Evil Resistance",
+      "hdr": "true"
+    },
+    "1111210": {
+      "title": "The Backrooms Game",
+      "hdr": "true"
+    },
+    "1114290": {
+      "title": "Windjammers 2",
+      "hdr": "true"
+    },
+    "1120480": {
+      "title": "The Anacrusis",
+      "hdr": "true"
+    },
+    "1128920": {
+      "title": "Everspace 2",
+      "hdr": "true"
+    },
+    "1134570": {
+      "title": "F1 2021",
+      "hdr": "true"
+    },
+    "1141710": {
+      "title": "Blair Witch",
+      "hdr": "limited"
+    },
+    "1141711": {
+      "title": "Blair Witch",
+      "hdr": "limited"
+    },
+    "1143840": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1151640": {
+      "title": "Horizon Zero Dawn",
+      "hdr": "true"
+    },
+    "1154790": {
+      "title": "XIII (2020)",
+      "hdr": "true"
+    },
+    "1158730": {
+      "title": "Resident Evil 3 (2020)",
+      "hdr": "limited"
+    },
+    "1158760": {
+      "title": "Resident Evil 3 (2020)",
+      "hdr": "limited"
+    },
+    "1159060": {
+      "title": "Marvel's Avengers",
+      "hdr": "true"
+    },
+    "1159540": {
+      "title": "Fear the Dark Unknown",
+      "hdr": "true"
+    },
+    "1161490": {
+      "title": "MotoGP 20",
+      "hdr": "true"
+    },
+    "1163560": {
+      "title": "SuperEpic: The Entertainment War",
+      "hdr": "true"
+    },
+    "1166470": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1166471": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1166472": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1168280": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "1172380": {
+      "title": "Star Wars Jedi: Fallen Order",
+      "hdr": "true"
+    },
+    "1172620": {
+      "title": "Sea of Thieves",
+      "hdr": "true"
+    },
+    "1172710": {
+      "title": "Dune: Awakening",
+      "hdr": "true"
+    },
+    "1173140": {
+      "title": "Disco Elysium",
+      "hdr": "true"
+    },
+    "1173690": {
+      "title": "Resident Evil 3 (2020)",
+      "hdr": "limited"
+    },
+    "1174180": {
+      "title": "Red Dead Redemption 2",
+      "hdr": "limited"
+    },
+    "1178730": {
+      "title": "Star Wars Jedi: Fallen Order",
+      "hdr": "true"
+    },
+    "1179140": {
+      "title": "Star Wars Jedi: Fallen Order",
+      "hdr": "true"
+    },
+    "1179141": {
+      "title": "Star Wars Jedi: Fallen Order",
+      "hdr": "true"
+    },
+    "1179142": {
+      "title": "Star Wars Jedi: Fallen Order",
+      "hdr": "true"
+    },
+    "1179200": {
+      "title": "Star Wars Jedi: Fallen Order",
+      "hdr": "true"
+    },
+    "1180490": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1180491": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1182900": {
+      "title": "A Plague Tale: Requiem",
+      "hdr": "true"
+    },
+    "1184050": {
+      "title": "Gears Tactics",
+      "hdr": "true"
+    },
+    "1186112": {
+      "title": "Final Fantasy VII Rebirth",
+      "hdr": "true"
+    },
+    "1186125": {
+      "title": "Final Fantasy VII Rebirth",
+      "hdr": "true"
+    },
+    "1186130": {
+      "title": "Final Fantasy VII Rebirth",
+      "hdr": "true"
+    },
+    "1186640": {
+      "title": "Pumpkin Jack",
+      "hdr": "true"
+    },
+    "1190291": {
+      "title": "Gears Tactics",
+      "hdr": "true"
+    },
+    "1190460": {
+      "title": "Death Stranding",
+      "hdr": "true"
+    },
+    "1191490": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1192320": {
+      "title": "Star Wars Jedi: Fallen Order",
+      "hdr": "true"
+    },
+    "1194630": {
+      "title": "Little Hope",
+      "hdr": "true"
+    },
+    "1196590": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1196600": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1199630": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "1205430": {
+      "title": "The Elder Scrolls Online",
+      "hdr": "true"
+    },
+    "1209530": {
+      "title": "F1 2020",
+      "hdr": "true"
+    },
+    "1209531": {
+      "title": "F1 2020",
+      "hdr": "true"
+    },
+    "1222140": {
+      "title": "Detroit: Become Human",
+      "hdr": "true"
+    },
+    "1222680": {
+      "title": "Need for Speed Heat",
+      "hdr": "true"
+    },
+    "1222730": {
+      "title": "Star Wars: Squadrons",
+      "hdr": "true"
+    },
+    "1225140": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1228530": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1229350": {
+      "title": "The Witcher 2: Assassins of Kings",
+      "hdr": "hackable"
+    },
+    "1232240": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1232250": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1232251": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1232252": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1232253": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1232254": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1232255": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1232256": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1232257": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1233060": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1233061": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1233062": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1234430": {
+      "title": "Ad Infinitum",
+      "hdr": "true"
+    },
+    "1234950": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1237950": {
+      "title": "Star Wars Battlefront II (2017)",
+      "hdr": "true"
+    },
+    "1238000": {
+      "title": "Mass Effect: Andromeda",
+      "hdr": "true"
+    },
+    "1238080": {
+      "title": "Burnout Paradise Remastered",
+      "hdr": "hackable"
+    },
+    "1238810": {
+      "title": "Battlefield V",
+      "hdr": "true"
+    },
+    "1238840": {
+      "title": "Battlefield 1",
+      "hdr": "true"
+    },
+    "1239520": {
+      "title": "Madden NFL 21",
+      "hdr": "true"
+    },
+    "1240440": {
+      "title": "Halo Infinite",
+      "hdr": "true"
+    },
+    "1245620": {
+      "title": "Elden Ring",
+      "hdr": "true"
+    },
+    "1249820": {
+      "title": "Crush Zone: Demolition Derby",
+      "hdr": "always on"
+    },
+    "1249970": {
+      "title": "Test Drive Unlimited Solar Crown",
+      "hdr": "true"
+    },
+    "1250410": {
+      "title": "Microsoft Flight Simulator (2020)",
+      "hdr": "true"
+    },
+    "1252330": {
+      "title": "Deathloop",
+      "hdr": "true"
+    },
+    "1255000": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1255001": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1255560": {
+      "title": "Myst (2021)",
+      "hdr": "true"
+    },
+    "1256890": {
+      "title": "Borderlands 3",
+      "hdr": "true"
+    },
+    "1257610": {
+      "title": "Prison Architect 2",
+      "hdr": "true"
+    },
+    "1258500": {
+      "title": "Death Stranding",
+      "hdr": "true"
+    },
+    "1258510": {
+      "title": "Death Stranding",
+      "hdr": "true"
+    },
+    "1259420": {
+      "title": "Days Gone",
+      "hdr": "true"
+    },
+    "1259790": {
+      "title": "Puyo Puyo Tetris 2",
+      "hdr": "hackable"
+    },
+    "1263240": {
+      "title": "Skate Story",
+      "hdr": "true"
+    },
+    "1264250": {
+      "title": "Fishing: North Atlantic",
+      "hdr": "true"
+    },
+    "1265780": {
+      "title": "The Lord of the Rings: Gollum",
+      "hdr": "true"
+    },
+    "1266950": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "1270470": {
+      "title": "Tunche",
+      "hdr": "always on"
+    },
+    "1271700": {
+      "title": "Hot Wheels Unleashed",
+      "hdr": "true"
+    },
+    "1275550": {
+      "title": "Arctic Awakening",
+      "hdr": "true"
+    },
+    "1281590": {
+      "title": "House of Ashes",
+      "hdr": "true"
+    },
+    "1283090": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "1283091": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "1285190": {
+      "title": "Borderlands 4",
+      "hdr": "true"
+    },
+    "1285380": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "1286320": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "1286680": {
+      "title": "Tiny Tina's Wonderlands",
+      "hdr": "true"
+    },
+    "1289390": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "1290000": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "1291340": {
+      "title": "Townscaper",
+      "hdr": "hackable"
+    },
+    "1293160": {
+      "title": "The Medium",
+      "hdr": "true"
+    },
+    "1293170": {
+      "title": "Bzzzt",
+      "hdr": "true"
+    },
+    "1293830": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1294130": {
+      "title": "Final Fantasy Tactics - The Ivalice Chronicles",
+      "hdr": "limited"
+    },
+    "1294400": {
+      "title": "Bzzzt",
+      "hdr": "true"
+    },
+    "1294560": {
+      "title": "The Medium",
+      "hdr": "true"
+    },
+    "1294810": {
+      "title": "Redfall",
+      "hdr": "true"
+    },
+    "1295160": {
+      "title": "Resident Evil 3 (2020)",
+      "hdr": "limited"
+    },
+    "1295350": {
+      "title": "Resident Evil Resistance",
+      "hdr": "true"
+    },
+    "1295660": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "1297900": {
+      "title": "Gothic 1 Remake",
+      "hdr": "true"
+    },
+    "1299690": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "1304600": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1304601": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1304930": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "1307710": {
+      "title": "GRID Legends",
+      "hdr": "true"
+    },
+    "1307870": {
+      "title": "Sensorium",
+      "hdr": "true"
+    },
+    "1310410": {
+      "title": "Alone in the Dark (2024)",
+      "hdr": "true"
+    },
+    "1312800": {
+      "title": "Everspace 2",
+      "hdr": "true"
+    },
+    "1319890": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "1321680": {
+      "title": "Hello Neighbor 2",
+      "hdr": "true"
+    },
+    "1325200": {
+      "title": "Nioh 2: The Complete Edition",
+      "hdr": "true"
+    },
+    "1328670": {
+      "title": "Mass Effect Legendary Edition",
+      "hdr": "true"
+    },
+    "1331440": {
+      "title": "Fuser",
+      "hdr": "true"
+    },
+    "1332340": {
+      "title": "Disorder (2025)",
+      "hdr": "true"
+    },
+    "1335170": {
+      "title": "Resident Evil 2 (2019)",
+      "hdr": "limited"
+    },
+    "1340990": {
+      "title": "Rise of the Ronin",
+      "hdr": "true"
+    },
+    "1341820": {
+      "title": "As Dusk Falls",
+      "hdr": "true"
+    },
+    "1345890": {
+      "title": "Deliver Us Mars",
+      "hdr": "true"
+    },
+    "1348140": {
+      "title": "Resident Evil 3 (2020)",
+      "hdr": "limited"
+    },
+    "1348150": {
+      "title": "Resident Evil 3 (2020)",
+      "hdr": "limited"
+    },
+    "1358700": {
+      "title": "Stranger of Paradise: Final Fantasy Origin",
+      "hdr": "limited"
+    },
+    "1359980": {
+      "title": "Postal: Brain Damaged",
+      "hdr": "hackable"
+    },
+    "1363480": {
+      "title": "Sniper Elite 5",
+      "hdr": "limited"
+    },
+    "1364190": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "1364224": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "1368910": {
+      "title": "Super Mecha Champions",
+      "hdr": "true"
+    },
+    "1369030": {
+      "title": "The Medium",
+      "hdr": "true"
+    },
+    "1370140": {
+      "title": "Kao the Kangaroo (2022)",
+      "hdr": "hackable"
+    },
+    "1371980": {
+      "title": "No Rest for the Wicked",
+      "hdr": "true"
+    },
+    "1374340": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1376200": {
+      "title": "Karma: The Dark World",
+      "hdr": "true"
+    },
+    "1377040": {
+      "title": "Hogwarts Legacy",
+      "hdr": "true"
+    },
+    "1382330": {
+      "title": "Persona 5 Strikers",
+      "hdr": "hackable"
+    },
+    "1386900": {
+      "title": "Observer: System Redux",
+      "hdr": "true"
+    },
+    "1386970": {
+      "title": "Hogwarts Legacy",
+      "hdr": "true"
+    },
+    "1388870": {
+      "title": "Arcade Paradise",
+      "hdr": "true"
+    },
+    "1393160": {
+      "title": "Mass Effect Legendary Edition",
+      "hdr": "true"
+    },
+    "1397380": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1397381": {
+      "title": "Hunt: Showdown 1896",
+      "hdr": "true"
+    },
+    "1399080": {
+      "title": "The DioField Chronicle",
+      "hdr": "true"
+    },
+    "1404210": {
+      "title": "Red Dead Redemption 2",
+      "hdr": "limited"
+    },
+    "1409690": {
+      "title": "The Medium",
+      "hdr": "true"
+    },
+    "1420850": {
+      "title": "CyberTaxi",
+      "hdr": "always on"
+    },
+    "1427800": {
+      "title": "Mutant Ops",
+      "hdr": "true"
+    },
+    "1430190": {
+      "title": "Killing Floor 3",
+      "hdr": "true"
+    },
+    "1430610": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "1436920": {
+      "title": "Tandem: A Tale of Shadows",
+      "hdr": "hackable"
+    },
+    "1442430": {
+      "title": "Storage Hunter Simulator",
+      "hdr": "true"
+    },
+    "1443010": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443011": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443012": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443013": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443014": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443015": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443016": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443017": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443018": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443019": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443020": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443021": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443022": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443023": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443024": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443025": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443026": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443027": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443028": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443029": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1443040": {
+      "title": "Forza Horizon 4",
+      "hdr": "true"
+    },
+    "1446780": {
+      "title": "Monster Hunter Rise",
+      "hdr": "true"
+    },
+    "1448440": {
+      "title": "Wo Long: Fallen Dynasty",
+      "hdr": "true"
+    },
+    "1449110": {
+      "title": "The Outer Worlds 2",
+      "hdr": "true"
+    },
+    "1449560": {
+      "title": "Metro Exodus Enhanced Edition",
+      "hdr": "true"
+    },
+    "1450570": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "1450571": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "1450572": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "1456360": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1456361": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1456362": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1456363": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1456370": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1456371": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1456372": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1456373": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1460020": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1460021": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1462040": {
+      "title": "Final Fantasy VII Remake Intergrade",
+      "hdr": "true"
+    },
+    "1466860": {
+      "title": "Age of Empires IV",
+      "hdr": "true"
+    },
+    "1475810": {
+      "title": "Ghostwire: Tokyo",
+      "hdr": "true"
+    },
+    "1475870": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "1475880": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "1482080": {
+      "title": "Persona 5 Strikers",
+      "hdr": "hackable"
+    },
+    "1482081": {
+      "title": "Persona 5 Strikers",
+      "hdr": "hackable"
+    },
+    "1494260": {
+      "title": "Loot River",
+      "hdr": "hackable"
+    },
+    "1495710": {
+      "title": "Cyberpunk 2077",
+      "hdr": "limited"
+    },
+    "1496790": {
+      "title": "Gotham Knights",
+      "hdr": "true"
+    },
+    "1501750": {
+      "title": "Lords of the Fallen (2023)",
+      "hdr": "true"
+    },
+    "1502710": {
+      "title": "Agent Intercept",
+      "hdr": "true"
+    },
+    "1515640": {
+      "title": "Arcadegeddon",
+      "hdr": "true"
+    },
+    "1517290": {
+      "title": "Battlefield 2042",
+      "hdr": "true"
+    },
+    "1519350": {
+      "title": "Madden NFL 22",
+      "hdr": "true"
+    },
+    "1522160": {
+      "title": "Epic Mickey: Rebrushed",
+      "hdr": "hackable"
+    },
+    "1522820": {
+      "title": "Orcs Must Die! 3",
+      "hdr": "limited"
+    },
+    "1530640": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "1531540": {
+      "title": "Distant Worlds 2",
+      "hdr": "true"
+    },
+    "1531602": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "1531603": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "1531604": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "1531605": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "1531606": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "1531607": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "1537830": {
+      "title": "Disney Speedstorm",
+      "hdr": "true"
+    },
+    "1541780": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1544020": {
+      "title": "The Callisto Protocol",
+      "hdr": "limited"
+    },
+    "1545860": {
+      "title": "Evil Genius 2: World Domination",
+      "hdr": "true"
+    },
+    "1549750": {
+      "title": "Vomitoreum",
+      "hdr": "true"
+    },
+    "1551360": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1557620": {
+      "title": "Metro Exodus Enhanced Edition",
+      "hdr": "true"
+    },
+    "1557621": {
+      "title": "Metro Exodus Enhanced Edition",
+      "hdr": "true"
+    },
+    "1566690": {
+      "title": "Outpost: Infinity Siege",
+      "hdr": "hackable"
+    },
+    "1567020": {
+      "title": "The Devil in Me",
+      "hdr": "true"
+    },
+    "1571390": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "1593500": {
+      "title": "God of War",
+      "hdr": "true"
+    },
+    "1595980": {
+      "title": "Exo One",
+      "hdr": "hackable"
+    },
+    "1598441": {
+      "title": "Back 4 Blood",
+      "hdr": "true"
+    },
+    "1608280": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1613280": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1613281": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1613282": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1613283": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1613284": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1613285": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1620730": {
+      "title": "Hell is Us",
+      "hdr": "true"
+    },
+    "1622910": {
+      "title": "Still Wakes the Deep",
+      "hdr": "true"
+    },
+    "1625950": {
+      "title": "Bio Crisis: Evil Hazard",
+      "hdr": "hackable"
+    },
+    "1626000": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1626001": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1626002": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1626003": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1627720": {
+      "title": "Lies of P",
+      "hdr": "true"
+    },
+    "1630320": {
+      "title": "Tandem: A Tale of Shadows",
+      "hdr": "hackable"
+    },
+    "1636440": {
+      "title": "Silent Hill: Townfall",
+      "hdr": "always on"
+    },
+    "1640500": {
+      "title": "Chernobylite",
+      "hdr": "limited"
+    },
+    "1641480": {
+      "title": "Monster Hunter Rise",
+      "hdr": "true"
+    },
+    "1643320": {
+      "title": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "hdr": "true"
+    },
+    "1648020": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1649240": {
+      "title": "Returnal",
+      "hdr": "true"
+    },
+    "1659040": {
+      "title": "Hitman: World of Assassination",
+      "hdr": "true"
+    },
+    "1659420": {
+      "title": "Uncharted: Legacy of Thieves Collection",
+      "hdr": "true"
+    },
+    "1661400": {
+      "title": "Orcs Must Die! 3",
+      "hdr": "limited"
+    },
+    "1668560": {
+      "title": "Age of Empires IV",
+      "hdr": "true"
+    },
+    "1670843": {
+      "title": "Dungeons & Dragons: Dark Alliance",
+      "hdr": "hackable"
+    },
+    "1671480": {
+      "title": "Abriss",
+      "hdr": "true"
+    },
+    "1677350": {
+      "title": "EA Sports PGA Tour",
+      "hdr": "true"
+    },
+    "1680880": {
+      "title": "Forspoken",
+      "hdr": "always on"
+    },
+    "1681430": {
+      "title": "RoboCop: Rogue City",
+      "hdr": "hackable"
+    },
+    "1687950": {
+      "title": "Persona 5 Royal",
+      "hdr": "hackable"
+    },
+    "1692250": {
+      "title": "F1 22",
+      "hdr": "true"
+    },
+    "1693980": {
+      "title": "Dead Space (2023)",
+      "hdr": "true"
+    },
+    "1702820": {
+      "title": "Ghostwire: Tokyo",
+      "hdr": "true"
+    },
+    "1702821": {
+      "title": "Ghostwire: Tokyo",
+      "hdr": "true"
+    },
+    "1703340": {
+      "title": "The Stanley Parable: Ultra Deluxe",
+      "hdr": "hackable"
+    },
+    "1708091": {
+      "title": "Halo Infinite",
+      "hdr": "true"
+    },
+    "1712350": {
+      "title": "Riven (2024)",
+      "hdr": "true"
+    },
+    "1712442": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "1714180": {
+      "title": "Black Widow: Recharged",
+      "hdr": "true"
+    },
+    "1715130": {
+      "title": "Crysis Remastered",
+      "hdr": "true"
+    },
+    "1722470": {
+      "title": "Abriss",
+      "hdr": "true"
+    },
+    "1724940": {
+      "title": "Sniper Elite 5",
+      "hdr": "limited"
+    },
+    "1724941": {
+      "title": "Sniper Elite 5",
+      "hdr": "limited"
+    },
+    "1724942": {
+      "title": "Sniper Elite 5",
+      "hdr": "limited"
+    },
+    "1728620": {
+      "title": "Ikuma The Frozen Compass",
+      "hdr": "true"
+    },
+    "1731080": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1731081": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1731100": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1731101": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "1731290": {
+      "title": "Spine",
+      "hdr": "true"
+    },
+    "1748411": {
+      "title": "Monster Hunter Rise",
+      "hdr": "true"
+    },
+    "1749100": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1749101": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1749102": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1749103": {
+      "title": "Doom Eternal",
+      "hdr": "true"
+    },
+    "1751530": {
+      "title": "TerraTech",
+      "hdr": "true"
+    },
+    "1757350": {
+      "title": "Ill",
+      "hdr": "true"
+    },
+    "1760250": {
+      "title": "Madden NFL 23",
+      "hdr": "true"
+    },
+    "1761330": {
+      "title": "Tandem: A Tale of Shadows",
+      "hdr": "hackable"
+    },
+    "1761390": {
+      "title": "Hatsune Miku: Project DIVA Mega Mix+",
+      "hdr": "hackable"
+    },
+    "1764060": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1764061": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1764062": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1764063": {
+      "title": "Forza Horizon 5",
+      "hdr": "true"
+    },
+    "1771300": {
+      "title": "Kingdom Come: Deliverance II",
+      "hdr": "true"
+    },
+    "1774580": {
+      "title": "Star Wars Jedi: Survivor",
+      "hdr": "true"
+    },
+    "1776380": {
+      "title": "Star Ocean: The Divine Force",
+      "hdr": "true"
+    },
+    "1778820": {
+      "title": "Tekken 8",
+      "hdr": "true"
+    },
+    "1781510": {
+      "title": "Orcs Must Die! 3",
+      "hdr": "limited"
+    },
+    "1786950": {
+      "title": "Klaus Veen's Treason",
+      "hdr": "true"
+    },
+    "1788010": {
+      "title": "War Mongrels",
+      "hdr": "true"
+    },
+    "1789240": {
+      "title": "Tunche",
+      "hdr": "always on"
+    },
+    "1790600": {
+      "title": "Dragon Ball: Sparking! Zero",
+      "hdr": "true"
+    },
+    "1797050": {
+      "title": "Age of Empires IV",
+      "hdr": "true"
+    },
+    "1797280": {
+      "title": "Chernobylite",
+      "hdr": "limited"
+    },
+    "1797340": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "1811260": {
+      "title": "FIFA 23",
+      "hdr": "always on"
+    },
+    "1811950": {
+      "title": "The Legend of Heroes: Trails through Daybreak",
+      "hdr": "true"
+    },
+    "1817070": {
+      "title": "Marvel's Spider-Man Remastered",
+      "hdr": "true"
+    },
+    "1817190": {
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "hdr": "true"
+    },
+    "1817250": {
+      "title": "Ghostwire: Tokyo - Prelude",
+      "hdr": "hackable"
+    },
+    "1818430": {
+      "title": "Forspoken",
+      "hdr": "always on"
+    },
+    "1819222": {
+      "title": "Forspoken",
+      "hdr": "always on"
+    },
+    "1819223": {
+      "title": "Forspoken",
+      "hdr": "always on"
+    },
+    "1819224": {
+      "title": "Forspoken",
+      "hdr": "always on"
+    },
+    "1836450": {
+      "title": "Monster Hunter Rise",
+      "hdr": "true"
+    },
+    "1840080": {
+      "title": "Homeworld 3",
+      "hdr": "true"
+    },
+    "1840320": {
+      "title": "Back 4 Blood",
+      "hdr": "true"
+    },
+    "1844380": {
+      "title": "Warhammer Age of Sigmar: Realms of Ruin",
+      "hdr": "true"
+    },
+    "1845330": {
+      "title": "Chernobylite",
+      "hdr": "limited"
+    },
+    "1845910": {
+      "title": "Dragon Age: The Veilguard",
+      "hdr": "true"
+    },
+    "1846380": {
+      "title": "Need for Speed Unbound",
+      "hdr": "true"
+    },
+    "1849250": {
+      "title": "EA Sports WRC",
+      "hdr": "true"
+    },
+    "1850570": {
+      "title": "Death Stranding Director's Cut",
+      "hdr": "true"
+    },
+    "1872750": {
+      "title": "Sniper Elite 5",
+      "hdr": "limited"
+    },
+    "1872751": {
+      "title": "Sniper Elite 5",
+      "hdr": "limited"
+    },
+    "1874000": {
+      "title": "Life Is Strange: Double Exposure",
+      "hdr": "true"
+    },
+    "1874170": {
+      "title": "Shredders",
+      "hdr": "hackable"
+    },
+    "1875170": {
+      "title": "Sniper Elite 5",
+      "hdr": "limited"
+    },
+    "1880830": {
+      "title": "Hogwarts Legacy",
+      "hdr": "true"
+    },
+    "1880831": {
+      "title": "Hogwarts Legacy",
+      "hdr": "true"
+    },
+    "1880832": {
+      "title": "Hogwarts Legacy",
+      "hdr": "true"
+    },
+    "1880833": {
+      "title": "Hogwarts Legacy",
+      "hdr": "true"
+    },
+    "1880837": {
+      "title": "Hogwarts Legacy",
+      "hdr": "true"
+    },
+    "1888160": {
+      "title": "Armored Core VI: Fires of Rubicon",
+      "hdr": "true"
+    },
+    "1888930": {
+      "title": "The Last of Us Part I",
+      "hdr": "true"
+    },
+    "1894430": {
+      "title": "Plan B: Terraform",
+      "hdr": "true"
+    },
+    "1895880": {
+      "title": "Ratchet & Clank: Rift Apart",
+      "hdr": "true"
+    },
+    "1896070": {
+      "title": "Abriss",
+      "hdr": "true"
+    },
+    "1902960": {
+      "title": "Lost Records: Bloom & Rage",
+      "hdr": "true"
+    },
+    "1903580": {
+      "title": "Hedon",
+      "hdr": "true"
+    },
+    "1904900": {
+      "title": "F1 22",
+      "hdr": "true"
+    },
+    "1906530": {
+      "title": "A Plague Tale: Requiem",
+      "hdr": "true"
+    },
+    "1907400": {
+      "title": "Captain Gazman: Day of the Rage",
+      "hdr": "true"
+    },
+    "1912410": {
+      "title": "Minecraft Dungeons II",
+      "hdr": "hackable"
+    },
+    "1922631": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "1922632": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "1922633": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "1922634": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "1926680": {
+      "title": "Fuck Putin",
+      "hdr": "true"
+    },
+    "1934570": {
+      "title": "South of Midnight",
+      "hdr": "true"
+    },
+    "1936590": {
+      "title": "Orcs Must Die! 3",
+      "hdr": "limited"
+    },
+    "1938010": {
+      "title": "Wild Hearts",
+      "hdr": "true"
+    },
+    "1938090": {
+      "title": "Call of Duty: Black Ops 7 / Call of Duty: Warzone 2.0",
+      "hdr": "ambiguous"
+    },
+    "1938420": {
+      "title": "Lies of P",
+      "hdr": "true"
+    },
+    "1940850": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "1940852": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "1940853": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "1941540": {
+      "title": "Mafia: The Old Country",
+      "hdr": "true"
+    },
+    "1944840": {
+      "title": "Ghostwire: Tokyo",
+      "hdr": "true"
+    },
+    "1946700": {
+      "title": "Layers of Fear (2023)",
+      "hdr": "true"
+    },
+    "1946960": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "1955940": {
+      "title": "Abriss",
+      "hdr": "true"
+    },
+    "1958731": {
+      "title": "Need for Speed Unbound",
+      "hdr": "true"
+    },
+    "1959430": {
+      "title": "Age of Empires IV",
+      "hdr": "true"
+    },
+    "1963210": {
+      "title": "Valkyrie Elysium",
+      "hdr": "true"
+    },
+    "1967880": {
+      "title": "Prey (2017)",
+      "hdr": "hackable"
+    },
+    "1971450": {
+      "title": "Loot River",
+      "hdr": "hackable"
+    },
+    "1971870": {
+      "title": "Mortal Kombat 1",
+      "hdr": "true"
+    },
+    "1977170": {
+      "title": "Jusant",
+      "hdr": "true"
+    },
+    "1981610": {
+      "title": "Wanted: Dead",
+      "hdr": "true"
+    },
+    "1984270": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "1985810": {
+      "title": "Call of Duty: Black Ops Cold War",
+      "hdr": "true"
+    },
+    "1985820": {
+      "title": "Call of Duty: Vanguard",
+      "hdr": "true"
+    },
+    "1987080": {
+      "title": "Inside the Backrooms",
+      "hdr": "limited"
+    },
+    "2000100": {
+      "title": "Life Is Strange: True Colors",
+      "hdr": "true"
+    },
+    "2000270": {
+      "title": "Dual Universe",
+      "hdr": "true"
+    },
+    "2000950": {
+      "title": "Call of Duty: Modern Warfare",
+      "hdr": "true"
+    },
+    "2001120": {
+      "title": "Split Fiction",
+      "hdr": "true"
+    },
+    "2001760": {
+      "title": "Beast of Reincarnation",
+      "hdr": "true"
+    },
+    "2005090": {
+      "title": "Evotinction",
+      "hdr": "true"
+    },
+    "2005972": {
+      "title": "The Callisto Protocol",
+      "hdr": "limited"
+    },
+    "2005983": {
+      "title": "The Callisto Protocol",
+      "hdr": "limited"
+    },
+    "2005984": {
+      "title": "The Callisto Protocol",
+      "hdr": "limited"
+    },
+    "2009100": {
+      "title": "Immortals of Aveum",
+      "hdr": "true"
+    },
+    "2015160": {
+      "title": "Postal: Brain Damaged",
+      "hdr": "hackable"
+    },
+    "2015180": {
+      "title": "Back 4 Blood",
+      "hdr": "true"
+    },
+    "2015680": {
+      "title": "The Callisto Protocol",
+      "hdr": "limited"
+    },
+    "2016260": {
+      "title": "Deliver Us Mars",
+      "hdr": "true"
+    },
+    "2021870": {
+      "title": "The Callisto Protocol",
+      "hdr": "limited"
+    },
+    "2021871": {
+      "title": "The Callisto Protocol",
+      "hdr": "limited"
+    },
+    "2023360": {
+      "title": "The Last Case of Benedict Fox",
+      "hdr": "hackable"
+    },
+    "2050650": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2052960": {
+      "title": "Kao the Kangaroo (2022)",
+      "hdr": "hackable"
+    },
+    "2052961": {
+      "title": "Kao the Kangaroo (2022)",
+      "hdr": "hackable"
+    },
+    "2052962": {
+      "title": "Kao the Kangaroo (2022)",
+      "hdr": "hackable"
+    },
+    "2052963": {
+      "title": "Kao the Kangaroo (2022)",
+      "hdr": "hackable"
+    },
+    "2054970": {
+      "title": "Dragon's Dogma 2",
+      "hdr": "true"
+    },
+    "2055280": {
+      "title": "Need for Speed Unbound",
+      "hdr": "true"
+    },
+    "2057870": {
+      "title": "Need for Speed Unbound",
+      "hdr": "true"
+    },
+    "2057880": {
+      "title": "Need for Speed Unbound",
+      "hdr": "true"
+    },
+    "2060310": {
+      "title": "Cyberpunk 2077",
+      "hdr": "limited"
+    },
+    "2062120": {
+      "title": "Resident Evil Village",
+      "hdr": "limited"
+    },
+    "2063740": {
+      "title": "Evotinction",
+      "hdr": "true"
+    },
+    "2069250": {
+      "title": "High on Life 2",
+      "hdr": "true"
+    },
+    "2072450": {
+      "title": "Like a Dragon: Infinite Wealth",
+      "hdr": "true"
+    },
+    "2074340": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "2074920": {
+      "title": "The First Descendant",
+      "hdr": "true"
+    },
+    "2075010": {
+      "title": "Need for Speed Unbound",
+      "hdr": "true"
+    },
+    "2075800": {
+      "title": "Star Wars: Zero Company",
+      "hdr": "true"
+    },
+    "2076050": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2076051": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2076052": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2076053": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2076054": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2088510": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2088511": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2091020": {
+      "title": "Blades of Fire",
+      "hdr": "true"
+    },
+    "2092840": {
+      "title": "The Occultist",
+      "hdr": "true"
+    },
+    "2097490": {
+      "title": "Desordre",
+      "hdr": "true"
+    },
+    "2100870": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "2100871": {
+      "title": "Marvel's Midnight Suns",
+      "hdr": "true"
+    },
+    "2101940": {
+      "title": "Back 4 Blood",
+      "hdr": "true"
+    },
+    "2101960": {
+      "title": "Cronos: The New Dawn",
+      "hdr": "true"
+    },
+    "2102450": {
+      "title": "Enotria: The Last Song",
+      "hdr": "hackable"
+    },
+    "2104480": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2104482": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2104483": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2104485": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2104486": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2104487": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2104488": {
+      "title": "Exoprimal",
+      "hdr": "true"
+    },
+    "2107670": {
+      "title": "Warhaven",
+      "hdr": "true"
+    },
+    "2108330": {
+      "title": "F1 23",
+      "hdr": "true"
+    },
+    "2109300": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109301": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109303": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109304": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109305": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109306": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109307": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109308": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109309": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109310": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109311": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109312": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109313": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109314": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109315": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109316": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2109317": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2113920": {
+      "title": "The Legend of Heroes: Trails through Daybreak II",
+      "hdr": "true"
+    },
+    "2124490": {
+      "title": "Silent Hill 2",
+      "hdr": "true"
+    },
+    "2129530": {
+      "title": "Reanimal",
+      "hdr": "true"
+    },
+    "2133830": {
+      "title": "BrokenLore: Unfollow",
+      "hdr": "hackable"
+    },
+    "2138330": {
+      "title": "Cyberpunk 2077",
+      "hdr": "limited"
+    },
+    "2138610": {
+      "title": "The Legend of Heroes: Trails through Daybreak",
+      "hdr": "true"
+    },
+    "2140330": {
+      "title": "Madden NFL 24",
+      "hdr": "true"
+    },
+    "2141520": {
+      "title": "Survivor Mercs",
+      "hdr": "true"
+    },
+    "2153350": {
+      "title": "Brothers: A Tale of Two Sons Remake",
+      "hdr": "true"
+    },
+    "2154070": {
+      "title": "Industria 2",
+      "hdr": "hackable"
+    },
+    "2155050": {
+      "title": "Kao the Kangaroo (2022)",
+      "hdr": "hackable"
+    },
+    "2164210": {
+      "title": "Dead Space (2023)",
+      "hdr": "true"
+    },
+    "2165590": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "2169200": {
+      "title": "Sniper Elite: Resistance",
+      "hdr": "limited"
+    },
+    "2172010": {
+      "title": "Until Dawn",
+      "hdr": "true"
+    },
+    "2173460": {
+      "title": "Echoes of the Living",
+      "hdr": "true"
+    },
+    "2182380": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2192060": {
+      "title": "NASCAR Arcade Rush",
+      "hdr": "true"
+    },
+    "2195250": {
+      "title": "EA Sports FC 24",
+      "hdr": "true"
+    },
+    "2195260": {
+      "title": "EA Sports FC 24",
+      "hdr": "true"
+    },
+    "2197320": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2197321": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2197322": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2197323": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2197324": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2197325": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2197326": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2197327": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2197328": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2199420": {
+      "title": "Brickadia",
+      "hdr": "true"
+    },
+    "2206210": {
+      "title": "Gylt",
+      "hdr": "true"
+    },
+    "2208920": {
+      "title": "Assassin's Creed Valhalla",
+      "hdr": "true"
+    },
+    "2215200": {
+      "title": "Lego Batman: Legacy of the Dark Knight",
+      "hdr": "true"
+    },
+    "2215430": {
+      "title": "Ghost of Tsushima Director's Cut",
+      "hdr": "true"
+    },
+    "2221490": {
+      "title": "Tom Clancy's The Division 2",
+      "hdr": "true"
+    },
+    "2221920": {
+      "title": "Immortals Fenyx Rising",
+      "hdr": "true"
+    },
+    "2223840": {
+      "title": "The Casting of Frank Stone",
+      "hdr": "true"
+    },
+    "2231380": {
+      "title": "Tom Clancy's Ghost Recon Breakpoint",
+      "hdr": "true"
+    },
+    "2231410": {
+      "title": "Tom Clancy's Ghost Recon Breakpoint",
+      "hdr": "true"
+    },
+    "2231770": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2236950": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2237040": {
+      "title": "Layers of Fear (2023)",
+      "hdr": "true"
+    },
+    "2239550": {
+      "title": "Watch Dogs: Legion",
+      "hdr": "true"
+    },
+    "2239575": {
+      "title": "Watch Dogs: Legion",
+      "hdr": "true"
+    },
+    "2239577": {
+      "title": "Watch Dogs: Legion",
+      "hdr": "true"
+    },
+    "2246340": {
+      "title": "Monster Hunter Wilds",
+      "hdr": "true"
+    },
+    "2249670": {
+      "title": "Kao the Kangaroo (2022)",
+      "hdr": "hackable"
+    },
+    "2253140": {
+      "title": "Redfall",
+      "hdr": "true"
+    },
+    "2253141": {
+      "title": "Redfall",
+      "hdr": "true"
+    },
+    "2255370": {
+      "title": "Directive 8020",
+      "hdr": "true"
+    },
+    "2272540": {
+      "title": "FBC: Firebreak",
+      "hdr": "true"
+    },
+    "2277560": {
+      "title": "Wuchang: Fallen Feathers",
+      "hdr": "true"
+    },
+    "2288340": {
+      "title": "Ace Combat 8: Wings of Theve",
+      "hdr": "true"
+    },
+    "2290180": {
+      "title": "Riders Republic",
+      "hdr": "true"
+    },
+    "2291670": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "2298540": {
+      "title": "Need for Speed Unbound",
+      "hdr": "true"
+    },
+    "2301460": {
+      "title": "BrokenLore: Unfollow",
+      "hdr": "hackable"
+    },
+    "2312690": {
+      "title": "The Talos Principle 2",
+      "hdr": "true"
+    },
+    "2322010": {
+      "title": "God of War Ragnarök",
+      "hdr": "true"
+    },
+    "2325281": {
+      "title": "Lies of P",
+      "hdr": "true"
+    },
+    "2325290": {
+      "title": "Sky: Children of the Light",
+      "hdr": "true"
+    },
+    "2328320": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "2328760": {
+      "title": "Pinball FX",
+      "hdr": "true"
+    },
+    "2328850": {
+      "title": "The Occultist",
+      "hdr": "true"
+    },
+    "2340980": {
+      "title": "Project Colored Mountains",
+      "hdr": "true"
+    },
+    "2341280": {
+      "title": "Project Colored Mountains",
+      "hdr": "true"
+    },
+    "2341550": {
+      "title": "The Callisto Protocol",
+      "hdr": "limited"
+    },
+    "2344520": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2357000": {
+      "title": "Kill It with Fire 2",
+      "hdr": "hackable"
+    },
+    "2361650": {
+      "title": "Ad Infinitum",
+      "hdr": "true"
+    },
+    "2361660": {
+      "title": "Ad Infinitum",
+      "hdr": "true"
+    },
+    "2369390": {
+      "title": "Far Cry 6",
+      "hdr": "true"
+    },
+    "2369450": {
+      "title": "Far Cry 6",
+      "hdr": "true"
+    },
+    "2369454": {
+      "title": "Far Cry 6",
+      "hdr": "true"
+    },
+    "2369456": {
+      "title": "Far Cry 6",
+      "hdr": "true"
+    },
+    "2369458": {
+      "title": "Far Cry 6",
+      "hdr": "true"
+    },
+    "2369470": {
+      "title": "Far Cry 6",
+      "hdr": "true"
+    },
+    "2369472": {
+      "title": "Far Cry 6",
+      "hdr": "true"
+    },
+    "2374450": {
+      "title": "The Lord of the Rings: Gollum",
+      "hdr": "true"
+    },
+    "2374460": {
+      "title": "The Lord of the Rings: Gollum",
+      "hdr": "true"
+    },
+    "2374461": {
+      "title": "The Lord of the Rings: Gollum",
+      "hdr": "true"
+    },
+    "2374462": {
+      "title": "The Lord of the Rings: Gollum",
+      "hdr": "true"
+    },
+    "2374463": {
+      "title": "The Lord of the Rings: Gollum",
+      "hdr": "true"
+    },
+    "2375550": {
+      "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+      "hdr": "true"
+    },
+    "2378500": {
+      "title": "Baldur's Gate 3",
+      "hdr": "true"
+    },
+    "2380512": {
+      "title": "EA Sports FC 24",
+      "hdr": "true"
+    },
+    "2383990": {
+      "title": "Ghostbusters: Spirits Unleashed",
+      "hdr": "true"
+    },
+    "2384580": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "2387160": {
+      "title": "Firmament",
+      "hdr": "true"
+    },
+    "2395210": {
+      "title": "Tony Hawk's Pro Skater 1 + 2",
+      "hdr": "true"
+    },
+    "2399830": {
+      "title": "ARK: Survival Ascended",
+      "hdr": "true"
+    },
+    "2409760": {
+      "title": "Redfall",
+      "hdr": "true"
+    },
+    "2415270": {
+      "title": "Firmament",
+      "hdr": "true"
+    },
+    "2416900": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "2417610": {
+      "title": "Metal Gear Solid Δ: Snake Eater",
+      "hdr": "true"
+    },
+    "2419480": {
+      "title": "Firmament",
+      "hdr": "true"
+    },
+    "2419481": {
+      "title": "Firmament",
+      "hdr": "true"
+    },
+    "2420110": {
+      "title": "Horizon Forbidden West",
+      "hdr": "true"
+    },
+    "2428810": {
+      "title": "Lego Horizon Adventures",
+      "hdr": "true"
+    },
+    "2429640": {
+      "title": "THRONE and Liberty",
+      "hdr": "true"
+    },
+    "2436570": {
+      "title": "Dragon Quest Builders",
+      "hdr": "always on"
+    },
+    "2436840": {
+      "title": "RoboCop: Rogue City",
+      "hdr": "hackable"
+    },
+    "2436841": {
+      "title": "RoboCop: Rogue City",
+      "hdr": "hackable"
+    },
+    "2436842": {
+      "title": "RoboCop: Rogue City",
+      "hdr": "hackable"
+    },
+    "2440510": {
+      "title": "Forza Motorsport",
+      "hdr": "always on"
+    },
+    "2441600": {
+      "title": "Cyberpunk 2077",
+      "hdr": "limited"
+    },
+    "2446540": {
+      "title": "Sleep Awake",
+      "hdr": "true"
+    },
+    "2448010": {
+      "title": "Prison Architect 2",
+      "hdr": "true"
+    },
+    "2448020": {
+      "title": "Yooka-Replaylee",
+      "hdr": "true"
+    },
+    "2450980": {
+      "title": "Alone in the Dark (2024)",
+      "hdr": "true"
+    },
+    "2450981": {
+      "title": "Alone in the Dark (2024)",
+      "hdr": "true"
+    },
+    "2450982": {
+      "title": "Alone in the Dark (2024)",
+      "hdr": "true"
+    },
+    "2450983": {
+      "title": "Alone in the Dark (2024)",
+      "hdr": "true"
+    },
+    "2453170": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2453190": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2457220": {
+      "title": "Avowed",
+      "hdr": "true"
+    },
+    "2461850": {
+      "title": "Hellblade II: Senua's Saga",
+      "hdr": "true"
+    },
+    "2464280": {
+      "title": "Tormented Souls 2",
+      "hdr": "true"
+    },
+    "2464650": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2479650": {
+      "title": "SpongeBob SquarePants: Titans of the Tide",
+      "hdr": "hackable"
+    },
+    "2483190": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "2484210": {
+      "title": "Gylt",
+      "hdr": "true"
+    },
+    "2488620": {
+      "title": "F1 24",
+      "hdr": "true"
+    },
+    "2492670": {
+      "title": "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version",
+      "hdr": "limited"
+    },
+    "2510710": {
+      "title": "Kunitsu-Gami: Path of the Goddess",
+      "hdr": "true"
+    },
+    "2514130": {
+      "title": "Helldivers 2",
+      "hdr": "true"
+    },
+    "2515020": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "2523720": {
+      "title": "Gears of War: Reloaded",
+      "hdr": "true"
+    },
+    "2523770": {
+      "title": "The Lord of the Rings: War in the North - Legacy Edition",
+      "hdr": "hackable"
+    },
+    "2527390": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2531130": {
+      "title": "Warhammer Age of Sigmar: Realms of Ruin",
+      "hdr": "true"
+    },
+    "2531310": {
+      "title": "The Last of Us Part II Remastered",
+      "hdr": "true"
+    },
+    "2536520": {
+      "title": "Diablo II: Resurrected",
+      "hdr": "true"
+    },
+    "2537590": {
+      "title": "Microsoft Flight Simulator 2024",
+      "hdr": "true"
+    },
+    "2542020": {
+      "title": "Duskfade",
+      "hdr": "true"
+    },
+    "2545710": {
+      "title": "Tony Hawk's Pro Skater 3 + 4",
+      "hdr": "true"
+    },
+    "2549070": {
+      "title": "Warhaven",
+      "hdr": "true"
+    },
+    "2552450": {
+      "title": "Kingdom Hearts III",
+      "hdr": "true"
+    },
+    "2556250": {
+      "title": "Bzzzt",
+      "hdr": "true"
+    },
+    "2561520": {
+      "title": "Sniper Elite: Resistance",
+      "hdr": "limited"
+    },
+    "2561580": {
+      "title": "Horizon Zero Dawn Remastered",
+      "hdr": "true"
+    },
+    "2562180": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2572010": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2572020": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2572030": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2575620": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2575630": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2575640": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2581700": {
+      "title": "MotoGP 24",
+      "hdr": "true"
+    },
+    "2582560": {
+      "title": "Madden NFL 25",
+      "hdr": "true"
+    },
+    "2593290": {
+      "title": "Dragon's Dogma 2",
+      "hdr": "true"
+    },
+    "2593600": {
+      "title": "Resident Evil 4 (2023)",
+      "hdr": "limited"
+    },
+    "2593910": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2593920": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2593930": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2597570": {
+      "title": "Chasmal fear",
+      "hdr": "true"
+    },
+    "2602020": {
+      "title": "The Smurfs: Dreams",
+      "hdr": "hackable"
+    },
+    "2604490": {
+      "title": "I Hate This Place",
+      "hdr": "always on"
+    },
+    "2605790": {
+      "title": "Deep Rock Galactic: Rogue Core",
+      "hdr": "limited"
+    },
+    "2606620": {
+      "title": "Everspace 2",
+      "hdr": "true"
+    },
+    "2606640": {
+      "title": "Everspace 2",
+      "hdr": "true"
+    },
+    "2622380": {
+      "title": "Elden Ring Nightreign",
+      "hdr": "true"
+    },
+    "2624870": {
+      "title": "Life Is Strange: Reunion",
+      "hdr": "true"
+    },
+    "2627260": {
+      "title": "Ninja Gaiden 4",
+      "hdr": "true"
+    },
+    "2631250": {
+      "title": "Slitterhead",
+      "hdr": "true"
+    },
+    "2634950": {
+      "title": "Tokyo Xtreme Racer",
+      "hdr": "true"
+    },
+    "2638890": {
+      "title": "Onimusha: Way of the Sword",
+      "hdr": "true"
+    },
+    "2650130": {
+      "title": "Ghostwire: Tokyo",
+      "hdr": "true"
+    },
+    "2651280": {
+      "title": "Marvel's Spider-Man 2",
+      "hdr": "true"
+    },
+    "2658940": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "2662630": {
+      "title": "The Elder Scrolls Online",
+      "hdr": "true"
+    },
+    "2666920": {
+      "title": "Building Relationships",
+      "hdr": "true"
+    },
+    "2667170": {
+      "title": "Homeworld 3",
+      "hdr": "true"
+    },
+    "2667180": {
+      "title": "Homeworld 3",
+      "hdr": "true"
+    },
+    "2667190": {
+      "title": "Homeworld 3",
+      "hdr": "true"
+    },
+    "2667200": {
+      "title": "Homeworld 3",
+      "hdr": "true"
+    },
+    "2668430": {
+      "title": "The Legend of Heroes: Trails through Daybreak II",
+      "hdr": "true"
+    },
+    "2668510": {
+      "title": "Red Dead Redemption",
+      "hdr": "limited"
+    },
+    "2669320": {
+      "title": "EA Sports FC 25",
+      "hdr": "true"
+    },
+    "2671240": {
+      "title": "Gothic 1 Remake",
+      "hdr": "true"
+    },
+    "2676320": {
+      "title": "The Talos Principle 2",
+      "hdr": "true"
+    },
+    "2677660": {
+      "title": "Indiana Jones and the Great Circle",
+      "hdr": "true"
+    },
+    "2679460": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2684660": {
+      "title": "The Witcher 3: Wild Hunt",
+      "hdr": "true"
+    },
+    "2688060": {
+      "title": "Homeworld 3",
+      "hdr": "true"
+    },
+    "2688950": {
+      "title": "Planet Coaster 2",
+      "hdr": "true"
+    },
+    "2689700": {
+      "title": "Homeworld 3",
+      "hdr": "true"
+    },
+    "2693060": {
+      "title": "Garten of Banban 7",
+      "hdr": "true"
+    },
+    "2694490": {
+      "title": "Path of Exile 2",
+      "hdr": "true"
+    },
+    "2698780": {
+      "title": "ContractVille",
+      "hdr": "true"
+    },
+    "2698940": {
+      "title": "The Crew Motorfest",
+      "hdr": "true"
+    },
+    "2707930": {
+      "title": "Palia",
+      "hdr": "true"
+    },
+    "2713000": {
+      "title": "Resonance: A Plague Tale Legacy",
+      "hdr": "true"
+    },
+    "2716350": {
+      "title": "Suicide Squad: Kill the Justice League",
+      "hdr": "true"
+    },
+    "2721550": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2721560": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2721570": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2727510": {
+      "title": "Dragon Age: The Veilguard",
+      "hdr": "true"
+    },
+    "2731870": {
+      "title": "Ys X: Nordics",
+      "hdr": "true"
+    },
+    "2736310": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2736320": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2736330": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2738000": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "2741980": {
+      "title": "Tekken 8",
+      "hdr": "true"
+    },
+    "2741990": {
+      "title": "Tekken 8",
+      "hdr": "true"
+    },
+    "2744050": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "2744060": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "2744390": {
+      "title": "The Dawning Clocks of Time Remake",
+      "hdr": "true"
+    },
+    "2747660": {
+      "title": "Zombie Assault: Resurgence",
+      "hdr": "always on"
+    },
+    "2750080": {
+      "title": "The Settlers: New Allies",
+      "hdr": "true"
+    },
+    "2751140": {
+      "title": "F1 24",
+      "hdr": "true"
+    },
+    "2760560": {
+      "title": "Cthulhu: The Cosmic Abyss",
+      "hdr": "true"
+    },
+    "2776540": {
+      "title": "Opaldune",
+      "hdr": "true"
+    },
+    "2778060": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "2778580": {
+      "title": "Elden Ring",
+      "hdr": "true"
+    },
+    "2778590": {
+      "title": "Elden Ring",
+      "hdr": "true"
+    },
+    "2791920": {
+      "title": "Epic Mickey: Rebrushed",
+      "hdr": "hackable"
+    },
+    "2799860": {
+      "title": "Inazuma Eleven: Victory Road",
+      "hdr": "true"
+    },
+    "2806050": {
+      "title": "Halo: Campaign Evolved",
+      "hdr": "true"
+    },
+    "2806640": {
+      "title": "The Talos Principle: Reawakened",
+      "hdr": "true"
+    },
+    "2807960": {
+      "title": "Battlefield 6",
+      "hdr": "true"
+    },
+    "2814990": {
+      "title": "Screamer (2026)",
+      "hdr": "true"
+    },
+    "2821610": {
+      "title": "Echoes of the End",
+      "hdr": "true"
+    },
+    "2825860": {
+      "title": "The Sinking City 2",
+      "hdr": "true"
+    },
+    "2828710": {
+      "title": "Valor Mortis",
+      "hdr": "true"
+    },
+    "2830500": {
+      "title": "Indiana Jones and the Great Circle",
+      "hdr": "true"
+    },
+    "2840770": {
+      "title": "Avatar: Frontiers of Pandora",
+      "hdr": "true"
+    },
+    "2842040": {
+      "title": "Star Wars Outlaws",
+      "hdr": "true"
+    },
+    "2843460": {
+      "title": "Killing Floor 3",
+      "hdr": "true"
+    },
+    "2843470": {
+      "title": "Killing Floor 3",
+      "hdr": "true"
+    },
+    "2845720": {
+      "title": "NBB.EXE",
+      "hdr": "true"
+    },
+    "2848330": {
+      "title": "Lies of P",
+      "hdr": "true"
+    },
+    "2851890": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851900": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851910": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851920": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851930": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851940": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851950": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851960": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851970": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851980": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2851990": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852000": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852010": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852020": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852030": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852040": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852050": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852060": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852070": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2852080": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2853730": {
+      "title": "Skull and Bones",
+      "hdr": "true"
+    },
+    "2855560": {
+      "title": "Path of Exile",
+      "hdr": "true"
+    },
+    "2873440": {
+      "title": "Chrono Odyssey",
+      "hdr": "true"
+    },
+    "2873460": {
+      "title": "Everspace 2",
+      "hdr": "true"
+    },
+    "2873470": {
+      "title": "Everspace 2",
+      "hdr": "true"
+    },
+    "2880540": {
+      "title": "The Settlers: New Allies",
+      "hdr": "true"
+    },
+    "2880550": {
+      "title": "The Settlers: New Allies",
+      "hdr": "true"
+    },
+    "2880560": {
+      "title": "The Settlers: New Allies",
+      "hdr": "true"
+    },
+    "2880570": {
+      "title": "The Settlers: New Allies",
+      "hdr": "true"
+    },
+    "2880590": {
+      "title": "The Settlers: New Allies",
+      "hdr": "true"
+    },
+    "2886900": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "2888500": {
+      "title": "The Settlers: New Allies",
+      "hdr": "true"
+    },
+    "2892640": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "2897530": {
+      "title": "Outpost: Infinity Siege",
+      "hdr": "hackable"
+    },
+    "2909110": {
+      "title": "Nuclear Nightmare",
+      "hdr": "true"
+    },
+    "2909400": {
+      "title": "Final Fantasy VII Rebirth",
+      "hdr": "true"
+    },
+    "2911770": {
+      "title": "Everspace 2",
+      "hdr": "true"
+    },
+    "2915570": {
+      "title": "Everspace 2",
+      "hdr": "true"
+    },
+    "2916700": {
+      "title": "Attack on Titan 3",
+      "hdr": "true"
+    },
+    "2922830": {
+      "title": "The Smurfs: Dreams",
+      "hdr": "hackable"
+    },
+    "2924400": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924410": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924420": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924430": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924440": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924450": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924460": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924470": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924480": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924490": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2924520": {
+      "title": "Ontos",
+      "hdr": "true"
+    },
+    "2926730": {
+      "title": "Kill It with Fire 2",
+      "hdr": "hackable"
+    },
+    "2929170": {
+      "title": "Monopoly (2024)",
+      "hdr": "true"
+    },
+    "2934390": {
+      "title": "Deep Rock Galactic",
+      "hdr": "limited"
+    },
+    "2941030": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2941050": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2941060": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "2947440": {
+      "title": "Silent Hill f",
+      "hdr": "limited"
+    },
+    "2958130": {
+      "title": "Jurassic World Evolution 3",
+      "hdr": "true"
+    },
+    "2974310": {
+      "title": "God of War Ragnarök",
+      "hdr": "true"
+    },
+    "2974330": {
+      "title": "God of War Ragnarök",
+      "hdr": "true"
+    },
+    "2974340": {
+      "title": "God of War Ragnarök",
+      "hdr": "true"
+    },
+    "2981410": {
+      "title": "The Talos Principle 2",
+      "hdr": "true"
+    },
+    "2983890": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2983900": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "2993780": {
+      "title": "Fantasy Life i: The Girl Who Steals Time",
+      "hdr": "true"
+    },
+    "2999630": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2999640": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2999650": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "2999660": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "3002050": {
+      "title": "Steel Seed",
+      "hdr": "true"
+    },
+    "3004650": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3004660": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3008130": {
+      "title": "Dying Light: The Beast",
+      "hdr": "true"
+    },
+    "3010850": {
+      "title": "Gears of War: E-Day",
+      "hdr": "true"
+    },
+    "3012220": {
+      "title": "Double Dragon Revive",
+      "hdr": "hackable"
+    },
+    "3012890": {
+      "title": "Life Is Strange: Double Exposure",
+      "hdr": "true"
+    },
+    "3012900": {
+      "title": "Life Is Strange: Double Exposure",
+      "hdr": "true"
+    },
+    "3017860": {
+      "title": "Doom: The Dark Ages",
+      "hdr": "true"
+    },
+    "3030370": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "3035200": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3035210": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3035220": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3035230": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3035240": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3035260": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3035570": {
+      "title": "Assassin's Creed Mirage",
+      "hdr": "true"
+    },
+    "3037090": {
+      "title": "Storage Hunter Simulator",
+      "hdr": "true"
+    },
+    "3040220": {
+      "title": "Captain Blood (Seawolf Studio)",
+      "hdr": "true"
+    },
+    "3041230": {
+      "title": "Windrose",
+      "hdr": "true"
+    },
+    "3043530": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "3043580": {
+      "title": "Keeper",
+      "hdr": "true"
+    },
+    "3047140": {
+      "title": "Atomfall",
+      "hdr": "true"
+    },
+    "3052150": {
+      "title": "Split Fiction",
+      "hdr": "true"
+    },
+    "3059520": {
+      "title": "F1 25",
+      "hdr": "true"
+    },
+    "3060810": {
+      "title": "Riven (2024)",
+      "hdr": "true"
+    },
+    "3060820": {
+      "title": "Riven (2024)",
+      "hdr": "true"
+    },
+    "3061570": {
+      "title": "Persona 5: The Phantom X",
+      "hdr": "true"
+    },
+    "3061810": {
+      "title": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "hdr": "true"
+    },
+    "3065800": {
+      "title": "Marathon (2026)",
+      "hdr": "true"
+    },
+    "3067190": {
+      "title": "Age of Empires IV",
+      "hdr": "true"
+    },
+    "3075820": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3077590": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "3079250": {
+      "title": "Captain Blood (Seawolf Studio)",
+      "hdr": "true"
+    },
+    "3086580": {
+      "title": "Lost Ember: Rekindled Edition",
+      "hdr": "true"
+    },
+    "3087220": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3087240": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3087250": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3087260": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3087270": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3087430": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3087460": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3090810": {
+      "title": "Truckful",
+      "hdr": "true"
+    },
+    "3091180": {
+      "title": "Planet Coaster 2",
+      "hdr": "true"
+    },
+    "3091190": {
+      "title": "Planet Coaster 2",
+      "hdr": "true"
+    },
+    "3118100": {
+      "title": "Kingdom Come: Deliverance II",
+      "hdr": "true"
+    },
+    "3118110": {
+      "title": "Kingdom Come: Deliverance II",
+      "hdr": "true"
+    },
+    "3118120": {
+      "title": "Kingdom Come: Deliverance II",
+      "hdr": "true"
+    },
+    "3119920": {
+      "title": "Kingdom Come: Deliverance II",
+      "hdr": "true"
+    },
+    "3123080": {
+      "title": "Alien Weapon Test Grounds",
+      "hdr": "true"
+    },
+    "3124540": {
+      "title": "Far Far West",
+      "hdr": "true"
+    },
+    "3130330": {
+      "title": "Metaphor: ReFantazio",
+      "hdr": "hackable"
+    },
+    "3142080": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "3142090": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "3142100": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "3142680": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3142690": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3142700": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3144890": {
+      "title": "Age of Empires IV",
+      "hdr": "true"
+    },
+    "3145920": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3151360": {
+      "title": "Agni: Village of Calamity",
+      "hdr": "true"
+    },
+    "3155730": {
+      "title": "Venus Vacation Prism: Dead or Alive Xtreme",
+      "hdr": "true"
+    },
+    "3159330": {
+      "title": "Assassin's Creed Shadows",
+      "hdr": "true"
+    },
+    "3172660": {
+      "title": "Marvel's Spider-Man 2",
+      "hdr": "true"
+    },
+    "3184520": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "3194250": {
+      "title": "Evotinction",
+      "hdr": "true"
+    },
+    "3194260": {
+      "title": "Evotinction",
+      "hdr": "true"
+    },
+    "3194270": {
+      "title": "Evotinction",
+      "hdr": "true"
+    },
+    "3194280": {
+      "title": "Evotinction",
+      "hdr": "true"
+    },
+    "3200540": {
+      "title": "Son and Bone",
+      "hdr": "true"
+    },
+    "3202500": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "3202510": {
+      "title": "PowerWash Simulator",
+      "hdr": "true"
+    },
+    "3214130": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "3228010": {
+      "title": "Gori: Cuddly Carnage",
+      "hdr": "true"
+    },
+    "3230400": {
+      "title": "Madden NFL 26",
+      "hdr": "true"
+    },
+    "3230960": {
+      "title": "Exodus (2027)",
+      "hdr": "true"
+    },
+    "3238470": {
+      "title": "Days Gone",
+      "hdr": "true"
+    },
+    "3241020": {
+      "title": "Georgie-Yolkie",
+      "hdr": "true"
+    },
+    "3252020": {
+      "title": "Atomfall",
+      "hdr": "true"
+    },
+    "3254050": {
+      "title": "The Black Ice",
+      "hdr": "true"
+    },
+    "3258690": {
+      "title": "Sniper Elite: Resistance",
+      "hdr": "limited"
+    },
+    "3259600": {
+      "title": "Atelier Resleriana: The Red Alchemist & the White Guardian",
+      "hdr": "true"
+    },
+    "3265250": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3271050": {
+      "title": "Killing Floor 3",
+      "hdr": "true"
+    },
+    "3273240": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3274300": {
+      "title": "Awaria",
+      "hdr": "always on"
+    },
+    "3274580": {
+      "title": "Anno 117: Pax Romana",
+      "hdr": "true"
+    },
+    "3280350": {
+      "title": "Death Stranding 2: On the Beach",
+      "hdr": "true"
+    },
+    "3287520": {
+      "title": "Ninja Gaiden 2 Black",
+      "hdr": "true"
+    },
+    "3290690": {
+      "title": "Styx: Blades of Greed",
+      "hdr": "true"
+    },
+    "3299920": {
+      "title": "Liminal Point",
+      "hdr": "true"
+    },
+    "3307910": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "3316940": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "3319840": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319850": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319860": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319870": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319880": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319890": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319900": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319910": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319920": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319930": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3319940": {
+      "title": "Dynasty Warriors: Origins",
+      "hdr": "true"
+    },
+    "3321460": {
+      "title": "Crimson Desert",
+      "hdr": "true"
+    },
+    "3326230": {
+      "title": "Hozy",
+      "hdr": "hackable"
+    },
+    "3337040": {
+      "title": "Planet Coaster 2",
+      "hdr": "true"
+    },
+    "3341420": {
+      "title": "They're Alive!",
+      "hdr": "limited"
+    },
+    "3349410": {
+      "title": "Path of Exile 2",
+      "hdr": "true"
+    },
+    "3349420": {
+      "title": "Path of Exile 2",
+      "hdr": "true"
+    },
+    "3349430": {
+      "title": "Path of Exile 2",
+      "hdr": "true"
+    },
+    "3357650": {
+      "title": "Pragmata",
+      "hdr": "true"
+    },
+    "3362550": {
+      "title": "Assassin's Creed Shadows",
+      "hdr": "true"
+    },
+    "3362570": {
+      "title": "Assassin's Creed Shadows",
+      "hdr": "true"
+    },
+    "3364840": {
+      "title": "Metal Gear Solid Δ: Snake Eater",
+      "hdr": "true"
+    },
+    "3368600": {
+      "title": "Kingdom Come: Deliverance II",
+      "hdr": "true"
+    },
+    "3368620": {
+      "title": "Kingdom Come: Deliverance II",
+      "hdr": "true"
+    },
+    "3372350": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "3372360": {
+      "title": "Final Fantasy XVI",
+      "hdr": "true"
+    },
+    "3374910": {
+      "title": "Killing Floor 3",
+      "hdr": "true"
+    },
+    "3378960": {
+      "title": "Lost Soul Aside",
+      "hdr": "true"
+    },
+    "3394230": {
+      "title": "Awaria",
+      "hdr": "always on"
+    },
+    "3398520": {
+      "title": "The Talos Principle: Reawakened",
+      "hdr": "true"
+    },
+    "3399290": {
+      "title": "Dead Format",
+      "hdr": "true"
+    },
+    "3401920": {
+      "title": "Upin & Ipin Universe",
+      "hdr": "true"
+    },
+    "3405690": {
+      "title": "EA Sports FC 26",
+      "hdr": "true"
+    },
+    "3406020": {
+      "title": "Kingdom Come: Deliverance II",
+      "hdr": "true"
+    },
+    "3448280": {
+      "title": "Gothic 1 Remake",
+      "hdr": "true"
+    },
+    "3464380": {
+      "title": "Fantasy Life i: The Girl Who Steals Time",
+      "hdr": "true"
+    },
+    "3469450": {
+      "title": "Doom: The Dark Ages",
+      "hdr": "true"
+    },
+    "3472040": {
+      "title": "NBA 2K26",
+      "hdr": "true"
+    },
+    "3482560": {
+      "title": "South of Midnight",
+      "hdr": "true"
+    },
+    "3489700": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3490290": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3500970": {
+      "title": "Lost Records: Bloom & Rage",
+      "hdr": "true"
+    },
+    "3502600": {
+      "title": "Sid Meier's Civilization VII",
+      "hdr": "true"
+    },
+    "3511550": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3511560": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3511570": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3511580": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3511590": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3511600": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3511940": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3515610": {
+      "title": "Elden Ring Nightreign",
+      "hdr": "true"
+    },
+    "3518320": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "3519570": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3524240": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524320": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524330": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524340": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524350": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524360": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524370": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524380": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524390": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3524400": {
+      "title": "Digimon Story: Time Stranger",
+      "hdr": "true"
+    },
+    "3526590": {
+      "title": "Killing Floor 3",
+      "hdr": "true"
+    },
+    "3527760": {
+      "title": "RoboCop: Rogue City - Unfinished Business",
+      "hdr": "hackable"
+    },
+    "3531720": {
+      "title": "Elden Ring Nightreign",
+      "hdr": "true"
+    },
+    "3547480": {
+      "title": "Killing Floor 3",
+      "hdr": "true"
+    },
+    "3558810": {
+      "title": "South of Midnight",
+      "hdr": "true"
+    },
+    "3558820": {
+      "title": "South of Midnight",
+      "hdr": "true"
+    },
+    "3559880": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "3564740": {
+      "title": "Where Winds Meet",
+      "hdr": "true"
+    },
+    "3564860": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3566840": {
+      "title": "Bleak Haven",
+      "hdr": "true"
+    },
+    "3587890": {
+      "title": "The Black Ice",
+      "hdr": "true"
+    },
+    "3589750": {
+      "title": "Final Fantasy Tactics - The Ivalice Chronicles",
+      "hdr": "limited"
+    },
+    "3589760": {
+      "title": "Final Fantasy Tactics - The Ivalice Chronicles",
+      "hdr": "limited"
+    },
+    "3594180": {
+      "title": "Ace Combat 8: Wings of Theve",
+      "hdr": "true"
+    },
+    "3595230": {
+      "title": "Call of Duty: Modern Warfare II",
+      "hdr": "true"
+    },
+    "3595270": {
+      "title": "Call of Duty: Modern Warfare III",
+      "hdr": "true"
+    },
+    "3596170": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3596180": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3596190": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3596200": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3596210": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3596220": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3596810": {
+      "title": "Dune: Awakening",
+      "hdr": "true"
+    },
+    "3596900": {
+      "title": "Dune: Awakening",
+      "hdr": "true"
+    },
+    "3596920": {
+      "title": "Dune: Awakening",
+      "hdr": "true"
+    },
+    "3596930": {
+      "title": "Dune: Awakening",
+      "hdr": "true"
+    },
+    "3604200": {
+      "title": "Dune: Awakening",
+      "hdr": "true"
+    },
+    "3607720": {
+      "title": "Atomfall",
+      "hdr": "true"
+    },
+    "3626510": {
+      "title": "Steel Seed",
+      "hdr": "true"
+    },
+    "3626520": {
+      "title": "Steel Seed",
+      "hdr": "true"
+    },
+    "3626530": {
+      "title": "Steel Seed",
+      "hdr": "true"
+    },
+    "3635880": {
+      "title": "Ace Combat 8: Wings of Theve",
+      "hdr": "true"
+    },
+    "3651190": {
+      "title": "Jurassic World Evolution 3",
+      "hdr": "true"
+    },
+    "3651200": {
+      "title": "Jurassic World Evolution 3",
+      "hdr": "true"
+    },
+    "3653760": {
+      "title": "Wuchang: Fallen Feathers",
+      "hdr": "true"
+    },
+    "3653770": {
+      "title": "Wuchang: Fallen Feathers",
+      "hdr": "true"
+    },
+    "3653780": {
+      "title": "Wuchang: Fallen Feathers",
+      "hdr": "true"
+    },
+    "3653790": {
+      "title": "Wuchang: Fallen Feathers",
+      "hdr": "true"
+    },
+    "3655390": {
+      "title": "Alien: Rogue Incursion Evolved Edition",
+      "hdr": "true"
+    },
+    "3659280": {
+      "title": "Off The Grid",
+      "hdr": "true"
+    },
+    "3659690": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "3659770": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "3659830": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "3662250": {
+      "title": "Stellar Blade",
+      "hdr": "true"
+    },
+    "3668680": {
+      "title": "Dead Rising Deluxe Remaster",
+      "hdr": "true"
+    },
+    "3669870": {
+      "title": "Control Resonant",
+      "hdr": "true"
+    },
+    "3681010": {
+      "title": "Nioh 3",
+      "hdr": "true"
+    },
+    "3681880": {
+      "title": "Final Fantasy Tactics - The Ivalice Chronicles",
+      "hdr": "limited"
+    },
+    "3691700": {
+      "title": "The Occultist",
+      "hdr": "true"
+    },
+    "3698350": {
+      "title": "Doom: The Dark Ages",
+      "hdr": "true"
+    },
+    "3701350": {
+      "title": "Star Wars: Zero Company",
+      "hdr": "true"
+    },
+    "3711570": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3712120": {
+      "title": "Alien: Rogue Incursion Evolved Edition",
+      "hdr": "true"
+    },
+    "3743240": {
+      "title": "RoboCop: Rogue City - Unfinished Business",
+      "hdr": "hackable"
+    },
+    "3743800": {
+      "title": "Hozy",
+      "hdr": "hackable"
+    },
+    "3746540": {
+      "title": "Age of Empires IV",
+      "hdr": "true"
+    },
+    "3749050": {
+      "title": "Anno 117: Pax Romana",
+      "hdr": "true"
+    },
+    "3749060": {
+      "title": "Anno 117: Pax Romana",
+      "hdr": "true"
+    },
+    "3749080": {
+      "title": "Anno 117: Pax Romana",
+      "hdr": "true"
+    },
+    "3749090": {
+      "title": "Anno 117: Pax Romana",
+      "hdr": "true"
+    },
+    "3751950": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "3757150": {
+      "title": "Styx: Blades of Greed",
+      "hdr": "true"
+    },
+    "3758190": {
+      "title": "Wuchang: Fallen Feathers",
+      "hdr": "true"
+    },
+    "3762550": {
+      "title": "Hellmart",
+      "hdr": "true"
+    },
+    "3763840": {
+      "title": "Felt That: Boxing",
+      "hdr": "true"
+    },
+    "3764200": {
+      "title": "Resident Evil Requiem",
+      "hdr": "true"
+    },
+    "3768390": {
+      "title": "Postal: Brain Damaged",
+      "hdr": "hackable"
+    },
+    "3768760": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3788800": {
+      "title": "Atomic Heart 2",
+      "hdr": "true"
+    },
+    "3789050": {
+      "title": "The Indigo Initiative",
+      "hdr": "true"
+    },
+    "3804130": {
+      "title": "MindsEye",
+      "hdr": "true"
+    },
+    "3805230": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "3805250": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "3805260": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "3805270": {
+      "title": "The Outlast Trials",
+      "hdr": "true"
+    },
+    "3811110": {
+      "title": "Atelier Resleriana: The Red Alchemist & the White Guardian",
+      "hdr": "true"
+    },
+    "3811120": {
+      "title": "Atelier Resleriana: The Red Alchemist & the White Guardian",
+      "hdr": "true"
+    },
+    "3811180": {
+      "title": "Atelier Resleriana: The Red Alchemist & the White Guardian",
+      "hdr": "true"
+    },
+    "3837640": {
+      "title": "Resonance: A Plague Tale Legacy",
+      "hdr": "true"
+    },
+    "3839180": {
+      "title": "Postal 2 Redux",
+      "hdr": "true"
+    },
+    "3840380": {
+      "title": "SpongeBob SquarePants: Titans of the Tide",
+      "hdr": "hackable"
+    },
+    "3841510": {
+      "title": "Dynasty Warriors 3: Complete Edition Remastered",
+      "hdr": "true"
+    },
+    "3846830": {
+      "title": "Total War: Shogun 2 - Complete Edition",
+      "hdr": "true"
+    },
+    "3859630": {
+      "title": "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version",
+      "hdr": "limited"
+    },
+    "3859930": {
+      "title": "Pragmata",
+      "hdr": "true"
+    },
+    "3867170": {
+      "title": "Sengoku Rance",
+      "hdr": "hackable"
+    },
+    "3873970": {
+      "title": "NASCAR 25",
+      "hdr": "true"
+    },
+    "3875910": {
+      "title": "Anno 117: Pax Romana",
+      "hdr": "true"
+    },
+    "3892270": {
+      "title": "Gamble With Your Friends",
+      "hdr": "true"
+    },
+    "3902620": {
+      "title": "Planet Coaster 2",
+      "hdr": "true"
+    },
+    "3908350": {
+      "title": "Tormented Souls 2",
+      "hdr": "true"
+    },
+    "3920610": {
+      "title": "Fatal Frame II: Crimson Butterfly Remake",
+      "hdr": "true"
+    },
+    "3929860": {
+      "title": "Zombie Assault: Resurgence",
+      "hdr": "always on"
+    },
+    "3937550": {
+      "title": "Yakuza Kiwami 3 & Dark Ties",
+      "hdr": "true"
+    },
+    "3939890": {
+      "title": "Styx: Blades of Greed",
+      "hdr": "true"
+    },
+    "3949290": {
+      "title": "Ys X: Proud Nordics",
+      "hdr": "true"
+    },
+    "3950810": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3950820": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3950830": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3950850": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3950870": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3950880": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3950900": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3950910": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3950930": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3954230": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3954250": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3954260": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "3954470": {
+      "title": "Reanimal",
+      "hdr": "true"
+    },
+    "3958690": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "3958700": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "3958710": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "3958720": {
+      "title": "Diablo IV",
+      "hdr": "true"
+    },
+    "3959440": {
+      "title": "Tokyo Xtreme Racer",
+      "hdr": "true"
+    },
+    "3959450": {
+      "title": "Tokyo Xtreme Racer",
+      "hdr": "true"
+    },
+    "3977730": {
+      "title": "Life Is Strange: Reunion",
+      "hdr": "true"
+    },
+    "3977740": {
+      "title": "Life Is Strange: Reunion",
+      "hdr": "true"
+    },
+    "3989390": {
+      "title": "Sleep Awake",
+      "hdr": "true"
+    },
+    "3990800": {
+      "title": "Resident Evil Requiem",
+      "hdr": "true"
+    },
+    "3990820": {
+      "title": "Resident Evil Requiem",
+      "hdr": "true"
+    },
+    "4003800": {
+      "title": "Pragmata",
+      "hdr": "true"
+    },
+    "4009660": {
+      "title": "Arctic Awakening",
+      "hdr": "true"
+    },
+    "4012990": {
+      "title": "The Occultist",
+      "hdr": "true"
+    },
+    "4019420": {
+      "title": "Reanimal",
+      "hdr": "true"
+    },
+    "4023080": {
+      "title": "Duskfade",
+      "hdr": "true"
+    },
+    "4024620": {
+      "title": "Crimson Desert",
+      "hdr": "true"
+    },
+    "4024630": {
+      "title": "Crimson Desert",
+      "hdr": "true"
+    },
+    "4032350": {
+      "title": "EA Sports College Football 27",
+      "hdr": "true"
+    },
+    "4045720": {
+      "title": "Squadron 42",
+      "hdr": "true"
+    },
+    "4063300": {
+      "title": "Industria 2",
+      "hdr": "hackable"
+    },
+    "4073600": {
+      "title": "Halo: Campaign Evolved",
+      "hdr": "true"
+    },
+    "4078430": {
+      "title": "Star Wars: Galactic Racer",
+      "hdr": "limited"
+    },
+    "4084230": {
+      "title": "Tormented Souls 2",
+      "hdr": "true"
+    },
+    "4095380": {
+      "title": "Soulframe",
+      "hdr": "true"
+    },
+    "4110950": {
+      "title": "Split Fiction",
+      "hdr": "true"
+    },
+    "4112550": {
+      "title": "Reanimal",
+      "hdr": "true"
+    },
+    "4114580": {
+      "title": "BrokenLore: Unfollow",
+      "hdr": "hackable"
+    },
+    "4123350": {
+      "title": "Fatal Frame II: Crimson Butterfly Remake",
+      "hdr": "true"
+    },
+    "4123370": {
+      "title": "Fatal Frame II: Crimson Butterfly Remake",
+      "hdr": "true"
+    },
+    "4129920": {
+      "title": "Planet Coaster 2",
+      "hdr": "true"
+    },
+    "4131660": {
+      "title": "Jurassic World Evolution 3",
+      "hdr": "true"
+    },
+    "4131670": {
+      "title": "Jurassic World Evolution 3",
+      "hdr": "true"
+    },
+    "4146830": {
+      "title": "Beast of Reincarnation",
+      "hdr": "true"
+    },
+    "4156640": {
+      "title": "Dune: Awakening",
+      "hdr": "true"
+    },
+    "4166130": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4168120": {
+      "title": "Anno 117: Pax Romana",
+      "hdr": "true"
+    },
+    "4168130": {
+      "title": "Anno 117: Pax Romana",
+      "hdr": "true"
+    },
+    "4168610": {
+      "title": "Lego Batman: Legacy of the Dark Knight",
+      "hdr": "true"
+    },
+    "4168620": {
+      "title": "Lego Batman: Legacy of the Dark Knight",
+      "hdr": "true"
+    },
+    "4168630": {
+      "title": "Lego Batman: Legacy of the Dark Knight",
+      "hdr": "true"
+    },
+    "4168640": {
+      "title": "Lego Batman: Legacy of the Dark Knight",
+      "hdr": "true"
+    },
+    "4184400": {
+      "title": "Metal Gear Solid 4: Guns of the Patriots - Master Collection Version",
+      "hdr": "limited"
+    },
+    "4192200": {
+      "title": "Halo: Campaign Evolved",
+      "hdr": "true"
+    },
+    "4193060": {
+      "title": "Crimson Desert",
+      "hdr": "true"
+    },
+    "4213570": {
+      "title": "Skate Story",
+      "hdr": "true"
+    },
+    "4214380": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214390": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214400": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214410": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214420": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214430": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214440": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214450": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214460": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214470": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214480": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214490": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214500": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214510": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214520": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214530": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214560": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214570": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4214590": {
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "hdr": "true"
+    },
+    "4216130": {
+      "title": "Deep Rock Galactic: Rogue Core",
+      "hdr": "limited"
+    },
+    "4225980": {
+      "title": "Trails in the Sky 2nd Chapter",
+      "hdr": "true"
+    },
+    "4260840": {
+      "title": "Stranger Than Heaven",
+      "hdr": "true"
+    },
+    "4265340": {
+      "title": "The Sinking City 2",
+      "hdr": "true"
+    },
+    "4265420": {
+      "title": "The Sinking City 2",
+      "hdr": "true"
+    },
+    "4265460": {
+      "title": "The Sinking City 2",
+      "hdr": "true"
+    },
+    "4277070": {
+      "title": "Cthulhu: The Cosmic Abyss",
+      "hdr": "true"
+    },
+    "4277080": {
+      "title": "Cthulhu: The Cosmic Abyss",
+      "hdr": "true"
+    },
+    "4332390": {
+      "title": "I Hate This Place",
+      "hdr": "always on"
+    },
+    "4333430": {
+      "title": "The Apartment (2026)",
+      "hdr": "true"
+    },
+    "4335780": {
+      "title": "Blades of Fire",
+      "hdr": "true"
+    },
+    "4336170": {
+      "title": "Age of Empires IV",
+      "hdr": "true"
+    },
+    "4338990": {
+      "title": "Cthulhu: The Cosmic Abyss",
+      "hdr": "true"
+    },
+    "4339000": {
+      "title": "Cthulhu: The Cosmic Abyss",
+      "hdr": "true"
+    },
+    "4339020": {
+      "title": "Cthulhu: The Cosmic Abyss",
+      "hdr": "true"
+    },
+    "4340990": {
+      "title": "Life Is Strange: Reunion",
+      "hdr": "true"
+    },
+    "4351720": {
+      "title": "Reanimal",
+      "hdr": "true"
+    },
+    "4354700": {
+      "title": "I Hate This Place",
+      "hdr": "always on"
+    },
+    "4377450": {
+      "title": "Zombie Assault: Resurgence",
+      "hdr": "always on"
+    },
+    "4384550": {
+      "title": "Call of Duty: Black Ops 6",
+      "hdr": "true"
+    },
+    "4403940": {
+      "title": "Control Resonant",
+      "hdr": "true"
+    },
+    "4407820": {
+      "title": "Hozy",
+      "hdr": "hackable"
+    },
+    "4430060": {
+      "title": "Reanimal",
+      "hdr": "true"
+    },
+    "4434940": {
+      "title": "Blades of Fire",
+      "hdr": "true"
+    },
+    "4434950": {
+      "title": "Blades of Fire",
+      "hdr": "true"
+    },
+    "4435490": {
+      "title": "Call of Duty: Modern Warfare 4",
+      "hdr": "true"
+    },
+    "4439260": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "4439280": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "4439300": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "4439750": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "4440380": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "4444140": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "4444150": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "4460240": {
+      "title": "Resident Evil Requiem",
+      "hdr": "true"
+    },
+    "4468750": {
+      "title": "Lego Batman: Legacy of the Dark Knight",
+      "hdr": "true"
+    },
+    "4485640": {
+      "title": "Halo: Campaign Evolved",
+      "hdr": "true"
+    },
+    "4492160": {
+      "title": "Planet Coaster 2",
+      "hdr": "true"
+    },
+    "4496490": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4496510": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4496530": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4496550": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4496580": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4496600": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4496620": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4496640": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4496660": {
+      "title": "Assassin's Creed: Black Flag Resynced",
+      "hdr": "true"
+    },
+    "4521800": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "4521810": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "4521820": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "4521830": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "4521840": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "4530150": {
+      "title": "Hozy",
+      "hdr": "hackable"
+    },
+    "4562050": {
+      "title": "Forza Horizon 6",
+      "hdr": "true"
+    },
+    "4564200": {
+      "title": "Windrose",
+      "hdr": "true"
+    },
+    "4570720": {
+      "title": "DragonSword: Awakening",
+      "hdr": "true"
+    },
+    "4572870": {
+      "title": "Crimson Desert",
+      "hdr": "true"
+    },
+    "4575730": {
+      "title": "DragonSword: Awakening",
+      "hdr": "true"
+    },
+    "4601250": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "4630280": {
+      "title": "Deep Rock Galactic: Rogue Core",
+      "hdr": "limited"
+    },
+    "4632450": {
+      "title": "Gears of War: E-Day",
+      "hdr": "true"
+    },
+    "4635620": {
+      "title": "Gamble With Your Friends",
+      "hdr": "true"
+    },
+    "4637140": {
+      "title": "Gears of War: E-Day",
+      "hdr": "true"
+    },
+    "4637200": {
+      "title": "Gears of War: E-Day",
+      "hdr": "true"
+    },
+    "4641840": {
+      "title": "Valor Mortis",
+      "hdr": "true"
+    },
+    "4684710": {
+      "title": "The Sinking City 2",
+      "hdr": "true"
+    },
+    "4704690": {
+      "title": "Meccha Chameleon",
+      "hdr": "hackable"
+    },
+    "4707780": {
+      "title": "007 First Light",
+      "hdr": "true"
+    },
+    "4733900": {
+      "title": "Reanimal",
+      "hdr": "true"
+    },
+    "4757750": {
+      "title": "Synthaly Universe",
+      "hdr": "true"
+    },
+    "4767480": {
+      "title": "Lords of the Fallen II",
+      "hdr": "true"
+    },
+    "4781590": {
+      "title": "Tokyo Xtreme Racer",
+      "hdr": "true"
+    },
+    "4783050": {
+      "title": "Crimson Desert",
+      "hdr": "true"
+    },
+    "4934950": {
+      "title": "Duskfade",
+      "hdr": "true"
+    },
+    "4961870": {
+      "title": "Planet Coaster 2",
+      "hdr": "true"
+    },
+    "5001840": {
+      "title": "Crimson Desert",
+      "hdr": "true"
+    },
+    "5028560": {
+      "title": "Gears of War: E-Day",
+      "hdr": "true"
+    },
+    "5250300": {
+      "title": "Valor Mortis",
+      "hdr": "true"
+    }
+  }
+}
