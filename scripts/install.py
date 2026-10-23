@@ -22,6 +22,7 @@ def install(proton, source, steam, data, destination, license_file):
     catalog = json.loads((data / 'hdr-games.json').read_text())
     if catalog.get('version') != 1 or not catalog.get('games'):
         raise ValueError('Missing or invalid HDR catalog')
+    info = json.loads((data / 'build-info.json').read_text())
     # Flatpak Builder creates the extension prefix before build-commands run.
     shutil.copytree(proton, destination, dirs_exist_ok=True, symlinks=True,
                     ignore=shutil.ignore_patterns('__pycache__'))
@@ -29,10 +30,17 @@ def install(proton, source, steam, data, destination, license_file):
     for name in ('compatibilitytool.vdf', 'toolmanifest.vdf'):
         (destination / name).rename(destination / (name + '.upstream'))
         install_file(steam / name, destination / name)
+    compatibility = destination / 'compatibilitytool.vdf'
+    compatibility.write_text(compatibility.read_text().replace('@VERSION@', info['version']))
     install_file(source / 'proton.py', destination / 'proton', executable=True)
     for name in ('runner.py', 'sessions.py', 'mutter.py'):
         install_file(source / name, destination / LIB / name)
     install_file(data / 'hdr-games.json', destination / SHARE / 'hdr-games.json')
+    install_file(data / 'build-info.json', destination / SHARE / 'build-info.json')
+    metainfo = destination / 'share/metainfo' / (f'com.valvesoftware.Steam.CompatibilityTool.{NAME}.metainfo.xml')
+    install_file(steam / metainfo.name, metainfo)
+    metainfo.write_text(metainfo.read_text().replace('@VERSION@', info['version'])
+                        .replace('@RELEASE_DATE@', info['release_date']))
     install_file(data / 'CATALOG-LICENSE.txt',
                  destination / 'share/licenses' / NAME / 'PCGamingWiki.txt')
     install_file(license_file, destination / 'share/licenses' / NAME / 'LICENSE')

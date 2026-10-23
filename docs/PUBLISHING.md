@@ -4,6 +4,15 @@ The workflow checks GE releases and PCGamingWiki daily, rebuilds when inputs
 change, publishes a signed Flatpak repository through Pages, and commits the
 updated manifest/catalog. Source pushes and manual dispatch also build it.
 
+Versions use `PROTON_VERSION-YYYYMMDD`, taking the date from the HDR list page's
+latest MediaWiki revision, not the download date. Game article edits can change
+the catalog without changing that date; catalog changes still trigger a build.
+The version appears in Flatpak's AppStream metadata, Steam's display name, the
+build/deploy job and artifact names, and the repository's `build-info.json`.
+Steam's internal tool ID and Flatpak's `stable` branch stay fixed across updates.
+The Pages environment remains `github-pages`; unchanged scheduled checks do not
+create deployment entries. The workflow summary explains whether it built or skipped.
+
 1. Push to a GitHub repository whose default branch is `main`.
 2. Set **Settings → Pages → Source** to **GitHub Actions**.
 3. Generate a dedicated unattended signing key and keep a backup:

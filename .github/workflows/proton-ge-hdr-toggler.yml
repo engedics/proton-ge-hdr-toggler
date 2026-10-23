@@ -24,7 +24,48 @@ env:
   MANIFEST: flatpak/com.valvesoftware.Steam.CompatibilityTool.proton-ge-hdr-toggler.yml
 
 jobs:
+  prepare:
+    name: Check Proton-GE and HDR catalog
+    runs-on: ${{ vars.FLATPAK_RUNNER || 'ubuntu-latest' }}
+    permissions:
+      contents: read
+    outputs:
+      build: ${{ steps.changes.outputs.build }}
+      version: ${{ steps.refresh.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh release and HDR catalog
+        id: refresh
+        run: /usr/bin/python3 scripts/update.py
+      - name: Check for changes
+        id: changes
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          CHANGED: ${{ steps.refresh.outputs.changed }}
+          VERSION: ${{ steps.refresh.outputs.version }}
+        run: |
+          if [ "$EVENT_NAME" != schedule ] || [ "$CHANGED" = true ]; then
+            echo 'build=true' >> "$GITHUB_OUTPUT"
+            echo "Building proton-ge-hdr-toggler $VERSION." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'build=false' >> "$GITHUB_OUTPUT"
+            echo "No input changes; keeping published version $VERSION. Build and deployment skipped." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Save prepared inputs
+        if: steps.changes.outputs.build == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: prepared-inputs
+          path: |
+            flatpak/
+            data/
+          retention-days: 1
+          if-no-files-found: error
+
   publish:
+    name: Build and deploy ${{ needs.prepare.outputs.version }}
+    needs: prepare
+    if: needs.prepare.outputs.build == 'true'
     runs-on: ${{ vars.FLATPAK_RUNNER || 'ubuntu-latest' }}
     permissions:
       contents: write
@@ -33,20 +74,16 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      VERSION: ${{ needs.prepare.outputs.version }}
     steps:
       - uses: actions/checkout@v4
-      - name: Refresh release and HDR catalog
-        run: /usr/bin/python3 scripts/update.py
-      - name: Check for changes
-        id: changes
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-        run: |
-          if [ "$EVENT_NAME" != schedule ] || ! git diff --quiet -- flatpak data; then
-            echo 'build=true' >> "$GITHUB_OUTPUT"
-          fi
+      - name: Restore prepared inputs
+        uses: actions/download-artifact@v4
+        with:
+          name: prepared-inputs
+          path: .
       - name: Install dependencies
-        if: steps.changes.outputs.build == 'true'
         run: |
           if ! command -v flatpak-builder >/dev/null || ! /usr/bin/python3 -c 'import gi' 2>/dev/null; then
             sudo apt-get update
@@ -54,26 +91,22 @@ jobs:
           fi
           flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
       - name: Enable Flatpak build sandboxes on hosted Ubuntu
-        if: steps.changes.outputs.build == 'true' && runner.environment == 'github-hosted'
+        if: runner.environment == 'github-hosted'
         run: |
           if [ -e /proc/sys/kernel/apparmor_restrict_unprivileged_userns ]; then
             sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
           fi
       - name: Test
-        if: steps.changes.outputs.build == 'true'
         run: /usr/bin/python3 -m unittest discover -s tests -v
       - name: Cache upstream downloads
-        if: steps.changes.outputs.build == 'true'
         uses: actions/cache@v4
         with:
           path: .flatpak-builder/downloads
           key: ${{ runner.os }}-proton-ge-hdr-toggler-${{ hashFiles('flatpak/*.yml') }}
       - name: Configure Pages
-        if: steps.changes.outputs.build == 'true'
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build and sign the Flatpak repository
-        if: steps.changes.outputs.build == 'true'
+      - name: Build and sign ${{ needs.prepare.outputs.version }}
         env:
           SIGNING_KEY: ${{ secrets.FLATPAK_GPG_PRIVATE_KEY }}
           SIGNING_ID: ${{ secrets.FLATPAK_GPG_KEY_ID }}
@@ -84,25 +117,30 @@ jobs:
           GNUPGHOME=$(mktemp -d)
           trap 'rm -rf "$GNUPGHOME"' EXIT
           printf '%s' "$SIGNING_KEY" | gpg --batch --import
-          flatpak-builder --user --assumeyes --install-deps-from=flathub --force-clean --disable-rofiles-fuse --gpg-sign="$SIGNING_ID" --repo=dist/repo dist/build "$MANIFEST"
-          /usr/bin/python3 scripts/publish.py --repository dist/repo --gpg-key "$SIGNING_ID" --url "$REPO_URL"
+          flatpak-builder --user --assumeyes --install-deps-from=flathub --force-clean --disable-rofiles-fuse --subject="proton-ge-hdr-toggler $VERSION" --gpg-sign="$SIGNING_ID" --repo=dist/repo dist/build "$MANIFEST"
+          /usr/bin/python3 scripts/publish.py --repository dist/repo --gpg-key "$SIGNING_ID" --url "$REPO_URL" --build-info data/build-info.json
       - name: Upload repository
-        if: steps.changes.outputs.build == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages-${{ needs.prepare.outputs.version }}
           path: dist/repo
           retention-days: 1
-      - name: Deploy repository
-        if: steps.changes.outputs.build == 'true'
+      - name: Deploy ${{ needs.prepare.outputs.version }}
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ needs.prepare.outputs.version }}
+      - name: Record published version
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          echo "Published proton-ge-hdr-toggler $VERSION to $PAGE_URL." >> "$GITHUB_STEP_SUMMARY"
       - name: Commit published build inputs
-        if: steps.changes.outputs.build == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add "$MANIFEST" data/hdr-games.json
+          git add "$MANIFEST" data/hdr-games.json data/build-info.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Update bundled Proton-GE and HDR catalog'
+            git commit -m "Update proton-ge-hdr-toggler to $VERSION"
             git push
           fi

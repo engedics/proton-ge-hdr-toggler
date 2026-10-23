@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>com.valvesoftware.Steam.CompatibilityTool.proton-ge-hdr-toggler</id>
+  <extends>com.valvesoftware.Steam</extends>
+  <name>proton-ge-hdr-toggler</name>
+  <summary>Proton-GE with automatic GNOME HDR switching for supported games</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>CC-BY-NC-SA-3.0 AND LicenseRef-Proton-GE-components</project_license>
+  <url type="homepage">https://github.com/engedics/proton-ge-hdr-toggler</url>
+  <description>
+    <p>Bundles Proton-GE and a PCGamingWiki HDR catalog. Enables desktop HDR
+    before supported games start and restores the previous mode on exit.</p>
+  </description>
+  <releases>
+    <release version="@VERSION@" date="@RELEASE_DATE@"/>
+  </releases>
+</component>

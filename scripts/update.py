@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Refresh pinned GE release and complete PCGamingWiki HDR catalog atomically."""
 import argparse
+from datetime import datetime
 from html.parser import HTMLParser
 import json
 import os
@@ -15,9 +16,11 @@ ROOT = Path(__file__).resolve().parent.parent
 NAME = 'proton-ge-hdr-toggler'
 MANIFEST = ROOT / 'flatpak' / ('com.valvesoftware.Steam.CompatibilityTool.' + NAME + '.yml')
 CATALOG = ROOT / 'data/hdr-games.json'
+BUILD_INFO = ROOT / 'data/build-info.json'
 API = 'https://www.pcgamingwiki.com/w/api.php'
 SOURCE = 'https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)'
 STATES = ('true', 'limited', 'always on', 'hackable')
+PAGE = 'List of games that support high dynamic range display (HDR)'
 
 
 def get_json(url):
@@ -77,7 +80,7 @@ class CargoTable(HTMLParser):
 
 
 def fetch_catalog(fetch=get_json, limit=100):
-    games, seen, count = {}, set(), 0
+    games, seen, pages, count = {}, {}, set(), 0
     for offset in range(0, 10000, limit):
         query = ('{{#cargo_query:tables=Game,Video|join on=Game._pageID=Video._pageID'
                  '|fields=Game._pageName,Video.HDR,Game.Steam_AppID|where=' +
@@ -89,11 +92,19 @@ def fetch_catalog(fetch=get_json, limit=100):
         table.feed(data['parse']['text']['*'])
         if not table.found:
             raise ValueError('PCGamingWiki did not return the expected Cargo table')
+        fingerprint = tuple(tuple(sorted(row.items())) for row in table.rows)
+        if fingerprint and fingerprint in pages:
+            raise ValueError('Repeated catalog page; refusing partial catalog')
+        pages.add(fingerprint)
         for row in table.rows:
             title, hdr = row['field__pageName'], row['field_HDR']
-            if not title or title in seen or hdr not in STATES:
-                raise ValueError('Repeated page or invalid HDR value; refusing partial catalog')
-            seen.add(title)
+            if not title or hdr not in STATES:
+                raise ValueError('Invalid title or HDR value; refusing partial catalog')
+            if title in seen:
+                if seen[title] != row:
+                    raise ValueError(f'Conflicting catalog rows for {title}')
+                continue  # Cargo can return identical joined rows for one game.
+            seen[title] = row
             count += 1
             ids = row['field_Steam_AppID']
             if ids and re.search(r'[^0-9\s,;•]', ids):
@@ -128,8 +139,36 @@ def fetch_release(fetch=get_json):
     expected = f'https://github.com/GloriousEggroll/proton-ge-custom/releases/download/{tag}/{tag}-x86_64.tar.gz'
     if asset['browser_download_url'] != expected:
         raise ValueError('Unexpected Proton-GE release download URL')
-    return {'version': tag, 'url': asset['browser_download_url'],
+    return {'version': tag, 'published_at': release['published_at'], 'url': asset['browser_download_url'],
             'sha256': asset['digest'].split(':', 1)[1]}
+
+
+def fetch_page_revision(fetch=get_json):
+    data = fetch(API + '?' + urlencode(dict(action='query', prop='revisions', titles=PAGE,
+                 rvprop='ids|timestamp', rvlimit=1, formatversion=2, format='json')))
+    pages = data['query']['pages']
+    if len(pages) != 1 or pages[0].get('missing'):
+        raise ValueError('HDR list page was not found')
+    revision = pages[0]['revisions'][0]
+    if not isinstance(revision['revid'], int) or revision['revid'] <= 0:
+        raise ValueError('Invalid HDR page revision')
+    utc_timestamp(revision['timestamp'])
+    return {'id': revision['revid'], 'timestamp': revision['timestamp']}
+
+
+def utc_timestamp(value):
+    if not re.fullmatch(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z', value):
+        raise ValueError('Expected a UTC source timestamp')
+    return datetime.fromisoformat(value.replace('Z', '+00:00'))
+
+
+def build_info(release, revision):
+    proton_date = utc_timestamp(release['published_at']).date()
+    page_date = utc_timestamp(revision['timestamp']).date()
+    return {'version': release['version'].removeprefix('GE-Proton') + '-' + page_date.strftime('%Y%m%d'),
+            'proton': release['version'], 'proton_published_at': release['published_at'],
+            'hdr_page_revision': revision['id'], 'hdr_page_updated_at': revision['timestamp'],
+            'release_date': max(proton_date, page_date).isoformat()}
 
 
 def manifest(release):
@@ -191,8 +230,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--allow-large-catalog-change', action='store_true')
     args = parser.parse_args()
-    # Fetch and validate both before replacing either checked-in input.
-    release, catalog = fetch_release(), fetch_catalog()
+    # Fetch and validate all inputs before replacing any checked-in files.
+    release, catalog, revision = fetch_release(), fetch_catalog(), fetch_page_revision()
+    info = build_info(release, revision)
     if catalog['source_rows'] < 100 or len(catalog['games']) < 100:
         raise ValueError('Unexpectedly small catalog; retaining previous inputs')
     previous = CATALOG
@@ -201,11 +241,16 @@ def main():
         if catalog['source_rows'] < old['source_rows'] * 0.75 or len(catalog['games']) < len(old['games']) * 0.75:
             raise ValueError('Catalog shrank by over 25%; inspect before overriding')
     files = {MANIFEST: manifest(release),
-             CATALOG: json.dumps(catalog, indent=2, ensure_ascii=False) + '\n'}
+             CATALOG: json.dumps(catalog, indent=2, ensure_ascii=False) + '\n',
+             BUILD_INFO: json.dumps(info, indent=2) + '\n'}
     changed = False
     for path, contents in files.items():
         changed |= write_changed(path, contents.encode())
-    print(f"{release['version']}: {catalog['source_rows']} wiki games, {len(catalog['games'])} Steam IDs; changed={changed}")
+    print(f"{info['version']}: {catalog['source_rows']} wiki games, {len(catalog['games'])} Steam IDs; changed={changed}")
+    print(f"HDR list page last edited: {revision['timestamp']} (revision {revision['id']})")
+    if output := os.environ.get('GITHUB_OUTPUT'):
+        with open(output, 'a') as stream:
+            stream.write(f"version={info['version']}\nchanged={str(changed).lower()}\n")
 
 
 if __name__ == '__main__':

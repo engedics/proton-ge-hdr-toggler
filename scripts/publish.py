@@ -2,6 +2,7 @@
 """Finish a signed Flatpak repository for GitHub Pages."""
 import argparse
 import base64
+import json
 from pathlib import Path
 import subprocess
 
@@ -13,10 +14,12 @@ def main():
     parser.add_argument('--repository', type=Path, required=True)
     parser.add_argument('--url', required=True)
     parser.add_argument('--gpg-key', required=True)
+    parser.add_argument('--build-info', type=Path, required=True)
     args = parser.parse_args()
+    info = json.loads(args.build_info.read_text())
     if not args.url.startswith('https://') or any(char in args.url for char in '\r\n'):
         parser.error('repository URL must use HTTPS')
-    subprocess.run(['flatpak', 'build-update-repo', '--no-update-appstream', '--prune',
+    subprocess.run(['flatpak', 'build-update-repo', '--prune',
                     '--prune-depth=0', '--title=' + NAME, '--gpg-sign=' + args.gpg_key,
                     str(args.repository)], check=True)
     public_key = subprocess.check_output(['gpg', '--export', args.gpg_key])
@@ -26,10 +29,11 @@ def main():
         '[Flatpak Repo]\nTitle=' + NAME + '\nUrl=' + args.url.rstrip('/') +
         '\nDefaultBranch=stable\nGPGKey=' + base64.b64encode(public_key).decode() + '\n')
     (args.repository / '.nojekyll').touch()
+    (args.repository / 'build-info.json').write_text(json.dumps(info, indent=2) + '\n')
     size = sum(path.stat().st_size for path in args.repository.rglob('*') if path.is_file())
     if size >= 1_000_000_000:
         raise ValueError('Repository exceeds GitHub Pages capacity; retaining previous deployment')
-    print(f'Repository: {size / 1_000_000:.1f} MB')
+    print(f"Repository {info['version']}: {size / 1_000_000:.1f} MB")
 
 
 if __name__ == '__main__':
