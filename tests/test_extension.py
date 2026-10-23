@@ -1,5 +1,6 @@
 """Probe pass-through, catalog policy and staging without touching a display."""
 import importlib.util
+import gzip
 import json
 import os
 from pathlib import Path
@@ -138,11 +139,13 @@ class CatalogTests(unittest.TestCase):
                 updater.fetch_catalog(lambda url: response, limit=1)
 
     def test_release_requires_checksum_and_correct_architecture(self):
-        data = {'tag_name': 'GE-Proton11-9', 'published_at': '2026-10-17T18:00:00Z', 'assets': [
+        data = {'tag_name': 'GE-Proton11-9', 'body': '- Fix game launch',
+                'published_at': '2026-10-17T18:00:00Z', 'assets': [
             {'name': 'GE-Proton11-9-x86_64.tar.gz', 'browser_download_url':
              'https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton11-9/GE-Proton11-9-x86_64.tar.gz',
              'digest': 'sha256:' + 'a' * 64}]}
         self.assertEqual(updater.fetch_release(lambda url: data)['sha256'], 'a' * 64)
+        self.assertEqual(updater.fetch_release(lambda url: data)['notes'], '- Fix game launch')
         data['assets'][0]['digest'] = None
         with self.assertRaises((ValueError, TypeError)):
             updater.fetch_release(lambda url: data)
@@ -179,6 +182,7 @@ class VersionTests(unittest.TestCase):
             with patch.object(updater, 'MANIFEST', root / 'manifest.yml'), \
                  patch.object(updater, 'CATALOG', root / 'catalog.json'), \
                  patch.object(updater, 'BUILD_INFO', root / 'build-info.json'), \
+                 patch.object(updater, 'RELEASE_NOTES', root / 'release-notes.json'), \
                  patch.object(updater, 'fetch_release', return_value=release()) as ge, \
                  patch.object(updater, 'fetch_catalog', return_value=catalog), \
                  patch.object(updater, 'fetch_page_revision', return_value=revision()) as page, \
@@ -199,6 +203,62 @@ class VersionTests(unittest.TestCase):
                 page.return_value = revision('2026-10-23T12:00:00Z')
                 refresh('true')
                 self.assertIn('version=11-12-20261023\n', output.read_text())
+
+
+class ReleaseNotesTests(unittest.TestCase):
+    def test_catalog_diff_includes_additions_removals_changes_and_renames(self):
+        old = {'games': {'10': {'title': 'Gone', 'hdr': 'limited'},
+                         '11': {'title': 'Changed', 'hdr': 'hackable'},
+                         '12': {'title': 'Old title', 'hdr': 'true'}}}
+        new = {'games': {'11': {'title': 'Changed', 'hdr': 'true'},
+                         '12': {'title': 'New title', 'hdr': 'true'},
+                         '13': {'title': 'New & HDR', 'hdr': 'limited'}}}
+        info = updater.build_info(release(), revision())
+        ge = dict(release(), notes='- Fix controllers\n- Fix HDR')
+        notes = updater.release_notes(ge, info, new, old, {'proton': 'GE-Proton11-10'}, [])
+        entry = notes[0]
+        self.assertIn('GE-Proton11-10 to GE-Proton11-11', entry['paragraphs'][0])
+        self.assertEqual(entry['proton_notes'], ge['notes'])
+        self.assertEqual(entry['catalog_changes'], [
+            'Removed: Gone (Steam 10; HDR was limited).',
+            'Updated: Changed (Steam 11); HDR: hackable → true.',
+            'Renamed: Old title → New title (Steam 12).',
+            'Added: New & HDR (Steam 13; HDR: limited).'])
+        self.assertEqual(updater.release_notes(ge, info, new, new, info, notes), notes)
+
+    def test_catalog_only_update_and_history_with_same_version(self):
+        info = updater.build_info(release(), revision())
+        old = {'games': {'10': {'title': 'Example', 'hdr': 'hackable'}}}
+        new = {'games': {'10': {'title': 'Example', 'hdr': 'true'}}}
+        history = [{'version': info['version']}, {'version': 'older'}]
+        notes = updater.release_notes(dict(release(), notes='Old upstream notes'),
+                                      info, new, old, info, history)
+        self.assertIn('unchanged', notes[0]['paragraphs'][0])
+        self.assertEqual(notes[0]['proton_notes'], '')
+        self.assertEqual([entry['version'] for entry in notes], [info['version'], 'older'])
+
+    def test_appstream_escapes_upstream_markup_and_retains_release_history(self):
+        info = updater.build_info(release(), revision())
+        notes = [{'version': info['version'], 'date': info['release_date'],
+                  'paragraphs': ['New & improved'], 'catalog_changes': ['Added: A & B'],
+                  'proton_notes': '## Fixes\n- Fix <game> & controller\n- **HDR** [fix](https://example.com)',
+                  'url': 'https://example.com/release'}]
+        notes.append(dict(notes[0], version='11-10-20260825'))
+        with tempfile.TemporaryDirectory() as temp:
+            target = Path(temp) / 'metainfo.xml'
+            template = ROOT / 'steam' / (staging.APP_ID + '.metainfo.xml')
+            staging.install_metainfo(template, target, info, notes)
+            metadata = ET.parse(target)
+            self.assertEqual(metadata.findtext('id'), updater.APP_ID)
+            self.assertEqual(metadata.findtext('name'), 'Proton-GE HDR')
+            self.assertEqual(len(metadata.findall('releases/release')), 2)
+            self.assertIsNone(metadata.find('.//game'))
+            text = list(metadata.find('releases/release/description').itertext())
+            self.assertIn('Fix <game> & controller', text)
+            self.assertIn('HDR fix', text)
+            self.assertEqual(metadata.findtext('releases/release/url'), notes[0]['url'])
+            with self.assertRaisesRegex(ValueError, 'do not match'):
+                staging.install_metainfo(template, target, dict(info, version='wrong'), notes)
 
 
 class PackageTests(unittest.TestCase):
@@ -227,6 +287,8 @@ raise SystemExit(23)
             (data / 'CATALOG-LICENSE.txt').write_text('PCGamingWiki attribution fixture')
             info = updater.build_info(release(), revision())
             (data / 'build-info.json').write_text(json.dumps(info))
+            notes = updater.release_notes(release(), info, {'games': {}}, {}, {}, [])
+            (data / 'release-notes.json').write_text(json.dumps(notes))
             catalog = data / 'hdr-games.json'
             catalog.write_text(json.dumps({'version': 1, 'games': {'10': {'hdr': 'true'}},
                                            'source': updater.SOURCE, 'license_url': 'license'}))
@@ -240,12 +302,14 @@ raise SystemExit(23)
             self.assertEqual((destination / 'toolmanifest.vdf.upstream').read_text(), 'upstream metadata')
             self.assertIn('proton-ge-hdr-toggler', (destination / 'compatibilitytool.vdf').read_text())
             self.assertIn('"proton-ge-hdr-toggler"', (destination / 'compatibilitytool.vdf').read_text())
-            self.assertIn('"display_name" "proton-ge-hdr-toggler 11-11-20260825"',
+            self.assertIn('"display_name" "Proton-GE HDR 11-11-20260825"',
                           (destination / 'compatibilitytool.vdf').read_text())
             metainfo = ET.parse(destination / 'share/metainfo' /
-                                'com.valvesoftware.Steam.CompatibilityTool.proton-ge-hdr-toggler.metainfo.xml')
+                                'com.valvesoftware.Steam.CompatibilityTool.Proton-GE-HDR.metainfo.xml')
             self.assertEqual(metainfo.find('releases/release').attrib,
                              {'version': '11-11-20260825', 'date': '2026-10-19'})
+            self.assertEqual(metainfo.findtext('name'), 'Proton-GE HDR')
+            self.assertIsNotNone(metainfo.find('releases/release/description/p'))
             self.assertEqual(json.loads((destination / 'share/proton-ge-hdr-toggler/build-info.json').read_text()), info)
             installed = {str(path.relative_to(destination)) for path in destination.rglob('*') if path.is_file()}
             self.assertIn('lib/proton-ge-hdr-toggler/runner.py', installed)
@@ -284,13 +348,34 @@ raise SystemExit(23)
             source = root / 'build-info.json'
             source.write_text(json.dumps(info))
             arguments = ['publish.py', '--repository', str(repository), '--url', 'https://example.com/repo',
-                         '--gpg-key', 'test-key', '--build-info', str(source)]
+                         '--gpg-key', 'test-key', '--build-info', str(source), '--build-directory', str(root)]
+            catalog = root / 'files/share/app-info/xmls' / (publisher.APP_ID + '.xml.gz')
+            catalog.parent.mkdir(parents=True)
+            notes = updater.release_notes(release(), info, {'games': {}}, {}, {}, [])
+            target = root / 'metainfo.xml'
+            staging.install_metainfo(ROOT / 'steam' / (staging.APP_ID + '.metainfo.xml'), target, info, notes)
+            components = ET.Element('components')
+            components.append(ET.parse(target).getroot())
+            catalog.write_bytes(gzip.compress(ET.tostring(components)))
             with patch.object(sys, 'argv', arguments), patch.object(publisher.subprocess, 'run') as run, \
                  patch.object(publisher.subprocess, 'check_output', return_value=b'public-key'):
                 publisher.main()
             self.assertNotIn('--no-update-appstream', run.call_args.args[0])
             self.assertEqual(json.loads((repository / 'build-info.json').read_text()), info)
             self.assertIn('DefaultBranch=stable', (repository / 'proton-ge-hdr-toggler.flatpakrepo').read_text())
+            self.assertIn('Title=Proton-GE HDR', (repository / 'proton-ge-hdr-toggler.flatpakrepo').read_text())
+            components.find('component/name').text = 'Wrong name'
+            catalog.write_bytes(gzip.compress(ET.tostring(components)))
+            with self.assertRaisesRegex(ValueError, 'name or ID'):
+                publisher.check_catalog(root, info)
+            components.find('component/name').text = 'Proton-GE HDR'
+            components.find('component/releases/release').remove(components.find('component/releases/release/description'))
+            catalog.write_bytes(gzip.compress(ET.tostring(components)))
+            with self.assertRaisesRegex(ValueError, 'release notes'):
+                publisher.check_catalog(root, info)
+            catalog.unlink()
+            with self.assertRaisesRegex(ValueError, 'Missing composed'):
+                publisher.check_catalog(root, info)
 
 
 if __name__ == '__main__':

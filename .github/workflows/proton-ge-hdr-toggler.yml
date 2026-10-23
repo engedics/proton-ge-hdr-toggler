@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  MANIFEST: flatpak/com.valvesoftware.Steam.CompatibilityTool.proton-ge-hdr-toggler.yml
+  MANIFEST: flatpak/com.valvesoftware.Steam.CompatibilityTool.Proton-GE-HDR.yml
 
 jobs:
   prepare:
@@ -85,9 +85,9 @@ jobs:
           path: .
       - name: Install dependencies
         run: |
-          if ! command -v flatpak-builder >/dev/null || ! /usr/bin/python3 -c 'import gi' 2>/dev/null; then
+          if ! command -v flatpak-builder >/dev/null || ! /usr/bin/python3 -c 'import gi' 2>/dev/null || ! appstreamcli compose --help >/dev/null 2>&1; then
             sudo apt-get update
-            sudo apt-get install -y flatpak flatpak-builder python3-gi gir1.2-glib-2.0 gnupg
+            sudo apt-get install -y flatpak flatpak-builder appstream-compose python3-gi gir1.2-glib-2.0 gnupg
           fi
           flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
       - name: Enable Flatpak build sandboxes on hosted Ubuntu
@@ -117,8 +117,8 @@ jobs:
           GNUPGHOME=$(mktemp -d)
           trap 'rm -rf "$GNUPGHOME"' EXIT
           printf '%s' "$SIGNING_KEY" | gpg --batch --import
-          flatpak-builder --user --assumeyes --install-deps-from=flathub --force-clean --disable-rofiles-fuse --subject="proton-ge-hdr-toggler $VERSION" --gpg-sign="$SIGNING_ID" --repo=dist/repo dist/build "$MANIFEST"
-          /usr/bin/python3 scripts/publish.py --repository dist/repo --gpg-key "$SIGNING_ID" --url "$REPO_URL" --build-info data/build-info.json
+          flatpak-builder --user --assumeyes --install-deps-from=flathub --force-clean --disable-rofiles-fuse --subject="Proton-GE HDR $VERSION" --gpg-sign="$SIGNING_ID" --repo=dist/repo dist/build "$MANIFEST"
+          /usr/bin/python3 scripts/publish.py --repository dist/repo --gpg-key "$SIGNING_ID" --url "$REPO_URL" --build-info data/build-info.json --build-directory dist/build
       - name: Upload repository
         uses: actions/upload-pages-artifact@v3
         with:
@@ -139,7 +139,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add "$MANIFEST" data/hdr-games.json data/build-info.json
+          git add "$MANIFEST" data/hdr-games.json data/build-info.json data/release-notes.json
           if ! git diff --cached --quiet; then
             git commit -m "Update proton-ge-hdr-toggler to $VERSION"
             git push

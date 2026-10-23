@@ -1,0 +1,17 @@
+[
+  {
+    "version": "11-11-20260825",
+    "date": "2026-10-19",
+    "paragraphs": [
+      "Displays the name Proton-GE HDR in software metadata and Steam.",
+      "Adds upgrade notes with HDR game list changes and Proton-GE release information.",
+      "Uses the Flatpak identifier com.valvesoftware.Steam.CompatibilityTool.Proton-GE-HDR; existing installations need a one-time reinstall.",
+      "Includes GE-Proton11-11."
+    ],
+    "catalog_changes": [
+      "No HDR game list changes."
+    ],
+    "proton_notes": "# GE-Proton11-11\r\n\r\nHotfix Release\r\n\r\nChanges since GE-Proton11-10.\r\n\r\n## Video Playback\r\n\r\n- Fixed games freezing when a video is skipped or closed while MPEG-1 audio is playing through\r\nDirectShow (deadlock in the MPEG audio decoder, a regression since GE-Proton11-8)\r\n([#865](https://github.com/GloriousEggroll/proton-ge-custom/issues/865)).\r\n- Fixed MPEG-1 videos played through AMStream showing upside down (a regression since GE-Proton11-1)\r\n([#863](https://github.com/GloriousEggroll/proton-ge-custom/issues/863)).\r\n- Fixed heap corruption and crashes from video frames that are converted or scaled, e.g. Target Bravo:\r\nOperation G.H.O.S.T. crashing when entering stage select\r\n([#864](https://github.com/GloriousEggroll/proton-ge-custom/pull/864), thanks @aderumier).\r\n\r\n## Rendering and HDR\r\n\r\n- Fixed Easy Anti-Cheat kicking Star Citizen with \"Violation 8 - Untrusted system file\"\r\n(`StarCitizen_Launcher.exe`, error 30033) since GE-Proton11-7. The same issue affects Hunt: Showdown\r\n(`hunt.exe`) when launched outside Steam. VKD3D-Proton no longer reads the parent process's executable\r\nto detect Unreal Engine games ([#858](https://github.com/GloriousEggroll/proton-ge-custom/issues/858),\r\n[vkd3d-proton#3348](https://github.com/HansKristian-Work/vkd3d-proton/issues/3348)).\r\n- Removed the Star Citizen native AMD AGS override added in GE-Proton11-10. It was not the cause of the\r\nEAC violation.\r\n- Space Marine 2 was also reported broken in 11-10, but worked when tested with the above mentioned changes.\r\n\r\n## Protonfixes\r\n\r\n- Star Citizen: install .NET 4.8 for the new RSI Launcher.\r\n- Windows version fixes (`win10`, `win7`, etc.) are now re-applied when a later winetricks install\r\nchanges the Windows version. Previously a failed or partial .NET install could leave a prefix on\r\nWindows XP.\r\n- Added fixes for the BepInEx, MelonLoader and FrostyModManager mod loaders.\r\n- Call of Duty (2003): fixed the game fix not running.\r\n- Ceville: respect `PROTON_USE_XALIA` if it is already set.\r\n- Removed the unused `amdxcffx64` winetricks verb and updated the umu database.\r\n\r\n",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-11"
+  }
+]

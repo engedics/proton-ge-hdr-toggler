@@ -4,6 +4,29 @@ The workflow checks GE releases and PCGamingWiki daily, rebuilds when inputs
 change, publishes a signed Flatpak repository through Pages, and commits the
 updated manifest/catalog. Source pushes and manual dispatch also build it.
 
+The display name is **Proton-GE HDR**. Its Flatpak ID is
+`com.valvesoftware.Steam.CompatibilityTool.Proton-GE-HDR`; the existing repository
+URL, remote name, Steam tool ID and runtime data paths remain unchanged.
+Existing users migrate using the reinstall commands in the README. Publish the
+new ID before running those commands; the rename is not an automatic rebase.
+
+`data/release-notes.json` retains the five most recent distinct versions.
+The updater compares the catalog with the last committed published catalog and
+records added/removed AppIDs, HDR support changes and title changes. Proton-GE
+updates include the latest upstream release body's notes and a link to that
+release. Skipped upstream releases are available through upstream's release
+history. Unchanged refreshes preserve existing notes and do not trigger builds.
+When successive catalog changes share a version, that version's notes describe
+the latest update. Keep manual packaging notes in the current entry's
+`paragraphs` when publishing a source-only change.
+
+The installer converts this history to AppStream release descriptions and
+escapes upstream text. Flatpak Builder must be at least 1.3.4 so extension
+metadata is composed into `share/app-info/xmls`; its host must also have the
+AppStream compose tools installed. Publication generates the repository's
+AppStream branch for software stores. The workflow checks the composed catalog
+before deploying, including its name, component ID and release notes.
+
 Versions use `PROTON_VERSION-YYYYMMDD`, taking the date from the HDR list page's
 latest MediaWiki revision, not the download date. Game article edits can change
 the catalog without changing that date; catalog changes still trigger a build.

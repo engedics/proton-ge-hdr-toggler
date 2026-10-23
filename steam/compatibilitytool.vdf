@@ -5,7 +5,7 @@
         "proton-ge-hdr-toggler"
         {
             "install_path" "."
-            "display_name" "proton-ge-hdr-toggler @VERSION@"
+            "display_name" "Proton-GE HDR @VERSION@"
             "from_oslist" "windows"
             "to_oslist" "linux"
         }

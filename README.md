@@ -1,30 +1,28 @@
-# proton-ge-hdr-toggler
+# Proton-GE HDR
 
-For **Flatpak Steam on GNOME Wayland**: enables monitor HDR before listed HDR
-games start and restores the previous mode on exit. Bundles Proton-GE and a
-[PCGamingWiki HDR catalog](<https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)>),
-updated through GitHub Actions. It toggles desktop HDR; games still need HDR enabled.
+For **Flatpak Steam on GNOME Wayland**: enables monitor HDR before HDR-supported
+games start and restores the previous mode on exit. Bundles Proton-GE and works based off of
+[PCGamingWiki's HDR catalog](<https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)>).
+It toggles desktop HDR; games still need HDR enabled.
 
 ## Install
 
 ```sh
 flatpak remote-add --user --if-not-exists proton-ge-hdr-toggler https://engedics.github.io/proton-ge-hdr-toggler/proton-ge-hdr-toggler.flatpakrepo
-flatpak install --user proton-ge-hdr-toggler com.valvesoftware.Steam.CompatibilityTool.proton-ge-hdr-toggler
-```
-
-## After installation
-
-Run once:
-
-```sh
+flatpak install --user proton-ge-hdr-toggler com.valvesoftware.Steam.CompatibilityTool.Proton-GE-HDR
 flatpak override --user --talk-name=org.gnome.Mutter.DisplayConfig com.valvesoftware.Steam
 ```
 
-Restart Steam and select **proton-ge-hdr-toggler** under the game's
+Restart Steam and select **Proton-GE HDR** under the game's
 **Properties → Compatibility**, or as your default tool. No launch options are
 required. Receive updates through your software manager or `flatpak update --user`.
 The displayed version combines Proton-GE and the HDR list page's last edit date,
 for example `11-11-20260825`.
+
+GNOME Software metadata includes release notes with HDR game list additions,
+removals and support changes, plus upstream release notes when Proton-GE changes.
+If GNOME Software still shows cached metadata, refresh it with
+`flatpak update --user --appstream proton-ge-hdr-toggler` and reopen Software.
 
 Optional per-game **Launch Options**:
 
