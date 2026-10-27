@@ -3,7 +3,7 @@
   "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "source_rows": 640,
+  "source_rows": 641,
   "games": {
     "1520": {
       "title": "DEFCON",
@@ -6176,6 +6176,10 @@
     "4354700": {
       "title": "I Hate This Place",
       "hdr": "always on"
+    },
+    "4356430": {
+      "title": "NBA 2K27",
+      "hdr": "true"
     },
     "4377450": {
       "title": "Zombie Assault: Resurgence",

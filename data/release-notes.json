@@ -6,14 +6,7 @@
       "Proton-GE unchanged (GE-Proton11-11)."
     ],
     "catalog_changes": [
-      "Updated: Far Cry 6 (Steam 2369390); HDR: true → limited.",
-      "Updated: Far Cry 6 (Steam 2369450); HDR: true → limited.",
-      "Updated: Far Cry 6 (Steam 2369454); HDR: true → limited.",
-      "Updated: Far Cry 6 (Steam 2369456); HDR: true → limited.",
-      "Updated: Far Cry 6 (Steam 2369458); HDR: true → limited.",
-      "Updated: Far Cry 6 (Steam 2369470); HDR: true → limited.",
-      "Updated: Far Cry 6 (Steam 2369472); HDR: true → limited.",
-      "Added: No Rest for the Wicked (Steam 4600710; HDR: true)."
+      "Added: NBA 2K27 (Steam 4356430; HDR: true)."
     ],
     "proton_notes": "",
     "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-11"
