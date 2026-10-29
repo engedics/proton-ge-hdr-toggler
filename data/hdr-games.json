@@ -3,7 +3,7 @@
   "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "source_rows": 643,
+  "source_rows": 645,
   "games": {
     "1520": {
       "title": "DEFCON",
@@ -5633,6 +5633,14 @@
       "title": "Age of Empires IV",
       "hdr": "true"
     },
+    "3748510": {
+      "title": "Cronos: The New Dawn",
+      "hdr": "true"
+    },
+    "3748540": {
+      "title": "Cronos: The New Dawn",
+      "hdr": "true"
+    },
     "3749050": {
       "title": "Anno 117: Pax Romana",
       "hdr": "true"
@@ -5752,6 +5760,10 @@
     "3867170": {
       "title": "Sengoku Rance",
       "hdr": "hackable"
+    },
+    "3870690": {
+      "title": "Cronos: The New Dawn",
+      "hdr": "true"
     },
     "3873970": {
       "title": "NASCAR 25",
@@ -5956,6 +5968,10 @@
     "4114580": {
       "title": "BrokenLore: Unfollow",
       "hdr": "hackable"
+    },
+    "4115450": {
+      "title": "Phantom Blade Zero",
+      "hdr": "true"
     },
     "4123350": {
       "title": "Fatal Frame II: Crimson Butterfly Remake",
@@ -6393,6 +6409,10 @@
       "title": "Lords of the Fallen II",
       "hdr": "true"
     },
+    "4768180": {
+      "title": "Cronos: The New Dawn",
+      "hdr": "true"
+    },
     "4781590": {
       "title": "Tokyo Xtreme Racer",
       "hdr": "true"
@@ -6415,6 +6435,10 @@
     },
     "5028560": {
       "title": "Gears of War: E-Day",
+      "hdr": "true"
+    },
+    "5041150": {
+      "title": "Phantom Blade Zero",
       "hdr": "true"
     },
     "5250300": {

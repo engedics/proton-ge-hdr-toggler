@@ -6,7 +6,12 @@
       "Proton-GE unchanged (GE-Proton11-11)."
     ],
     "catalog_changes": [
-      "No HDR game list changes."
+      "Added: Cronos: The New Dawn (Steam 3748510; HDR: true).",
+      "Added: Cronos: The New Dawn (Steam 3748540; HDR: true).",
+      "Added: Cronos: The New Dawn (Steam 3870690; HDR: true).",
+      "Added: Phantom Blade Zero (Steam 4115450; HDR: true).",
+      "Added: Cronos: The New Dawn (Steam 4768180; HDR: true).",
+      "Added: Phantom Blade Zero (Steam 5041150; HDR: true)."
     ],
     "proton_notes": "",
     "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-11"
