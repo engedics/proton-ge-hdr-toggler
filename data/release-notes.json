@@ -6,7 +6,8 @@
       "Proton-GE unchanged (GE-Proton11-11)."
     ],
     "catalog_changes": [
-      "Added: Resonance of Fate 4K/HD Edition (Steam 645730; HDR: true)."
+      "Added: Arx Fatalis (Steam 1700; HDR: hackable).",
+      "Added: Arx Fatalis (Steam 1710; HDR: hackable)."
     ],
     "proton_notes": "",
     "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-11"
