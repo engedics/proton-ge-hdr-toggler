@@ -1,5 +1,17 @@
 [
   {
+    "version": "11-11-20261102",
+    "date": "2026-11-02",
+    "paragraphs": [
+      "Proton-GE unchanged (GE-Proton11-11)."
+    ],
+    "catalog_changes": [
+      "No HDR game list changes."
+    ],
+    "proton_notes": "",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-11"
+  },
+  {
     "version": "11-11-20260825",
     "date": "2026-10-19",
     "paragraphs": [
