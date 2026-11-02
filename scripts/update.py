@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh pinned GE release and complete PCGamingWiki HDR catalog atomically."""
 import argparse
-from datetime import datetime
+from datetime import datetime, timezone
 from html.parser import HTMLParser
 import json
 import os
@@ -165,13 +165,34 @@ def utc_timestamp(value):
     return datetime.fromisoformat(value.replace('Z', '+00:00'))
 
 
-def build_info(release, revision):
+def catalog_timestamp(catalog, previous_catalog, previous_info, *, now=None):
+    previous = previous_info.get('hdr_catalog_updated_at')
+    if previous and catalog == previous_catalog:
+        utc_timestamp(previous)
+        return previous
+    return (now or datetime.now(timezone.utc)).astimezone(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
+def build_info(release, revision, *, catalog_updated_at=None, previous_info=None, catalog_changed=False):
     proton_date = utc_timestamp(release['published_at']).date()
     page_date = utc_timestamp(revision['timestamp']).date()
-    return {'version': release['version'].removeprefix('GE-Proton') + '-' + page_date.strftime('%Y%m%d'),
+    catalog_date = utc_timestamp(catalog_updated_at).date() if catalog_updated_at else page_date
+    version = release['version'].removeprefix('GE-Proton') + '-' + catalog_date.strftime('%Y%m%d')
+    previous_info = previous_info or {}
+    previous_version = previous_info.get('version', '')
+    match = re.fullmatch(re.escape(version) + r'(?:\.(\d+))?', previous_version)
+    if match:
+        if not catalog_changed and previous_info.get('hdr_catalog_updated_at') == catalog_updated_at:
+            version = previous_version
+        else:
+            version += '.' + str(int(match[1] or 1) + 1)
+    info = {'version': version,
             'proton': release['version'], 'proton_published_at': release['published_at'],
             'hdr_page_revision': revision['id'], 'hdr_page_updated_at': revision['timestamp'],
-            'release_date': max(proton_date, page_date).isoformat()}
+            'release_date': max(proton_date, page_date, catalog_date).isoformat()}
+    if catalog_updated_at:
+        info['hdr_catalog_updated_at'] = catalog_updated_at
+    return info
 
 
 def manifest(release):
@@ -268,8 +289,7 @@ def release_notes(release, info, catalog, previous_catalog, previous_info, histo
              'paragraphs': [summary], 'catalog_changes': changes,
              'proton_notes': notes,
              'url': 'https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/' + info['proton']}
-    # Catalog-only updates can share the list page's date (and version).
-    # Show the latest published diff for that version without duplicate releases.
+    # Keep source-only rebuilds of a version from creating duplicate releases.
     return [entry] + [item for item in history if item['version'] != info['version']][:4]
 
 
@@ -279,11 +299,13 @@ def main():
     args = parser.parse_args()
     # Fetch and validate all inputs before replacing any checked-in files.
     release, catalog, revision = fetch_release(), fetch_catalog(), fetch_page_revision()
-    info = build_info(release, revision)
     if catalog['source_rows'] < 100 or len(catalog['games']) < 100:
         raise ValueError('Unexpectedly small catalog; retaining previous inputs')
     old = json.loads(CATALOG.read_text()) if CATALOG.exists() else {}
     previous_info = json.loads(BUILD_INFO.read_text()) if BUILD_INFO.exists() else {}
+    timestamp = catalog_timestamp(catalog, old, previous_info)
+    info = build_info(release, revision, catalog_updated_at=timestamp,
+                      previous_info=previous_info, catalog_changed=catalog != old)
     history = json.loads(RELEASE_NOTES.read_text()) if RELEASE_NOTES.exists() else []
     if old and not args.allow_large_catalog_change:
         if catalog['source_rows'] < old['source_rows'] * 0.75 or len(catalog['games']) < len(old['games']) * 0.75:
@@ -298,6 +320,7 @@ def main():
         changed |= write_changed(path, contents.encode())
     print(f"{info['version']}: {catalog['source_rows']} wiki games, {len(catalog['games'])} Steam IDs; changed={changed}")
     print(f"HDR list page last edited: {revision['timestamp']} (revision {revision['id']})")
+    print(f"HDR catalog snapshot updated: {timestamp}")
     if output := os.environ.get('GITHUB_OUTPUT'):
         with open(output, 'a') as stream:
             stream.write(f"version={info['version']}\nchanged={str(changed).lower()}\n")

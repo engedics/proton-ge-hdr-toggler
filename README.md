@@ -16,8 +16,9 @@ flatpak override --user --talk-name=org.gnome.Mutter.DisplayConfig com.valvesoft
 Restart Steam and select **Proton-GE HDR** under the game's
 **Properties → Compatibility**, or as your default tool. No launch options are
 required. Receive updates through your software manager or `flatpak update --user`.
-The displayed version combines Proton-GE and the HDR list page's last edit date,
-for example `11-11-20260825`.
+The displayed version combines Proton-GE and the UTC date when the HDR catalog
+snapshot changed, for example `11-11-20261102`. Further catalog updates on the
+same day append `.2`, `.3`, and so on. Unchanged daily checks keep the version.
 
 GNOME Software metadata includes release notes with HDR game list additions,
 removals and support changes, plus upstream release notes when Proton-GE changes.
@@ -30,6 +31,21 @@ Optional per-game **Launch Options**:
 - `AUTOHDR=0 %command%`: disable automatic HDR switching; leave the monitor's current mode unchanged.
 
 Remove the override to use the catalog again.
+
+If MangoHud is missing with Proton's Wayland driver on an older package, GE's
+Wayland overlay may have replaced Vulkan's implicit-layer search path. Updated
+packages preserve normal layer discovery. Until updating, this per-game launch
+option includes Flatpak's layer directory while retaining GE's own additions:
+
+```sh
+VK_IMPLICIT_LAYER_PATH=/usr/lib/extensions/vulkan/share/vulkan/implicit_layer.d %command%
+```
+
+[Faugus Launcher Flatpak support](docs/FAUGUS.md) reuses this installed Proton-GE
+through a lightweight selectable **ProtonGEHDR** runner. It needs no second Proton
+download. Install with `python3 scripts/faugus.py install`, then apply the narrowly
+scoped permission command it prints. The linked guide covers runner selection,
+HDR settings, updates, testing and removal.
 
 [GitHub publishing setup](docs/PUBLISHING.md)
 

@@ -7,6 +7,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / 'lib/proton-ge-hdr-toggler'))
+from policy import HELPERS, wants_hdr
 
 
 def game_id(arguments, environment):
@@ -14,9 +15,7 @@ def game_id(arguments, environment):
     # These checks precede even the manual force override.
     if not arguments or arguments[0] not in ('run', 'waitforexitandrun'):
         return None
-    helpers = {'d3ddriverquery.exe', 'd3ddriverquery64.exe', 'iscriptevaluator.exe', 'wineboot.exe',
-               'wineserver', 'winedevice.exe', 'steamservice.exe'}
-    if any(value.replace('\\', '/').rsplit('/', 1)[-1].lower() in helpers
+    if any(value.replace('\\', '/').rsplit('/', 1)[-1].lower() in HELPERS
            for value in arguments[1:]):
         return None
     prefix = environment.get('STEAM_COMPAT_DATA_PATH', '')
@@ -30,15 +29,6 @@ def game_id(arguments, environment):
            not 0 < int(value) < 2**32 for value in identities):
         return None
     return identities[0] if len(set(identities)) == 1 else None
-
-
-def wants_hdr(appid, catalog, environment):
-    override = environment.get('AUTOHDR')
-    if override in ('0', '1'):
-        return override == '1'
-    entry = catalog['games'].get(appid)
-    # Mod-only games require a deliberate per-game opt-in after installing a fix.
-    return entry is not None and entry['hdr'] in ('true', 'limited', 'always on')
 
 
 def main(arguments=None):

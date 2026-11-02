@@ -4,6 +4,12 @@ The workflow checks GE releases and PCGamingWiki daily, rebuilds when inputs
 change, publishes a signed Flatpak repository through Pages, and commits the
 updated manifest/catalog. Source pushes and manual dispatch also build it.
 
+The same workflow bundles the lightweight Faugus adapter installer as
+`ProtonGEHDR-faugus.tar.gz` beside the published Flatpak repository. This bundle
+contains the shared HDR Python modules and installer, and references the user's
+existing Steam extension instead of bundling Proton-GE a second time.
+See [Faugus installation and architecture](FAUGUS.md).
+
 The display name is **Proton-GE HDR**. Its Flatpak ID is
 `com.valvesoftware.Steam.CompatibilityTool.Proton-GE-HDR`; the existing repository
 URL, remote name, Steam tool ID and runtime data paths remain unchanged.
@@ -16,8 +22,8 @@ records added/removed AppIDs, HDR support changes and title changes. Proton-GE
 updates include the latest upstream release body's notes and a link to that
 release. Skipped upstream releases are available through upstream's release
 history. Unchanged refreshes preserve existing notes and do not trigger builds.
-When successive catalog changes share a version, that version's notes describe
-the latest update. Keep manual packaging notes in the current entry's
+Each catalog change gets a distinct version, including numbered updates on the
+same day. Keep manual packaging notes in the current entry's
 `paragraphs` when publishing a source-only change.
 
 The installer converts this history to AppStream release descriptions and
@@ -27,9 +33,13 @@ AppStream compose tools installed. Publication generates the repository's
 AppStream branch for software stores. The workflow checks the composed catalog
 before deploying, including its name, component ID and release notes.
 
-Versions use `PROTON_VERSION-YYYYMMDD`, taking the date from the HDR list page's
-latest MediaWiki revision, not the download date. Game article edits can change
-the catalog without changing that date; catalog changes still trigger a build.
+Versions use `PROTON_VERSION-YYYYMMDD`, taking the UTC date when changed catalog
+contents are collected. Unchanged checks retain `hdr_catalog_updated_at` and the
+version even on later days. Additional catalog updates on the same date use `.2`,
+`.3`, and so on. This also covers changes to individual game articles that do
+not update the list article's revision date. That article's timestamp remains
+recorded separately as source metadata. The first refresh after migrating from
+the old article-date scheme records the current catalog snapshot date once.
 The version appears in Flatpak's AppStream metadata, Steam's display name, the
 build/deploy job and artifact names, and the repository's `build-info.json`.
 Steam's internal tool ID and Flatpak's `stable` branch stay fixed across updates.
@@ -83,6 +93,13 @@ source downloads, tests and workflow files stay outside the extension.
 The entry point excludes Steam's prerequisite evaluator from HDR activation.
 The installer moves GE's conflicting xkbcommon libraries outside its loader
 path, allowing Flatpak's matching SDL3/xkbcommon pair to handle controllers.
+It also changes GE's bundled Vulkan-layer additions to use
+`VK_ADD_IMPLICIT_LAYER_PATH`. GE's original `VK_IMPLICIT_LAYER_PATH` additions
+replace standard discovery and can hide Flatpak's MangoHud when enabling the
+Wayland Steam overlay, Reflex or other bundled layers. The additive form keeps
+standard discovery and explicit user overrides intact; when patched, the
+original script is retained as `proton-real.upstream`. Faugus shares the same
+patched Proton through its linked backend.
 Upstream manifests and moved libraries remain available for reference. The
 legacy state-journal directory is retained so older sessions remain recoverable.
 

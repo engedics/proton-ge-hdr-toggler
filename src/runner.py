@@ -14,7 +14,7 @@ def log(message):
     print(f'proton-ge-hdr-toggler: {message}', file=sys.stderr, flush=True)
 
 
-def supervise(command, *, monitor=None, strict=False, sessions=None):
+def supervise(command, *, monitor=None, strict=False, sessions=None, environment=None):
     sessions = sessions if sessions is not None else Sessions()
     lease = None
     child = None
@@ -44,7 +44,7 @@ def supervise(command, *, monitor=None, strict=False, sessions=None):
         if interrupted is not None:
             return 128 + interrupted
         try:
-            child = subprocess.Popen(command, start_new_session=True)
+            child = subprocess.Popen(command, start_new_session=True, env=environment)
         except FileNotFoundError as exc:
             log(str(exc))
             return 127

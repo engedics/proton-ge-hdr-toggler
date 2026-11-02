@@ -13,6 +13,7 @@ on:
       - 'data/**'
       - 'flatpak/**'
       - 'tests/**'
+      - 'docs/FAUGUS.md'
       - 'LICENSE'
       - '.github/workflows/proton-ge-hdr-toggler.yml'
 
@@ -98,6 +99,8 @@ jobs:
           fi
       - name: Test
         run: /usr/bin/python3 -m unittest discover -s tests -v
+      - name: Bundle lightweight Faugus installer
+        run: /usr/bin/python3 scripts/faugus.py bundle
       - name: Cache upstream downloads
         uses: actions/cache@v4
         with:
@@ -118,7 +121,7 @@ jobs:
           trap 'rm -rf "$GNUPGHOME"' EXIT
           printf '%s' "$SIGNING_KEY" | gpg --batch --import
           flatpak-builder --user --assumeyes --install-deps-from=flathub --force-clean --disable-rofiles-fuse --subject="Proton-GE HDR $VERSION" --gpg-sign="$SIGNING_ID" --repo=dist/repo dist/build "$MANIFEST"
-          /usr/bin/python3 scripts/publish.py --repository dist/repo --gpg-key "$SIGNING_ID" --url "$REPO_URL" --build-info data/build-info.json --build-directory dist/build
+          /usr/bin/python3 scripts/publish.py --repository dist/repo --gpg-key "$SIGNING_ID" --url "$REPO_URL" --build-info data/build-info.json --build-directory dist/build --faugus-bundle dist/ProtonGEHDR-faugus.tar.gz
       - name: Upload repository
         uses: actions/upload-pages-artifact@v3
         with:

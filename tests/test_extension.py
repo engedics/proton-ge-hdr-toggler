@@ -1,6 +1,7 @@
 """Probe pass-through, catalog policy and staging without touching a display."""
 import importlib.util
 import gzip
+from datetime import datetime, timezone
 import json
 import os
 from pathlib import Path
@@ -152,6 +153,35 @@ class CatalogTests(unittest.TestCase):
 
 
 class VersionTests(unittest.TestCase):
+    def test_catalog_date_tracks_contents_without_daily_version_churn(self):
+        old = {'games': {'10': {'hdr': 'true'}}}
+        changed = {'games': {'10': {'hdr': 'limited'}}}
+        now = datetime(2026, 11, 2, 12, tzinfo=timezone.utc)
+        timestamp = updater.catalog_timestamp(old, old, {}, now=now)
+        first = updater.build_info(release(), revision(), catalog_updated_at=timestamp)
+        self.assertEqual(first['version'], '11-11-20261102')
+        self.assertEqual(first['release_date'], '2026-11-02')
+        tomorrow = datetime(2026, 11, 3, 12, tzinfo=timezone.utc)
+        self.assertEqual(updater.catalog_timestamp(old, old, first, now=tomorrow), timestamp)
+        timestamp = updater.catalog_timestamp(changed, old, first, now=tomorrow)
+        second = updater.build_info(release(), revision(), catalog_updated_at=timestamp,
+                                    previous_info=first, catalog_changed=True)
+        self.assertEqual(second['version'], '11-11-20261103')
+        self.assertEqual(second['hdr_page_updated_at'], '2026-08-25T16:22:25Z')
+
+    def test_multiple_updates_in_one_day_get_distinct_versions_even_in_same_second(self):
+        timestamp = '2026-11-02T12:00:00Z'
+        first = updater.build_info(release(), revision(), catalog_updated_at=timestamp)
+        second = updater.build_info(release(), revision(), catalog_updated_at=timestamp,
+                                    previous_info=first, catalog_changed=True)
+        self.assertEqual(second['version'], '11-11-20261102.2')
+        unchanged = updater.build_info(release(), revision(), catalog_updated_at=timestamp,
+                                       previous_info=second)
+        self.assertEqual(unchanged, second)
+        third = updater.build_info(release(), revision(), catalog_updated_at=timestamp,
+                                   previous_info=second, catalog_changed=True)
+        self.assertEqual(third['version'], '11-11-20261102.3')
+
     def test_version_uses_page_edit_date_and_proton_version(self):
         info = updater.build_info(release(), revision())
         self.assertEqual(info['version'], '11-11-20260825')
@@ -176,6 +206,7 @@ class VersionTests(unittest.TestCase):
     def test_refresh_detects_release_catalog_and_page_changes_without_daily_rebuilds(self):
         catalog = {'version': 1, 'source_rows': 100,
                    'games': {str(n): {'hdr': 'true'} for n in range(1, 101)}}
+        catalog_timestamp = updater.catalog_timestamp
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             output = root / 'output'
@@ -186,6 +217,8 @@ class VersionTests(unittest.TestCase):
                  patch.object(updater, 'fetch_release', return_value=release()) as ge, \
                  patch.object(updater, 'fetch_catalog', return_value=catalog), \
                  patch.object(updater, 'fetch_page_revision', return_value=revision()) as page, \
+                 patch.object(updater, 'catalog_timestamp', side_effect=lambda *args:
+                              catalog_timestamp(*args, now=datetime(2026, 11, 2, 12, tzinfo=timezone.utc))), \
                  patch.dict(os.environ, GITHUB_OUTPUT=str(output)), patch.object(sys, 'argv', ['update.py']):
                 def refresh(expected):
                     output.write_text('')
@@ -193,16 +226,17 @@ class VersionTests(unittest.TestCase):
                     self.assertIn(f'changed={expected}\n', output.read_text())
                 refresh('true')
                 refresh('false')
-                self.assertIn('version=11-11-20260825\n', output.read_text())
+                self.assertIn('version=11-11-20261102\n', output.read_text())
                 ge.return_value = release('GE-Proton11-12')
                 refresh('true')
-                self.assertIn('version=11-12-20260825\n', output.read_text())
+                self.assertIn('version=11-12-20261102\n', output.read_text())
                 catalog['games']['1']['hdr'] = 'limited'
                 refresh('true')  # Game articles can change without editing the list page.
+                self.assertIn('version=11-12-20261102.2\n', output.read_text())
                 refresh('false')
                 page.return_value = revision('2026-10-23T12:00:00Z')
                 refresh('true')
-                self.assertIn('version=11-12-20261023\n', output.read_text())
+                self.assertIn('version=11-12-20261102.2\n', output.read_text())
 
 
 class ReleaseNotesTests(unittest.TestCase):
@@ -262,6 +296,37 @@ class ReleaseNotesTests(unittest.TestCase):
 
 
 class PackageTests(unittest.TestCase):
+    def test_ge_layer_paths_are_additive_and_preserve_user_overrides(self):
+        source = '''def append_to_env_str(env, key, value, separator):
+    env[key] = separator.join(filter(None, (env.get(key), value)))
+class Session:
+    def __init__(self, env):
+        self.env = env
+    def setup(self):
+        append_to_env_str(self.env, "VK_IMPLICIT_LAYER_PATH", "/ge/reflex", ":")
+        append_to_env_str(
+            self.env,
+            'VK_IMPLICIT_LAYER_PATH',
+            "/ge/wayland", ":")
+        return self.env.get("VK_IMPLICIT_LAYER_PATH")
+'''
+        with tempfile.TemporaryDirectory() as temp:
+            proton = Path(temp) / 'proton-real'
+            proton.write_text(source)
+            proton.chmod(0o755)
+            self.assertEqual(staging.preserve_vulkan_layer_discovery(proton), 2)
+            namespace = {}
+            exec(compile(proton.read_text(), str(proton), 'exec'), namespace)
+            env = {'VK_ADD_IMPLICIT_LAYER_PATH': '/user/additional'}
+            self.assertIsNone(namespace['Session'](env).setup())
+            self.assertEqual(env['VK_ADD_IMPLICIT_LAYER_PATH'], '/user/additional:/ge/reflex:/ge/wayland')
+            env = {'VK_IMPLICIT_LAYER_PATH': '/user/explicit-override'}
+            self.assertEqual(namespace['Session'](env).setup(), '/user/explicit-override')
+            self.assertTrue(os.access(proton, os.X_OK))
+            self.assertEqual(proton.with_name('proton-real.upstream').read_text(), source)
+            self.assertEqual(staging.preserve_vulkan_layer_discovery(proton), 0)
+            self.assertEqual(proton.with_name('proton-real.upstream').read_text(), source)
+
     def test_staged_tool_delegates_probe_preserving_argv_cwd_env_and_exit(self):
         with tempfile.TemporaryDirectory() as temp:
             base = Path(temp)

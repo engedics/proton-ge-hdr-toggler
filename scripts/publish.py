@@ -6,6 +6,7 @@ import gzip
 import json
 from pathlib import Path
 import subprocess
+import shutil
 import xml.etree.ElementTree as ET
 
 NAME = 'proton-ge-hdr-toggler'
@@ -35,6 +36,7 @@ def main():
     parser.add_argument('--gpg-key', required=True)
     parser.add_argument('--build-info', type=Path, required=True)
     parser.add_argument('--build-directory', type=Path, required=True)
+    parser.add_argument('--faugus-bundle', type=Path, help='Publish the lightweight Faugus installer alongside the repo')
     args = parser.parse_args()
     info = json.loads(args.build_info.read_text())
     if not args.url.startswith('https://') or any(char in args.url for char in '\r\n'):
@@ -51,6 +53,8 @@ def main():
         '\nDefaultBranch=stable\nGPGKey=' + base64.b64encode(public_key).decode() + '\n')
     (args.repository / '.nojekyll').touch()
     (args.repository / 'build-info.json').write_text(json.dumps(info, indent=2) + '\n')
+    if args.faugus_bundle:
+        shutil.copyfile(args.faugus_bundle, args.repository / 'ProtonGEHDR-faugus.tar.gz')
     size = sum(path.stat().st_size for path in args.repository.rglob('*') if path.is_file())
     if size >= 1_000_000_000:
         raise ValueError('Repository exceeds GitHub Pages capacity; retaining previous deployment')

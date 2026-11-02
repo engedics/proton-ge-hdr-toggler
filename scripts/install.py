@@ -19,6 +19,20 @@ def install_file(source, target, *, executable=False):
     target.chmod(0o755 if executable else 0o644)
 
 
+def preserve_vulkan_layer_discovery(proton):
+    """GE's bundled layers must add paths without hiding Flatpak's layers."""
+    original = proton.read_text()
+    # Match GE's own additions, leaving any explicit user override handling
+    # intact. Handle both one-line and multiline calls and either quote style.
+    patched, count = re.subn(
+        r'(append_to_env_str\(\s*self\.env,\s*)([\"\'])VK_IMPLICIT_LAYER_PATH\2',
+        lambda match: match[1] + match[2] + 'VK_ADD_IMPLICIT_LAYER_PATH' + match[2], original)
+    if count:
+        shutil.copyfile(proton, proton.with_name(proton.name + '.upstream'))
+        proton.write_text(patched)
+    return count
+
+
 def install_metainfo(template, target, info, notes):
     tree = ET.parse(template)
     releases = tree.find('releases')
@@ -63,13 +77,14 @@ def install(proton, source, steam, data, destination, license_file):
     shutil.copytree(proton, destination, dirs_exist_ok=True, symlinks=True,
                     ignore=shutil.ignore_patterns('__pycache__'))
     (destination / 'proton').rename(destination / 'proton-real')
+    preserve_vulkan_layer_discovery(destination / 'proton-real')
     for name in ('compatibilitytool.vdf', 'toolmanifest.vdf'):
         (destination / name).rename(destination / (name + '.upstream'))
         install_file(steam / name, destination / name)
     compatibility = destination / 'compatibilitytool.vdf'
     compatibility.write_text(compatibility.read_text().replace('@VERSION@', info['version']))
     install_file(source / 'proton.py', destination / 'proton', executable=True)
-    for name in ('runner.py', 'sessions.py', 'mutter.py'):
+    for name in ('runner.py', 'sessions.py', 'mutter.py', 'policy.py'):
         install_file(source / name, destination / LIB / name)
     install_file(data / 'hdr-games.json', destination / SHARE / 'hdr-games.json')
     install_file(data / 'build-info.json', destination / SHARE / 'build-info.json')
