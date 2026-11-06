@@ -1,5 +1,18 @@
 [
   {
+    "version": "11-12-20261106",
+    "date": "2026-11-06",
+    "paragraphs": [
+      "Proton-GE unchanged (GE-Proton11-12)."
+    ],
+    "catalog_changes": [
+      "Renamed: Off The Grid → Off the Grid (Steam 3659280).",
+      "Added: 007 First Light (Steam 5283790; HDR: true)."
+    ],
+    "proton_notes": "",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
+  },
+  {
     "version": "11-12-20261102",
     "date": "2026-11-03",
     "paragraphs": [
