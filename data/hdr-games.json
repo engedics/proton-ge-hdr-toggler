@@ -3,7 +3,7 @@
   "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "source_rows": 648,
+  "source_rows": 650,
   "games": {
     "1520": {
       "title": "DEFCON",
@@ -849,6 +849,10 @@
       "title": "Resident Evil 7: Biohazard",
       "hdr": "limited"
     },
+    "587620": {
+      "title": "Okami HD",
+      "hdr": "hackable"
+    },
     "588660": {
       "title": "Hitman",
       "hdr": "true"
@@ -1180,6 +1184,10 @@
     "840720": {
       "title": "Sword Art Online: Lost Song",
       "hdr": "true"
+    },
+    "847370": {
+      "title": "Sunset Overdrive",
+      "hdr": "hackable"
     },
     "860210": {
       "title": "Return to Nangrim",

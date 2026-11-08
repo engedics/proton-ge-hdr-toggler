@@ -1,5 +1,18 @@
 [
   {
+    "version": "11-12-20261108",
+    "date": "2026-11-08",
+    "paragraphs": [
+      "Proton-GE unchanged (GE-Proton11-12)."
+    ],
+    "catalog_changes": [
+      "Added: Okami HD (Steam 587620; HDR: hackable).",
+      "Added: Sunset Overdrive (Steam 847370; HDR: hackable)."
+    ],
+    "proton_notes": "",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
+  },
+  {
     "version": "11-12-20261106",
     "date": "2026-11-06",
     "paragraphs": [
