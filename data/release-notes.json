@@ -1,5 +1,17 @@
 [
   {
+    "version": "11-12-20261110",
+    "date": "2026-11-10",
+    "paragraphs": [
+      "Proton-GE unchanged (GE-Proton11-12)."
+    ],
+    "catalog_changes": [
+      "No HDR game list changes."
+    ],
+    "proton_notes": "",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
+  },
+  {
     "version": "11-12-20261108",
     "date": "2026-11-08",
     "paragraphs": [
@@ -45,19 +57,6 @@
     ],
     "catalog_changes": [
       "No HDR game list changes."
-    ],
-    "proton_notes": "",
-    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-11"
-  },
-  {
-    "version": "11-11-20260825",
-    "date": "2026-10-19",
-    "paragraphs": [
-      "Proton-GE unchanged (GE-Proton11-11)."
-    ],
-    "catalog_changes": [
-      "Added: Arx Fatalis (Steam 1700; HDR: hackable).",
-      "Added: Arx Fatalis (Steam 1710; HDR: hackable)."
     ],
     "proton_notes": "",
     "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-11"
