@@ -3,7 +3,7 @@
   "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "source_rows": 651,
+  "source_rows": 652,
   "games": {
     "1520": {
       "title": "DEFCON",
@@ -4525,6 +4525,10 @@
       "title": "NBB.EXE",
       "hdr": "true"
     },
+    "2847780": {
+      "title": "Nocturnal 2",
+      "hdr": "true"
+    },
     "2848330": {
       "title": "Lies of P",
       "hdr": "true"
@@ -6199,6 +6203,10 @@
     },
     "4277080": {
       "title": "Cthulhu: The Cosmic Abyss",
+      "hdr": "true"
+    },
+    "4325830": {
+      "title": "Nocturnal 2",
       "hdr": "true"
     },
     "4332390": {
