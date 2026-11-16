@@ -3,7 +3,7 @@
   "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "source_rows": 653,
+  "source_rows": 656,
   "games": {
     "1520": {
       "title": "DEFCON",
@@ -125,12 +125,24 @@
       "title": "Sonic Generations",
       "hdr": "hackable"
     },
+    "203140": {
+      "title": "Hitman: Absolution",
+      "hdr": "hackable"
+    },
     "206783": {
       "title": "The Witcher 2: Assassins of Kings",
       "hdr": "hackable"
     },
     "208480": {
       "title": "Assassin's Creed III",
+      "hdr": "hackable"
+    },
+    "225260": {
+      "title": "Brütal Legend",
+      "hdr": "hackable"
+    },
+    "225270": {
+      "title": "Brütal Legend",
       "hdr": "hackable"
     },
     "225540": {
@@ -1907,11 +1919,11 @@
     },
     "1196590": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1196600": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1199630": {
       "title": "TerraTech",
@@ -2515,35 +2527,35 @@
     },
     "1456360": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1456361": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1456362": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1456363": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1456370": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1456371": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1456372": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1456373": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1460020": {
       "title": "Doom Eternal",
@@ -2659,7 +2671,7 @@
     },
     "1541780": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1544020": {
       "title": "The Callisto Protocol",
@@ -2711,7 +2723,7 @@
     },
     "1608280": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1613280": {
       "title": "Forza Horizon 5",
@@ -2899,19 +2911,19 @@
     },
     "1731080": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1731081": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1731100": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1731101": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "1731290": {
       "title": "Spine",
@@ -3407,7 +3419,7 @@
     },
     "2062120": {
       "title": "Resident Evil Village",
-      "hdr": "limited"
+      "hdr": "true"
     },
     "2063740": {
       "title": "Evotinction",
@@ -5299,6 +5311,10 @@
     },
     "3378960": {
       "title": "Lost Soul Aside",
+      "hdr": "true"
+    },
+    "3384600": {
+      "title": "Professor Layton and the New World of Steam",
       "hdr": "true"
     },
     "3394230": {
