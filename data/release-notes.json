@@ -1,5 +1,18 @@
 [
   {
+    "version": "11-12-20261118",
+    "date": "2026-11-18",
+    "paragraphs": [
+      "Proton-GE unchanged (GE-Proton11-12)."
+    ],
+    "catalog_changes": [
+      "Added: Baptiste (Steam 2922250; HDR: true).",
+      "Added: Baptiste (Steam 2922270; HDR: true)."
+    ],
+    "proton_notes": "",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
+  },
+  {
     "version": "11-12-20261117",
     "date": "2026-11-17",
     "paragraphs": [
@@ -64,18 +77,6 @@
     "catalog_changes": [
       "Added: Nocturnal 2 (Steam 2847780; HDR: true).",
       "Added: Nocturnal 2 (Steam 4325830; HDR: true)."
-    ],
-    "proton_notes": "",
-    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
-  },
-  {
-    "version": "11-12-20261110",
-    "date": "2026-11-10",
-    "paragraphs": [
-      "Proton-GE unchanged (GE-Proton11-12)."
-    ],
-    "catalog_changes": [
-      "No HDR game list changes."
     ],
     "proton_notes": "",
     "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"

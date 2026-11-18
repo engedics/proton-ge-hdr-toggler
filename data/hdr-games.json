@@ -3,7 +3,7 @@
   "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "source_rows": 657,
+  "source_rows": 658,
   "games": {
     "1520": {
       "title": "DEFCON",
@@ -4703,6 +4703,14 @@
     },
     "2916700": {
       "title": "Attack on Titan 3",
+      "hdr": "true"
+    },
+    "2922250": {
+      "title": "Baptiste",
+      "hdr": "true"
+    },
+    "2922270": {
+      "title": "Baptiste",
       "hdr": "true"
     },
     "2922830": {
