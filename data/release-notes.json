@@ -1,5 +1,24 @@
 [
   {
+    "version": "11-12-20261120",
+    "date": "2026-11-20",
+    "paragraphs": [
+      "Proton-GE unchanged (GE-Proton11-12)."
+    ],
+    "catalog_changes": [
+      "Added: Pac-Man and the Ghostly Adventures (Steam 239720; HDR: hackable).",
+      "Added: The Ascent (Steam 979690; HDR: true).",
+      "Added: Sonic X Shadow Generations (Steam 2513280; HDR: hackable).",
+      "Added: Sonic X Shadow Generations (Steam 2909770; HDR: hackable).",
+      "Added: Sonic X Shadow Generations (Steam 2909780; HDR: hackable).",
+      "Added: Sonic X Shadow Generations (Steam 2909790; HDR: hackable).",
+      "Added: Sonic X Shadow Generations (Steam 2983600; HDR: hackable).",
+      "Added: Sonic X Shadow Generations (Steam 2999160; HDR: hackable)."
+    ],
+    "proton_notes": "",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
+  },
+  {
     "version": "11-12-20261119",
     "date": "2026-11-19",
     "paragraphs": [
@@ -64,18 +83,6 @@
       "Updated: Resident Evil Village (Steam 1731101); HDR: limited → true.",
       "Updated: Resident Evil Village (Steam 2062120); HDR: limited → true.",
       "Added: Professor Layton and the New World of Steam (Steam 3384600; HDR: true)."
-    ],
-    "proton_notes": "",
-    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
-  },
-  {
-    "version": "11-12-20261115",
-    "date": "2026-11-15",
-    "paragraphs": [
-      "Proton-GE unchanged (GE-Proton11-12)."
-    ],
-    "catalog_changes": [
-      "No HDR game list changes."
     ],
     "proton_notes": "",
     "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"

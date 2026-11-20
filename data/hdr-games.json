@@ -3,7 +3,7 @@
   "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "source_rows": 658,
+  "source_rows": 661,
   "games": {
     "1520": {
       "title": "DEFCON",
@@ -171,6 +171,10 @@
     },
     "239160": {
       "title": "Thief",
+      "hdr": "hackable"
+    },
+    "239720": {
+      "title": "Pac-Man and the Ghostly Adventures",
       "hdr": "hackable"
     },
     "252330": {
@@ -1507,6 +1511,10 @@
     },
     "978300": {
       "title": "Saints Row: The Third Remastered",
+      "hdr": "true"
+    },
+    "979690": {
+      "title": "The Ascent",
       "hdr": "true"
     },
     "984780": {
@@ -4113,6 +4121,10 @@
       "title": "Kunitsu-Gami: Path of the Goddess",
       "hdr": "true"
     },
+    "2513280": {
+      "title": "Sonic X Shadow Generations",
+      "hdr": "hackable"
+    },
     "2514130": {
       "title": "Helldivers 2",
       "hdr": "true"
@@ -4689,6 +4701,18 @@
       "title": "Final Fantasy VII Rebirth",
       "hdr": "true"
     },
+    "2909770": {
+      "title": "Sonic X Shadow Generations",
+      "hdr": "hackable"
+    },
+    "2909780": {
+      "title": "Sonic X Shadow Generations",
+      "hdr": "hackable"
+    },
+    "2909790": {
+      "title": "Sonic X Shadow Generations",
+      "hdr": "hackable"
+    },
     "2911770": {
       "title": "Everspace 2",
       "hdr": "true"
@@ -4809,6 +4833,10 @@
       "title": "The Talos Principle 2",
       "hdr": "true"
     },
+    "2983600": {
+      "title": "Sonic X Shadow Generations",
+      "hdr": "hackable"
+    },
     "2983890": {
       "title": "PowerWash Simulator",
       "hdr": "true"
@@ -4820,6 +4848,10 @@
     "2993780": {
       "title": "Fantasy Life i: The Girl Who Steals Time",
       "hdr": "true"
+    },
+    "2999160": {
+      "title": "Sonic X Shadow Generations",
+      "hdr": "hackable"
     },
     "2999630": {
       "title": "Metaphor: ReFantazio",
