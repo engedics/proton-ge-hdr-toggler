@@ -3,7 +3,7 @@
   "source": "https://www.pcgamingwiki.com/wiki/List_of_games_that_support_high_dynamic_range_display_(HDR)",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "source_rows": 661,
+  "source_rows": 665,
   "games": {
     "1520": {
       "title": "DEFCON",
@@ -35,6 +35,22 @@
     },
     "2390": {
       "title": "Heretic",
+      "hdr": "hackable"
+    },
+    "4700": {
+      "title": "Medieval II: Total War",
+      "hdr": "hackable"
+    },
+    "4760": {
+      "title": "Rome: Total War",
+      "hdr": "hackable"
+    },
+    "4770": {
+      "title": "Rome: Total War",
+      "hdr": "hackable"
+    },
+    "4780": {
+      "title": "Medieval II: Total War",
       "hdr": "hackable"
     },
     "9030": {
@@ -181,6 +197,10 @@
       "title": "Slender: The Arrival (2023)",
       "hdr": "true"
     },
+    "257420": {
+      "title": "Serious Sam 4",
+      "hdr": "hackable"
+    },
     "257510": {
       "title": "The Talos Principle",
       "hdr": "hackable"
@@ -271,6 +291,10 @@
     },
     "306190": {
       "title": "Thief",
+      "hdr": "hackable"
+    },
+    "306541": {
+      "title": "Medieval II: Total War",
       "hdr": "hackable"
     },
     "311210": {
@@ -3029,6 +3053,10 @@
       "title": "Dragon Ball: Sparking! Zero",
       "hdr": "true"
     },
+    "1792250": {
+      "title": "Serious Sam: Siberian Mayhem",
+      "hdr": "hackable"
+    },
     "1797050": {
       "title": "Age of Empires IV",
       "hdr": "true"
@@ -3152,6 +3180,10 @@
     "1880837": {
       "title": "Hogwarts Legacy",
       "hdr": "true"
+    },
+    "1887350": {
+      "title": "Serious Sam: Siberian Mayhem",
+      "hdr": "hackable"
     },
     "1888160": {
       "title": "Armored Core VI: Fires of Rubicon",

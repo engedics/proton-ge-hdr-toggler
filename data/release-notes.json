@@ -1,5 +1,24 @@
 [
   {
+    "version": "11-14-20261123",
+    "date": "2026-11-23",
+    "paragraphs": [
+      "Proton-GE updated from GE-Proton11-12 to GE-Proton11-14."
+    ],
+    "catalog_changes": [
+      "Added: Medieval II: Total War (Steam 4700; HDR: hackable).",
+      "Added: Rome: Total War (Steam 4760; HDR: hackable).",
+      "Added: Rome: Total War (Steam 4770; HDR: hackable).",
+      "Added: Medieval II: Total War (Steam 4780; HDR: hackable).",
+      "Added: Serious Sam 4 (Steam 257420; HDR: hackable).",
+      "Added: Medieval II: Total War (Steam 306541; HDR: hackable).",
+      "Added: Serious Sam: Siberian Mayhem (Steam 1792250; HDR: hackable).",
+      "Added: Serious Sam: Siberian Mayhem (Steam 1887350; HDR: hackable)."
+    ],
+    "proton_notes": "# HOTFIX RELEASE\r\n\r\n# Changes since GE-Proton11-13.\r\n\r\n## Component Updates\r\n\r\n- D7VK updated to v2.5.\r\n- D3D8 games now use DXVK's d8vk by default instead of wined3d. Use `PROTON_NO_D8VK=1` to switch back to wined3d (`PROTON_USE_WINED3D=1` also does). `PROTON_DXVK_D3D8` is no longer needed. D3D9 and newer games are not affected.\r\n- 32-bit D3D7/6/5/3 games now use D7VK by default. DirectDraw-only (2D) calls are passed through to Wine's ddraw. Use `PROTON_NO_D7VK=1` to switch back to Wine's ddraw (`PROTON_USE_WINED3D=1` also does). `PROTON_USE_D7VK` is no longer needed.\r\n\r\n## Wayland and Windowing\r\n\r\n- GTA III (Wine-Wayland): the intro videos no longer start shifted left with the desktop showing on the right in its 4:3 fullscreen mode. More generally, older games that draw with GDI in a low-resolution fullscreen mode are now centered between black bars, on both Wine-Wayland and X11.\r\n- RuneScape (Wine-Wayland): fixed a black screen in fullscreen and maximized windows, a regression in 11-13 from the GTA III intro video fix. [#995](https://github.com/GloriousEggroll/proton-ge-custom/issues/995)\r\n\r\n## Rendering and HDR\r\n\r\n- Wine-Wayland: 32-bit Vulkan applications no longer fail to start, including 32-bit DXVK games and Battle.net/Ubisoft Connect's embedded browser. This was a regression in 11-13: the HDR colorspace layer was only built as 64-bit. It is now built for 32-bit as well, and Wine retries without the layer if it can't be loaded. `DISABLE_WINE_HDR_COLORSPACE_LAYER=1` is no longer needed as a workaround. [#996](https://github.com/GloriousEggroll/proton-ge-custom/issues/996) [#997](https://github.com/GloriousEggroll/proton-ge-custom/issues/997)\r\n\r\n## Known Issues\r\n\r\n- Cyberpunk 2077 on NVIDIA: the game can exit shortly after launch. A shader added in a recent game patch crashes NVIDIA's shader compiler. The log shows `Unsupported: ... extractelement <8 x i4>` followed by `Exception 0xc000001d` in `vkCreateComputePipelines`. This is a driver bug, not specific to GE-Proton: it happens on Proton Experimental and other Proton builds too, on the 595, 615 and 620 driver branches. NVIDIA has confirmed it and is tracking a fix (NVIDIA bug 7014466). It needs a driver update. A newer Proton version can make it appear on a setup where it worked before, because the shader then has to be recompiled. [#998](https://github.com/GloriousEggroll/proton-ge-custom/issues/998), [vkd3d-proton#3405](https://github.com/HansKristian-Work/vkd3d-proton/issues/3405)",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-14"
+  },
+  {
     "version": "11-12-20261120",
     "date": "2026-11-20",
     "paragraphs": [
@@ -51,38 +70,6 @@
     ],
     "catalog_changes": [
       "No HDR game list changes."
-    ],
-    "proton_notes": "",
-    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
-  },
-  {
-    "version": "11-12-20261116",
-    "date": "2026-11-16",
-    "paragraphs": [
-      "Proton-GE unchanged (GE-Proton11-12)."
-    ],
-    "catalog_changes": [
-      "Added: Hitman: Absolution (Steam 203140; HDR: hackable).",
-      "Added: Brütal Legend (Steam 225260; HDR: hackable).",
-      "Added: Brütal Legend (Steam 225270; HDR: hackable).",
-      "Updated: Resident Evil Village (Steam 1196590); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1196600); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1456360); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1456361); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1456362); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1456363); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1456370); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1456371); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1456372); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1456373); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1541780); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1608280); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1731080); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1731081); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1731100); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 1731101); HDR: limited → true.",
-      "Updated: Resident Evil Village (Steam 2062120); HDR: limited → true.",
-      "Added: Professor Layton and the New World of Steam (Steam 3384600; HDR: true)."
     ],
     "proton_notes": "",
     "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
