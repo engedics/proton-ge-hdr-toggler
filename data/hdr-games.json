@@ -609,10 +609,6 @@
       "title": "Barony",
       "hdr": "true"
     },
-    "474960": {
-      "title": "Quantum Break",
-      "hdr": "hackable"
-    },
     "476600": {
       "title": "Call of Duty: WWII",
       "hdr": "true"
@@ -793,6 +789,30 @@
       "title": "Resident Evil 7: Biohazard",
       "hdr": "limited"
     },
+    "564310": {
+      "title": "Serious Sam Fusion",
+      "hdr": "hackable"
+    },
+    "564320": {
+      "title": "Serious Sam Fusion",
+      "hdr": "hackable"
+    },
+    "564321": {
+      "title": "Serious Sam Fusion",
+      "hdr": "hackable"
+    },
+    "564322": {
+      "title": "Serious Sam Fusion",
+      "hdr": "hackable"
+    },
+    "564323": {
+      "title": "Serious Sam Fusion",
+      "hdr": "hackable"
+    },
+    "564324": {
+      "title": "Serious Sam Fusion",
+      "hdr": "hackable"
+    },
     "572600": {
       "title": "For Honor",
       "hdr": "true"
@@ -952,6 +972,10 @@
     "611180": {
       "title": "Super Street: The Game",
       "hdr": "true"
+    },
+    "612560": {
+      "title": "Serious Sam Fusion",
+      "hdr": "hackable"
     },
     "619910": {
       "title": "Just Cause 3",
@@ -6045,6 +6069,14 @@
       "title": "Pragmata",
       "hdr": "true"
     },
+    "4003930": {
+      "title": "Nioh 3",
+      "hdr": "true"
+    },
+    "4003950": {
+      "title": "Nioh 3",
+      "hdr": "true"
+    },
     "4009660": {
       "title": "Arctic Awakening",
       "hdr": "true"
@@ -6179,6 +6211,10 @@
     },
     "4193060": {
       "title": "Crimson Desert",
+      "hdr": "true"
+    },
+    "4198760": {
+      "title": "Nioh 3",
       "hdr": "true"
     },
     "4213570": {

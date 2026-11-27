@@ -1,5 +1,27 @@
 [
   {
+    "version": "11-14-20261127",
+    "date": "2026-11-27",
+    "paragraphs": [
+      "Proton-GE unchanged (GE-Proton11-14)."
+    ],
+    "catalog_changes": [
+      "Removed: Quantum Break (Steam 474960; HDR was hackable).",
+      "Added: Serious Sam Fusion (Steam 564310; HDR: hackable).",
+      "Added: Serious Sam Fusion (Steam 564320; HDR: hackable).",
+      "Added: Serious Sam Fusion (Steam 564321; HDR: hackable).",
+      "Added: Serious Sam Fusion (Steam 564322; HDR: hackable).",
+      "Added: Serious Sam Fusion (Steam 564323; HDR: hackable).",
+      "Added: Serious Sam Fusion (Steam 564324; HDR: hackable).",
+      "Added: Serious Sam Fusion (Steam 612560; HDR: hackable).",
+      "Added: Nioh 3 (Steam 4003930; HDR: true).",
+      "Added: Nioh 3 (Steam 4003950; HDR: true).",
+      "Added: Nioh 3 (Steam 4198760; HDR: true)."
+    ],
+    "proton_notes": "",
+    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-14"
+  },
+  {
     "version": "11-14-20261123",
     "date": "2026-11-23",
     "paragraphs": [
@@ -58,18 +80,6 @@
     "catalog_changes": [
       "Added: Baptiste (Steam 2922250; HDR: true).",
       "Added: Baptiste (Steam 2922270; HDR: true)."
-    ],
-    "proton_notes": "",
-    "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
-  },
-  {
-    "version": "11-12-20261117",
-    "date": "2026-11-17",
-    "paragraphs": [
-      "Proton-GE unchanged (GE-Proton11-12)."
-    ],
-    "catalog_changes": [
-      "No HDR game list changes."
     ],
     "proton_notes": "",
     "url": "https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/GE-Proton11-12"
